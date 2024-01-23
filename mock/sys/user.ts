@@ -1,5 +1,7 @@
 import { MockMethod } from 'vite-plugin-mock';
 import { resultError, resultSuccess, getRequestToken, requestParams, baseUrl } from '../_util';
+import data from './response.json';
+
 export function createFakeUserList() {
   return [
     {
@@ -9,7 +11,6 @@ export function createFakeUserList() {
       avatar: 'https://q1.qlogo.cn/g?b=qq&nk=190848757&s=640',
       desc: 'manager',
       password: '123456',
-      token: 'fakeToken1',
       homePath: '/dashboard/analysis',
       roles: [
         {
@@ -17,6 +18,7 @@ export function createFakeUserList() {
           value: 'super',
         },
       ],
+      ...data.result,
     },
     {
       userId: '2',
@@ -51,20 +53,12 @@ export default [
     method: 'post',
     response: ({ body }) => {
       const { username, password } = body;
-      console.log('@22');
+
       const checkUser = createFakeUserList().find((item) => item.username === username && password === item.password);
       if (!checkUser) {
         return resultError('Incorrect account or password！');
       }
-      const { userId, username: _username, token, realname, desc, roles } = checkUser;
-      return resultSuccess({
-        roles,
-        userId,
-        username: _username,
-        token,
-        realname,
-        desc,
-      });
+      return data;
     },
   },
   {

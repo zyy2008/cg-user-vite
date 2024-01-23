@@ -1,0 +1,2924 @@
+{
+  "success": true,
+  "message": "登录成功",
+  "code": 200,
+  "result": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MDU5ODU5MjcsInVzZXJuYW1lIjoiamVlY2cifQ.T2LNzYggxfLcqGzFAjxUrgdGh3IXBSr5X4HzcniJI0M",
+    "tenantList": [
+      {
+        "id": 1,
+        "name": "小米集团",
+        "createBy": null,
+        "createTime": null,
+        "beginDate": null,
+        "endDate": null,
+        "status": null,
+        "trade": null,
+        "companySize": null,
+        "companyAddress": null,
+        "companyLogo": null,
+        "houseNumber": null,
+        "workPlace": null,
+        "secondaryDomain": null,
+        "loginBkgdImg": null,
+        "position": null,
+        "department": null,
+        "delFlag": null,
+        "updateBy": null,
+        "updateTime": null,
+        "applyStatus": null
+      },
+      {
+        "id": 3,
+        "name": "哈尔滨秋林公司",
+        "createBy": null,
+        "createTime": null,
+        "beginDate": null,
+        "endDate": null,
+        "status": null,
+        "trade": null,
+        "companySize": null,
+        "companyAddress": null,
+        "companyLogo": null,
+        "houseNumber": null,
+        "workPlace": null,
+        "secondaryDomain": null,
+        "loginBkgdImg": null,
+        "position": null,
+        "department": null,
+        "delFlag": null,
+        "updateBy": null,
+        "updateTime": null,
+        "applyStatus": null
+      }
+    ],
+    "userInfo": {
+      "id": "a75d45a015c44384a04449ee80dc3503",
+      "username": "jeecg",
+      "realname": "JEECG用户",
+      "avatar": "https://jeecgdev.oss-cn-beijing.aliyuncs.com/temp/logo_7_1660190302592.png",
+      "birthday": null,
+      "sex": 1,
+      "email": "jeecgos@163.com",
+      "phone": "18611788525",
+      "orgCode": "A04",
+      "loginTenantId": 3,
+      "orgCodeTxt": null,
+      "status": 1,
+      "delFlag": 0,
+      "workNo": "A002",
+      "post": null,
+      "telephone": "",
+      "createBy": "admin",
+      "createTime": "2019-02-13 16:02:36",
+      "updateBy": "jeecg",
+      "updateTime": "2024-01-21 23:50:18",
+      "activitiSync": 1,
+      "userIdentity": 2,
+      "departIds": "",
+      "relTenantIds": null,
+      "clientId": "8ca4e339f30c63019a0c65422cc2a17d",
+      "homePath": null,
+      "postText": null,
+      "bpmStatus": "3",
+      "izBindThird": false
+    },
+    "departs": [],
+    "multi_depart": 0,
+    "sysAllDictItems": {
+      "reminders": [
+        {
+          "value": "0",
+          "text": "不重复",
+          "color": null,
+          "jsonObject": null,
+          "label": "不重复",
+          "title": "不重复"
+        },
+        {
+          "value": "1",
+          "text": "每天",
+          "color": null,
+          "jsonObject": null,
+          "label": "每天",
+          "title": "每天"
+        },
+        {
+          "value": "2",
+          "text": "每周",
+          "color": null,
+          "jsonObject": null,
+          "label": "每周",
+          "title": "每周"
+        },
+        {
+          "value": "3",
+          "text": "每月（当日）",
+          "color": null,
+          "jsonObject": null,
+          "label": "每月（当日）",
+          "title": "每月（当日）"
+        },
+        {
+          "value": "4",
+          "text": "每年（当日）",
+          "color": null,
+          "jsonObject": null,
+          "label": "每年（当日）",
+          "title": "每年（当日）"
+        }
+      ],
+      "ol_form_biz_type": [
+        {
+          "value": "demo",
+          "text": "官方示例",
+          "color": null,
+          "jsonObject": null,
+          "label": "官方示例",
+          "title": "官方示例"
+        },
+        {
+          "value": "bpm",
+          "text": "流程表单",
+          "color": null,
+          "jsonObject": null,
+          "label": "流程表单",
+          "title": "流程表单"
+        },
+        {
+          "value": "temp",
+          "text": "测试表单",
+          "color": null,
+          "jsonObject": null,
+          "label": "测试表单",
+          "title": "测试表单"
+        },
+        {
+          "value": "bdfl_include",
+          "text": "导入表单",
+          "color": null,
+          "jsonObject": null,
+          "label": "导入表单",
+          "title": "导入表单"
+        }
+      ],
+      "easyAuthRecord": [
+        {
+          "value": "read_all_update_all",
+          "text": "可查看、编辑、删除所有记录",
+          "color": null,
+          "jsonObject": null,
+          "label": "可查看、编辑、删除所有记录",
+          "title": "可查看、编辑、删除所有记录"
+        },
+        {
+          "value": "read_all_update_myself",
+          "text": "可查看所有记录，但只能编辑、删除自己拥有的记录",
+          "color": null,
+          "jsonObject": null,
+          "label": "可查看所有记录，但只能编辑、删除自己拥有的记录",
+          "title": "可查看所有记录，但只能编辑、删除自己拥有的记录"
+        },
+        {
+          "value": "read_join_update_myself",
+          "text": "可查看加入的，只能编辑、删除自己拥有的记录",
+          "color": null,
+          "jsonObject": null,
+          "label": "可查看加入的，只能编辑、删除自己拥有的记录",
+          "title": "可查看加入的，只能编辑、删除自己拥有的记录"
+        },
+        {
+          "value": "readonly",
+          "text": "对所有记录只有查看权限",
+          "color": null,
+          "jsonObject": null,
+          "label": "对所有记录只有查看权限",
+          "title": "对所有记录只有查看权限"
+        }
+      ],
+      "position_rank": [
+        {
+          "value": "1",
+          "text": "员级",
+          "color": null,
+          "jsonObject": null,
+          "label": "员级",
+          "title": "员级"
+        },
+        {
+          "value": "2",
+          "text": "助级",
+          "color": null,
+          "jsonObject": null,
+          "label": "助级",
+          "title": "助级"
+        },
+        {
+          "value": "3",
+          "text": "中级",
+          "color": null,
+          "jsonObject": null,
+          "label": "中级",
+          "title": "中级"
+        },
+        {
+          "value": "4",
+          "text": "副高级",
+          "color": null,
+          "jsonObject": null,
+          "label": "副高级",
+          "title": "副高级"
+        },
+        {
+          "value": "5",
+          "text": "正高级",
+          "color": null,
+          "jsonObject": null,
+          "label": "正高级",
+          "title": "正高级"
+        }
+      ],
+      "rule_conditions": [
+        {
+          "value": ">",
+          "text": "大于",
+          "color": null,
+          "jsonObject": null,
+          "label": "大于",
+          "title": "大于"
+        },
+        {
+          "value": "<",
+          "text": "小于",
+          "color": null,
+          "jsonObject": null,
+          "label": "小于",
+          "title": "小于"
+        },
+        {
+          "value": "!=",
+          "text": "不等于",
+          "color": null,
+          "jsonObject": null,
+          "label": "不等于",
+          "title": "不等于"
+        },
+        {
+          "value": "=",
+          "text": "等于",
+          "color": null,
+          "jsonObject": null,
+          "label": "等于",
+          "title": "等于"
+        },
+        {
+          "value": ">=",
+          "text": "大于等于",
+          "color": null,
+          "jsonObject": null,
+          "label": "大于等于",
+          "title": "大于等于"
+        },
+        {
+          "value": "<=",
+          "text": "小于等于",
+          "color": null,
+          "jsonObject": null,
+          "label": "小于等于",
+          "title": "小于等于"
+        },
+        {
+          "value": "LEFT_LIKE",
+          "text": "左模糊",
+          "color": null,
+          "jsonObject": null,
+          "label": "左模糊",
+          "title": "左模糊"
+        },
+        {
+          "value": "RIGHT_LIKE",
+          "text": "右模糊",
+          "color": null,
+          "jsonObject": null,
+          "label": "右模糊",
+          "title": "右模糊"
+        },
+        {
+          "value": "LIKE",
+          "text": "模糊",
+          "color": null,
+          "jsonObject": null,
+          "label": "模糊",
+          "title": "模糊"
+        },
+        {
+          "value": "IN",
+          "text": "包含",
+          "color": null,
+          "jsonObject": null,
+          "label": "包含",
+          "title": "包含"
+        },
+        {
+          "value": "USE_SQL_RULES",
+          "text": "自定义SQL",
+          "color": null,
+          "jsonObject": null,
+          "label": "自定义SQL",
+          "title": "自定义SQL"
+        }
+      ],
+      "air_china_ supplier": [
+        {
+          "value": "2",
+          "text": "耐克供应商",
+          "color": null,
+          "jsonObject": null,
+          "label": "耐克供应商",
+          "title": "耐克供应商"
+        },
+        {
+          "value": "1",
+          "text": "阿迪供应商",
+          "color": null,
+          "jsonObject": null,
+          "label": "阿迪供应商",
+          "title": "阿迪供应商"
+        }
+      ],
+      "template_tag": [
+        {
+          "value": "hot",
+          "text": "热门",
+          "color": null,
+          "jsonObject": null,
+          "label": "热门",
+          "title": "热门"
+        },
+        {
+          "value": "common",
+          "text": "常规",
+          "color": null,
+          "jsonObject": null,
+          "label": "常规",
+          "title": "常规"
+        },
+        {
+          "value": "official",
+          "text": "官方",
+          "color": null,
+          "jsonObject": null,
+          "label": "官方",
+          "title": "官方"
+        },
+        {
+          "value": "order",
+          "text": "订单",
+          "color": null,
+          "jsonObject": null,
+          "label": "订单",
+          "title": "订单"
+        },
+        {
+          "value": "crm",
+          "text": "CRM",
+          "color": null,
+          "jsonObject": null,
+          "label": "CRM",
+          "title": "CRM"
+        },
+        {
+          "value": "system",
+          "text": "管理系统",
+          "color": null,
+          "jsonObject": null,
+          "label": "管理系统",
+          "title": "管理系统"
+        }
+      ],
+      "online_graph_data_type": [
+        {
+          "value": "sql",
+          "text": "SQL",
+          "color": null,
+          "jsonObject": null,
+          "label": "SQL",
+          "title": "SQL"
+        },
+        {
+          "value": "json",
+          "text": "JSON",
+          "color": null,
+          "jsonObject": null,
+          "label": "JSON",
+          "title": "JSON"
+        },
+        {
+          "value": "api",
+          "text": "API",
+          "color": null,
+          "jsonObject": null,
+          "label": "API",
+          "title": "API"
+        }
+      ],
+      "online_graph_display_template": [
+        {
+          "value": "tab",
+          "text": "Tab风格",
+          "color": null,
+          "jsonObject": null,
+          "label": "Tab风格",
+          "title": "Tab风格"
+        },
+        {
+          "value": "single",
+          "text": "单排布局",
+          "color": null,
+          "jsonObject": null,
+          "label": "单排布局",
+          "title": "单排布局"
+        },
+        {
+          "value": "double",
+          "text": "双排布局",
+          "color": null,
+          "jsonObject": null,
+          "label": "双排布局",
+          "title": "双排布局"
+        },
+        {
+          "value": "combination",
+          "text": "组合布局",
+          "color": null,
+          "jsonObject": null,
+          "label": "组合布局",
+          "title": "组合布局"
+        }
+      ],
+      "remindTime": [
+        {
+          "value": "0",
+          "text": "不提醒",
+          "color": null,
+          "jsonObject": null,
+          "label": "不提醒",
+          "title": "不提醒"
+        },
+        {
+          "value": "1",
+          "text": "开始时",
+          "color": null,
+          "jsonObject": null,
+          "label": "开始时",
+          "title": "开始时"
+        },
+        {
+          "value": "2",
+          "text": "提前5分钟",
+          "color": null,
+          "jsonObject": null,
+          "label": "提前5分钟",
+          "title": "提前5分钟"
+        },
+        {
+          "value": "3",
+          "text": "提前10分钟",
+          "color": null,
+          "jsonObject": null,
+          "label": "提前10分钟",
+          "title": "提前10分钟"
+        },
+        {
+          "value": "4",
+          "text": "提前15分钟",
+          "color": null,
+          "jsonObject": null,
+          "label": "提前15分钟",
+          "title": "提前15分钟"
+        },
+        {
+          "value": "5",
+          "text": "提前30分钟",
+          "color": null,
+          "jsonObject": null,
+          "label": "提前30分钟",
+          "title": "提前30分钟"
+        },
+        {
+          "value": "6",
+          "text": "提前1小时",
+          "color": null,
+          "jsonObject": null,
+          "label": "提前1小时",
+          "title": "提前1小时"
+        },
+        {
+          "value": "7",
+          "text": "提前2小时",
+          "color": null,
+          "jsonObject": null,
+          "label": "提前2小时",
+          "title": "提前2小时"
+        }
+      ],
+      "company_rank": [
+        {
+          "value": "1",
+          "text": "总裁/总经理/CEO",
+          "color": null,
+          "jsonObject": null,
+          "label": "总裁/总经理/CEO",
+          "title": "总裁/总经理/CEO"
+        },
+        {
+          "value": "2",
+          "text": "副总裁/副总经理/VP",
+          "color": null,
+          "jsonObject": null,
+          "label": "副总裁/副总经理/VP",
+          "title": "副总裁/副总经理/VP"
+        },
+        {
+          "value": "3",
+          "text": "总监/主管/经理",
+          "color": null,
+          "jsonObject": null,
+          "label": "总监/主管/经理",
+          "title": "总监/主管/经理"
+        },
+        {
+          "value": "4",
+          "text": "员工/专员/执行",
+          "color": null,
+          "jsonObject": null,
+          "label": "员工/专员/执行",
+          "title": "员工/专员/执行"
+        },
+        {
+          "value": "5",
+          "text": "其他",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他",
+          "title": "其他"
+        }
+      ],
+      "approval_remarks": [
+        {
+          "value": "同意",
+          "text": "同意",
+          "color": null,
+          "jsonObject": null,
+          "label": "同意",
+          "title": "同意"
+        },
+        {
+          "value": "同意***的意见",
+          "text": "同意***的意见",
+          "color": null,
+          "jsonObject": null,
+          "label": "同意***的意见",
+          "title": "同意***的意见"
+        },
+        {
+          "value": "请指示",
+          "text": "请指示",
+          "color": null,
+          "jsonObject": null,
+          "label": "请指示",
+          "title": "请指示"
+        },
+        {
+          "value": "请***阅示",
+          "text": "请***阅示",
+          "color": null,
+          "jsonObject": null,
+          "label": "请***阅示",
+          "title": "请***阅示"
+        },
+        {
+          "value": "请处理",
+          "text": "请处理",
+          "color": null,
+          "jsonObject": null,
+          "label": "请处理",
+          "title": "请处理"
+        },
+        {
+          "value": "不同意",
+          "text": "不同意",
+          "color": null,
+          "jsonObject": null,
+          "label": "不同意",
+          "title": "不同意"
+        },
+        {
+          "value": "呈领导阅示",
+          "text": "呈领导阅示",
+          "color": null,
+          "jsonObject": null,
+          "label": "呈领导阅示",
+          "title": "呈领导阅示"
+        },
+        {
+          "value": "请审批",
+          "text": "请审批",
+          "color": null,
+          "jsonObject": null,
+          "label": "请审批",
+          "title": "请审批"
+        },
+        {
+          "value": "审核无误",
+          "text": "审核无误",
+          "color": null,
+          "jsonObject": null,
+          "label": "审核无误",
+          "title": "审核无误"
+        }
+      ],
+      "messageType": [
+        {
+          "value": "system",
+          "text": "系统消息",
+          "color": null,
+          "jsonObject": null,
+          "label": "系统消息",
+          "title": "系统消息"
+        },
+        {
+          "value": "email",
+          "text": "邮件消息",
+          "color": null,
+          "jsonObject": null,
+          "label": "邮件消息",
+          "title": "邮件消息"
+        },
+        {
+          "value": "dingtalk",
+          "text": "钉钉消息",
+          "color": null,
+          "jsonObject": null,
+          "label": "钉钉消息",
+          "title": "钉钉消息"
+        },
+        {
+          "value": "wechat_enterprise",
+          "text": "企业微信",
+          "color": null,
+          "jsonObject": null,
+          "label": "企业微信",
+          "title": "企业微信"
+        }
+      ],
+      "remindMode": [
+        {
+          "value": "1",
+          "text": "邮件提醒",
+          "color": null,
+          "jsonObject": null,
+          "label": "邮件提醒",
+          "title": "邮件提醒"
+        },
+        {
+          "value": "2",
+          "text": "短信提醒",
+          "color": null,
+          "jsonObject": null,
+          "label": "短信提醒",
+          "title": "短信提醒"
+        },
+        {
+          "value": "4",
+          "text": "系统消息",
+          "color": null,
+          "jsonObject": null,
+          "label": "系统消息",
+          "title": "系统消息"
+        }
+      ],
+      "yn": [
+        {
+          "value": "1",
+          "text": "是",
+          "color": null,
+          "jsonObject": null,
+          "label": "是",
+          "title": "是"
+        },
+        {
+          "value": "0",
+          "text": "否",
+          "color": null,
+          "jsonObject": null,
+          "label": "否",
+          "title": "否"
+        }
+      ],
+      "desform_route_type": [
+        {
+          "value": "1",
+          "text": "跳转到表单",
+          "color": null,
+          "jsonObject": null,
+          "label": "跳转到表单",
+          "title": "跳转到表单"
+        },
+        {
+          "value": "2",
+          "text": "跳转到菜单",
+          "color": null,
+          "jsonObject": null,
+          "label": "跳转到菜单",
+          "title": "跳转到菜单"
+        },
+        {
+          "value": "3",
+          "text": "跳转到外部",
+          "color": null,
+          "jsonObject": null,
+          "label": "跳转到外部",
+          "title": "跳转到外部"
+        }
+      ],
+      "easyAuthOperation": [
+        {
+          "value": "add",
+          "text": "新增",
+          "color": null,
+          "jsonObject": null,
+          "label": "新增",
+          "title": "新增"
+        },
+        {
+          "value": "share",
+          "text": "分享",
+          "color": null,
+          "jsonObject": null,
+          "label": "分享",
+          "title": "分享"
+        },
+        {
+          "value": "import",
+          "text": "导入",
+          "color": null,
+          "jsonObject": null,
+          "label": "导入",
+          "title": "导入"
+        },
+        {
+          "value": "export",
+          "text": "导出",
+          "color": null,
+          "jsonObject": null,
+          "label": "导出",
+          "title": "导出"
+        },
+        {
+          "value": "comment",
+          "text": "讨论",
+          "color": null,
+          "jsonObject": null,
+          "label": "讨论",
+          "title": "讨论"
+        },
+        {
+          "value": "print",
+          "text": "系统打印",
+          "color": null,
+          "jsonObject": null,
+          "label": "系统打印",
+          "title": "系统打印"
+        },
+        {
+          "value": "download",
+          "text": "附件下载",
+          "color": null,
+          "jsonObject": null,
+          "label": "附件下载",
+          "title": "附件下载"
+        },
+        {
+          "value": "log",
+          "text": "日志",
+          "color": null,
+          "jsonObject": null,
+          "label": "日志",
+          "title": "日志"
+        }
+      ],
+      "tenant_status": [
+        {
+          "value": "1",
+          "text": "正常",
+          "color": null,
+          "jsonObject": null,
+          "label": "正常",
+          "title": "正常"
+        },
+        {
+          "value": "0",
+          "text": "冻结",
+          "color": null,
+          "jsonObject": null,
+          "label": "冻结",
+          "title": "冻结"
+        }
+      ],
+      "uy0bpqqsd7": [
+        {
+          "value": "1",
+          "text": "男",
+          "color": "#F52222",
+          "jsonObject": null,
+          "label": "男",
+          "title": "男"
+        },
+        {
+          "value": "21",
+          "text": "女",
+          "color": "#7500EA",
+          "jsonObject": null,
+          "label": "女",
+          "title": "女"
+        }
+      ],
+      "sign_type": [
+        {
+          "value": "1",
+          "text": "上班打卡",
+          "color": null,
+          "jsonObject": null,
+          "label": "上班打卡",
+          "title": "上班打卡"
+        },
+        {
+          "value": "2",
+          "text": "下班打卡",
+          "color": null,
+          "jsonObject": null,
+          "label": "下班打卡",
+          "title": "下班打卡"
+        },
+        {
+          "value": "3",
+          "text": "外出打卡",
+          "color": null,
+          "jsonObject": null,
+          "label": "外出打卡",
+          "title": "外出打卡"
+        },
+        {
+          "value": "4",
+          "text": "请假",
+          "color": null,
+          "jsonObject": null,
+          "label": "请假",
+          "title": "请假"
+        },
+        {
+          "value": "5",
+          "text": "出差",
+          "color": null,
+          "jsonObject": null,
+          "label": "出差",
+          "title": "出差"
+        }
+      ],
+      "qcfhk49f3w": [
+        {
+          "value": "1",
+          "text": "字典项1",
+          "color": "#2D46C4",
+          "jsonObject": null,
+          "label": "字典项1",
+          "title": "字典项1"
+        },
+        {
+          "value": "2",
+          "text": "字典项2",
+          "color": "#EB2F96",
+          "jsonObject": null,
+          "label": "字典项2",
+          "title": "字典项2"
+        },
+        {
+          "value": "3",
+          "text": "字典项3",
+          "color": "#2196F3",
+          "jsonObject": null,
+          "label": "字典项3",
+          "title": "字典项3"
+        }
+      ],
+      "rangeDate": [
+        {
+          "value": "jt",
+          "text": "今天",
+          "color": null,
+          "jsonObject": null,
+          "label": "今天",
+          "title": "今天"
+        },
+        {
+          "value": "zt",
+          "text": "昨天",
+          "color": null,
+          "jsonObject": null,
+          "label": "昨天",
+          "title": "昨天"
+        },
+        {
+          "value": "qt",
+          "text": "前天",
+          "color": null,
+          "jsonObject": null,
+          "label": "前天",
+          "title": "前天"
+        },
+        {
+          "value": "bz",
+          "text": "本周",
+          "color": null,
+          "jsonObject": null,
+          "label": "本周",
+          "title": "本周"
+        },
+        {
+          "value": "sz",
+          "text": "上周",
+          "color": null,
+          "jsonObject": null,
+          "label": "上周",
+          "title": "上周"
+        },
+        {
+          "value": "by",
+          "text": "本月",
+          "color": null,
+          "jsonObject": null,
+          "label": "本月",
+          "title": "本月"
+        },
+        {
+          "value": "sy",
+          "text": "上月",
+          "color": null,
+          "jsonObject": null,
+          "label": "上月",
+          "title": "上月"
+        },
+        {
+          "value": "7day",
+          "text": "7日",
+          "color": null,
+          "jsonObject": null,
+          "label": "7日",
+          "title": "7日"
+        },
+        {
+          "value": "zdy",
+          "text": "自定义日期",
+          "color": null,
+          "jsonObject": null,
+          "label": "自定义日期",
+          "title": "自定义日期"
+        }
+      ],
+      "del_flag": [
+        {
+          "value": "1",
+          "text": "已删除",
+          "color": null,
+          "jsonObject": null,
+          "label": "已删除",
+          "title": "已删除"
+        },
+        {
+          "value": "0",
+          "text": "正常",
+          "color": null,
+          "jsonObject": null,
+          "label": "正常",
+          "title": "正常"
+        }
+      ],
+      "messageHref": [
+        {
+          "value": "bpm",
+          "text": "/task/myHandleTaskInfo",
+          "color": null,
+          "jsonObject": null,
+          "label": "/task/myHandleTaskInfo",
+          "title": "/task/myHandleTaskInfo"
+        },
+        {
+          "value": "bpm_msg_node",
+          "text": "",
+          "color": null,
+          "jsonObject": null,
+          "label": "",
+          "title": ""
+        },
+        {
+          "value": "bpm_cc",
+          "text": "/task/myHandleTaskInfo",
+          "color": null,
+          "jsonObject": null,
+          "label": "/task/myHandleTaskInfo",
+          "title": "/task/myHandleTaskInfo"
+        },
+        {
+          "value": "bpm_task",
+          "text": "/task/myHandleTaskInfo",
+          "color": null,
+          "jsonObject": null,
+          "label": "/task/myHandleTaskInfo",
+          "title": "/task/myHandleTaskInfo"
+        },
+        {
+          "value": "email",
+          "text": "/eoa/email",
+          "color": null,
+          "jsonObject": null,
+          "label": "/eoa/email",
+          "title": "/eoa/email"
+        }
+      ],
+      "cgform_table_type": [
+        {
+          "value": "1",
+          "text": "单表",
+          "color": null,
+          "jsonObject": null,
+          "label": "单表",
+          "title": "单表"
+        },
+        {
+          "value": "2",
+          "text": "主表",
+          "color": null,
+          "jsonObject": null,
+          "label": "主表",
+          "title": "主表"
+        },
+        {
+          "value": "3",
+          "text": "附表",
+          "color": null,
+          "jsonObject": null,
+          "label": "附表",
+          "title": "附表"
+        }
+      ],
+      "is_open": [
+        {
+          "value": "Y",
+          "text": "是",
+          "color": null,
+          "jsonObject": null,
+          "label": "是",
+          "title": "是"
+        },
+        {
+          "value": "N",
+          "text": "否",
+          "color": null,
+          "jsonObject": null,
+          "label": "否",
+          "title": "否"
+        }
+      ],
+      "template_industry": [
+        {
+          "value": "1",
+          "text": "制造业",
+          "color": null,
+          "jsonObject": null,
+          "label": "制造业",
+          "title": "制造业"
+        },
+        {
+          "value": "3",
+          "text": "建筑业",
+          "color": null,
+          "jsonObject": null,
+          "label": "建筑业",
+          "title": "建筑业"
+        },
+        {
+          "value": "2",
+          "text": "企业内部服务",
+          "color": null,
+          "jsonObject": null,
+          "label": "企业内部服务",
+          "title": "企业内部服务"
+        },
+        {
+          "value": "4",
+          "text": "零售/贸易",
+          "color": null,
+          "jsonObject": null,
+          "label": "零售/贸易",
+          "title": "零售/贸易"
+        },
+        {
+          "value": "5",
+          "text": "教育/培训",
+          "color": null,
+          "jsonObject": null,
+          "label": "教育/培训",
+          "title": "教育/培训"
+        },
+        {
+          "value": "6",
+          "text": "服务业",
+          "color": null,
+          "jsonObject": null,
+          "label": "服务业",
+          "title": "服务业"
+        },
+        {
+          "value": "7",
+          "text": "政府/公益",
+          "color": null,
+          "jsonObject": null,
+          "label": "政府/公益",
+          "title": "政府/公益"
+        },
+        {
+          "value": "8",
+          "text": "互联网/科技",
+          "color": null,
+          "jsonObject": null,
+          "label": "互联网/科技",
+          "title": "互联网/科技"
+        },
+        {
+          "value": "9",
+          "text": "物流运输",
+          "color": null,
+          "jsonObject": null,
+          "label": "物流运输",
+          "title": "物流运输"
+        },
+        {
+          "value": "10",
+          "text": "其他",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他",
+          "title": "其他"
+        }
+      ],
+      "msg_category": [
+        {
+          "value": "1",
+          "text": "通知公告",
+          "color": null,
+          "jsonObject": null,
+          "label": "通知公告",
+          "title": "通知公告"
+        },
+        {
+          "value": "2",
+          "text": "系统消息",
+          "color": null,
+          "jsonObject": null,
+          "label": "系统消息",
+          "title": "系统消息"
+        }
+      ],
+      "org_category": [
+        {
+          "value": "3",
+          "text": "岗位",
+          "color": null,
+          "jsonObject": null,
+          "label": "岗位",
+          "title": "岗位"
+        },
+        {
+          "value": "1",
+          "text": "公司",
+          "color": null,
+          "jsonObject": null,
+          "label": "公司",
+          "title": "公司"
+        },
+        {
+          "value": "2",
+          "text": "部门",
+          "color": null,
+          "jsonObject": null,
+          "label": "部门",
+          "title": "部门"
+        }
+      ],
+      "priority": [
+        {
+          "value": "H",
+          "text": "高",
+          "color": null,
+          "jsonObject": null,
+          "label": "高",
+          "title": "高"
+        },
+        {
+          "value": "M",
+          "text": "中",
+          "color": null,
+          "jsonObject": null,
+          "label": "中",
+          "title": "中"
+        },
+        {
+          "value": "L",
+          "text": "低",
+          "color": null,
+          "jsonObject": null,
+          "label": "低",
+          "title": "低"
+        }
+      ],
+      "dict_item_status": [
+        {
+          "value": "1",
+          "text": "启用",
+          "color": null,
+          "jsonObject": null,
+          "label": "启用",
+          "title": "启用"
+        },
+        {
+          "value": "0",
+          "text": "不启用",
+          "color": null,
+          "jsonObject": null,
+          "label": "不启用",
+          "title": "不启用"
+        }
+      ],
+      "company_department": [
+        {
+          "value": "1",
+          "text": "总经办",
+          "color": null,
+          "jsonObject": null,
+          "label": "总经办",
+          "title": "总经办"
+        },
+        {
+          "value": "2",
+          "text": "技术/IT/研发",
+          "color": null,
+          "jsonObject": null,
+          "label": "技术/IT/研发",
+          "title": "技术/IT/研发"
+        },
+        {
+          "value": "3",
+          "text": "产品/设计",
+          "color": null,
+          "jsonObject": null,
+          "label": "产品/设计",
+          "title": "产品/设计"
+        },
+        {
+          "value": "4",
+          "text": "销售/市场/运营",
+          "color": null,
+          "jsonObject": null,
+          "label": "销售/市场/运营",
+          "title": "销售/市场/运营"
+        },
+        {
+          "value": "5",
+          "text": "人事/财务/行政",
+          "color": null,
+          "jsonObject": null,
+          "label": "人事/财务/行政",
+          "title": "人事/财务/行政"
+        },
+        {
+          "value": "6",
+          "text": "资源/仓储/采购",
+          "color": null,
+          "jsonObject": null,
+          "label": "资源/仓储/采购",
+          "title": "资源/仓储/采购"
+        },
+        {
+          "value": "7",
+          "text": "其他",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他",
+          "title": "其他"
+        }
+      ],
+      "template_category": [
+        {
+          "value": "1",
+          "text": "人事/行政",
+          "color": null,
+          "jsonObject": null,
+          "label": "人事/行政",
+          "title": "人事/行政"
+        },
+        {
+          "value": "2",
+          "text": "客户/销售",
+          "color": null,
+          "jsonObject": null,
+          "label": "客户/销售",
+          "title": "客户/销售"
+        },
+        {
+          "value": "3",
+          "text": "进销存/仓库",
+          "color": null,
+          "jsonObject": null,
+          "label": "进销存/仓库",
+          "title": "进销存/仓库"
+        },
+        {
+          "value": "4",
+          "text": "项目/任务",
+          "color": null,
+          "jsonObject": null,
+          "label": "项目/任务",
+          "title": "项目/任务"
+        },
+        {
+          "value": "5",
+          "text": "财务/报销",
+          "color": null,
+          "jsonObject": null,
+          "label": "财务/报销",
+          "title": "财务/报销"
+        },
+        {
+          "value": "6",
+          "text": "资产/设备",
+          "color": null,
+          "jsonObject": null,
+          "label": "资产/设备",
+          "title": "资产/设备"
+        },
+        {
+          "value": "7",
+          "text": "门店/销售",
+          "color": null,
+          "jsonObject": null,
+          "label": "门店/销售",
+          "title": "门店/销售"
+        },
+        {
+          "value": "8",
+          "text": "产品研发",
+          "color": null,
+          "jsonObject": null,
+          "label": "产品研发",
+          "title": "产品研发"
+        },
+        {
+          "value": "9",
+          "text": "其他",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他",
+          "title": "其他"
+        }
+      ],
+      "meeting_scale": [
+        {
+          "value": "S",
+          "text": "小型",
+          "color": null,
+          "jsonObject": null,
+          "label": "小型",
+          "title": "小型"
+        },
+        {
+          "value": "M",
+          "text": "中型",
+          "color": null,
+          "jsonObject": null,
+          "label": "中型",
+          "title": "中型"
+        },
+        {
+          "value": "L",
+          "text": "大型",
+          "color": null,
+          "jsonObject": null,
+          "label": "大型",
+          "title": "大型"
+        }
+      ],
+      "activiti_sync": [
+        {
+          "value": "1",
+          "text": "同步",
+          "color": null,
+          "jsonObject": null,
+          "label": "同步",
+          "title": "同步"
+        },
+        {
+          "value": "0",
+          "text": "不同步",
+          "color": null,
+          "jsonObject": null,
+          "label": "不同步",
+          "title": "不同步"
+        }
+      ],
+      "air_china_unit": [
+        {
+          "value": "1",
+          "text": "件",
+          "color": null,
+          "jsonObject": null,
+          "label": "件",
+          "title": "件"
+        },
+        {
+          "value": "2",
+          "text": "套",
+          "color": null,
+          "jsonObject": null,
+          "label": "套",
+          "title": "套"
+        },
+        {
+          "value": "3",
+          "text": "条",
+          "color": null,
+          "jsonObject": null,
+          "label": "条",
+          "title": "条"
+        },
+        {
+          "value": "4",
+          "text": "双",
+          "color": null,
+          "jsonObject": null,
+          "label": "双",
+          "title": "双"
+        },
+        {
+          "value": "5",
+          "text": "个",
+          "color": null,
+          "jsonObject": null,
+          "label": "个",
+          "title": "个"
+        },
+        {
+          "value": "7",
+          "text": "块",
+          "color": null,
+          "jsonObject": null,
+          "label": "块",
+          "title": "块"
+        },
+        {
+          "value": "8",
+          "text": "包",
+          "color": null,
+          "jsonObject": null,
+          "label": "包",
+          "title": "包"
+        }
+      ],
+      "msgSendStatus": [
+        {
+          "value": "0",
+          "text": "未发送",
+          "color": null,
+          "jsonObject": null,
+          "label": "未发送",
+          "title": "未发送"
+        },
+        {
+          "value": "1",
+          "text": "发送成功",
+          "color": null,
+          "jsonObject": null,
+          "label": "发送成功",
+          "title": "发送成功"
+        },
+        {
+          "value": "2",
+          "text": "发送失败",
+          "color": null,
+          "jsonObject": null,
+          "label": "发送失败",
+          "title": "发送失败"
+        }
+      ],
+      "msg_type": [
+        {
+          "value": "USER",
+          "text": "指定用户",
+          "color": null,
+          "jsonObject": null,
+          "label": "指定用户",
+          "title": "指定用户"
+        },
+        {
+          "value": "ALL",
+          "text": "全体用户",
+          "color": null,
+          "jsonObject": null,
+          "label": "全体用户",
+          "title": "全体用户"
+        }
+      ],
+      "eoa_plan_type": [
+        {
+          "value": "1",
+          "text": "日常记录",
+          "color": null,
+          "jsonObject": null,
+          "label": "日常记录",
+          "title": "日常记录"
+        },
+        {
+          "value": "2",
+          "text": "本周工作",
+          "color": null,
+          "jsonObject": null,
+          "label": "本周工作",
+          "title": "本周工作"
+        },
+        {
+          "value": "3",
+          "text": "下周计划",
+          "color": null,
+          "jsonObject": null,
+          "label": "下周计划",
+          "title": "下周计划"
+        }
+      ],
+      "superAuthOptRecord": [
+        {
+          "value": "share_record",
+          "text": "分享",
+          "color": null,
+          "jsonObject": null,
+          "label": "分享",
+          "title": "分享"
+        },
+        {
+          "value": "comment_record",
+          "text": "讨论",
+          "color": null,
+          "jsonObject": null,
+          "label": "讨论",
+          "title": "讨论"
+        },
+        {
+          "value": "print_record",
+          "text": "系统打印",
+          "color": null,
+          "jsonObject": null,
+          "label": "系统打印",
+          "title": "系统打印"
+        },
+        {
+          "value": "download_record",
+          "text": "附件下载",
+          "color": null,
+          "jsonObject": null,
+          "label": "附件下载",
+          "title": "附件下载"
+        },
+        {
+          "value": "log_record",
+          "text": "日志",
+          "color": null,
+          "jsonObject": null,
+          "label": "日志",
+          "title": "日志"
+        }
+      ],
+      "company_size": [
+        {
+          "value": "1",
+          "text": "20人以下",
+          "color": null,
+          "jsonObject": null,
+          "label": "20人以下",
+          "title": "20人以下"
+        },
+        {
+          "value": "2",
+          "text": "21-99人",
+          "color": null,
+          "jsonObject": null,
+          "label": "21-99人",
+          "title": "21-99人"
+        },
+        {
+          "value": "3",
+          "text": "100-499人",
+          "color": null,
+          "jsonObject": null,
+          "label": "100-499人",
+          "title": "100-499人"
+        },
+        {
+          "value": "4",
+          "text": "500-999人",
+          "color": null,
+          "jsonObject": null,
+          "label": "500-999人",
+          "title": "500-999人"
+        },
+        {
+          "value": "5",
+          "text": "1000-9999人",
+          "color": null,
+          "jsonObject": null,
+          "label": "1000-9999人",
+          "title": "1000-9999人"
+        },
+        {
+          "value": "6",
+          "text": "10000人以上",
+          "color": null,
+          "jsonObject": null,
+          "label": "10000人以上",
+          "title": "10000人以上"
+        }
+      ],
+      "superAuthOptTable": [
+        {
+          "value": "share_table",
+          "text": "分享",
+          "color": null,
+          "jsonObject": null,
+          "label": "分享",
+          "title": "分享"
+        },
+        {
+          "value": "import_table",
+          "text": "导入",
+          "color": null,
+          "jsonObject": null,
+          "label": "导入",
+          "title": "导入"
+        },
+        {
+          "value": "export_table",
+          "text": "导出",
+          "color": null,
+          "jsonObject": null,
+          "label": "导出",
+          "title": "导出"
+        },
+        {
+          "value": "comment_table",
+          "text": "讨论",
+          "color": null,
+          "jsonObject": null,
+          "label": "讨论",
+          "title": "讨论"
+        },
+        {
+          "value": "log_table",
+          "text": "日志",
+          "color": null,
+          "jsonObject": null,
+          "label": "日志",
+          "title": "日志"
+        },
+        {
+          "value": "batch_table",
+          "text": "批量操作",
+          "color": null,
+          "jsonObject": null,
+          "label": "批量操作",
+          "title": "批量操作"
+        }
+      ],
+      "msgType": [
+        {
+          "value": "1",
+          "text": "文本",
+          "color": null,
+          "jsonObject": null,
+          "label": "文本",
+          "title": "文本"
+        },
+        {
+          "value": "2",
+          "text": "富文本",
+          "color": null,
+          "jsonObject": null,
+          "label": "富文本",
+          "title": "富文本"
+        },
+        {
+          "value": "5",
+          "text": "Markdown",
+          "color": null,
+          "jsonObject": null,
+          "label": "Markdown",
+          "title": "Markdown"
+        }
+      ],
+      "eoa_plan_status": [
+        {
+          "value": "0",
+          "text": "未开始",
+          "color": null,
+          "jsonObject": null,
+          "label": "未开始",
+          "title": "未开始"
+        },
+        {
+          "value": "1",
+          "text": "已提醒",
+          "color": null,
+          "jsonObject": null,
+          "label": "已提醒",
+          "title": "已提醒"
+        },
+        {
+          "value": "2",
+          "text": "进行中",
+          "color": null,
+          "jsonObject": null,
+          "label": "进行中",
+          "title": "进行中"
+        },
+        {
+          "value": "3",
+          "text": "已完成",
+          "color": null,
+          "jsonObject": null,
+          "label": "已完成",
+          "title": "已完成"
+        },
+        {
+          "value": "4",
+          "text": "已接受",
+          "color": null,
+          "jsonObject": null,
+          "label": "已接受",
+          "title": "已接受"
+        },
+        {
+          "value": "5",
+          "text": "已取消",
+          "color": null,
+          "jsonObject": null,
+          "label": "已取消",
+          "title": "已取消"
+        }
+      ],
+      "authRoleUserType": [
+        {
+          "value": "sys_user",
+          "text": "人员",
+          "color": null,
+          "jsonObject": null,
+          "label": "人员",
+          "title": "人员"
+        },
+        {
+          "value": "sys_depart",
+          "text": "部门",
+          "color": null,
+          "jsonObject": null,
+          "label": "部门",
+          "title": "部门"
+        },
+        {
+          "value": "sys_role",
+          "text": "组织角色",
+          "color": null,
+          "jsonObject": null,
+          "label": "组织角色",
+          "title": "组织角色"
+        },
+        {
+          "value": "sys_position",
+          "text": "职位",
+          "color": null,
+          "jsonObject": null,
+          "label": "职位",
+          "title": "职位"
+        }
+      ],
+      "air_china_size": [
+        {
+          "value": "1",
+          "text": "量体类",
+          "color": null,
+          "jsonObject": null,
+          "label": "量体类",
+          "title": "量体类"
+        },
+        {
+          "value": "2",
+          "text": "男衬衫类",
+          "color": null,
+          "jsonObject": null,
+          "label": "男衬衫类",
+          "title": "男衬衫类"
+        },
+        {
+          "value": "3",
+          "text": "羊毛衫及毛背心类",
+          "color": null,
+          "jsonObject": null,
+          "label": "羊毛衫及毛背心类",
+          "title": "羊毛衫及毛背心类"
+        },
+        {
+          "value": "4",
+          "text": "标准尺码类",
+          "color": null,
+          "jsonObject": null,
+          "label": "标准尺码类",
+          "title": "标准尺码类"
+        },
+        {
+          "value": "5",
+          "text": "固定型号",
+          "color": null,
+          "jsonObject": null,
+          "label": "固定型号",
+          "title": "固定型号"
+        }
+      ],
+      "database_type": [
+        {
+          "value": "1",
+          "text": "MySQL5.5",
+          "color": null,
+          "jsonObject": null,
+          "label": "MySQL5.5",
+          "title": "MySQL5.5"
+        },
+        {
+          "value": "4",
+          "text": "MYSQL5.7+",
+          "color": null,
+          "jsonObject": null,
+          "label": "MYSQL5.7+",
+          "title": "MYSQL5.7+"
+        },
+        {
+          "value": "2",
+          "text": "Oracle",
+          "color": null,
+          "jsonObject": null,
+          "label": "Oracle",
+          "title": "Oracle"
+        },
+        {
+          "value": "3",
+          "text": "SQLServer",
+          "color": null,
+          "jsonObject": null,
+          "label": "SQLServer",
+          "title": "SQLServer"
+        },
+        {
+          "value": "6",
+          "text": "postgresql",
+          "color": null,
+          "jsonObject": null,
+          "label": "postgresql",
+          "title": "postgresql"
+        },
+        {
+          "value": "5",
+          "text": "marialDB",
+          "color": null,
+          "jsonObject": null,
+          "label": "marialDB",
+          "title": "marialDB"
+        },
+        {
+          "value": "7",
+          "text": "达梦",
+          "color": null,
+          "jsonObject": null,
+          "label": "达梦",
+          "title": "达梦"
+        },
+        {
+          "value": "8",
+          "text": "人大金仓",
+          "color": null,
+          "jsonObject": null,
+          "label": "人大金仓",
+          "title": "人大金仓"
+        },
+        {
+          "value": "9",
+          "text": "神通",
+          "color": null,
+          "jsonObject": null,
+          "label": "神通",
+          "title": "神通"
+        },
+        {
+          "value": "10",
+          "text": "SQLite",
+          "color": null,
+          "jsonObject": null,
+          "label": "SQLite",
+          "title": "SQLite"
+        },
+        {
+          "value": "11",
+          "text": "DB2",
+          "color": null,
+          "jsonObject": null,
+          "label": "DB2",
+          "title": "DB2"
+        },
+        {
+          "value": "12",
+          "text": "Hsqldb",
+          "color": null,
+          "jsonObject": null,
+          "label": "Hsqldb",
+          "title": "Hsqldb"
+        },
+        {
+          "value": "13",
+          "text": "Derby",
+          "color": null,
+          "jsonObject": null,
+          "label": "Derby",
+          "title": "Derby"
+        },
+        {
+          "value": "14",
+          "text": "H2",
+          "color": null,
+          "jsonObject": null,
+          "label": "H2",
+          "title": "H2"
+        },
+        {
+          "value": "15",
+          "text": "其他数据库",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他数据库",
+          "title": "其他数据库"
+        }
+      ],
+      "app_menu_group": [
+        {
+          "value": "common",
+          "text": "常用",
+          "color": null,
+          "jsonObject": null,
+          "label": "常用",
+          "title": "常用"
+        },
+        {
+          "value": "other",
+          "text": "其他",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他",
+          "title": "其他"
+        },
+        {
+          "value": "approve",
+          "text": "审核",
+          "color": null,
+          "jsonObject": null,
+          "label": "审核",
+          "title": "审核"
+        }
+      ],
+      "log_type": [
+        {
+          "value": "2",
+          "text": "操作日志",
+          "color": null,
+          "jsonObject": null,
+          "label": "操作日志",
+          "title": "操作日志"
+        },
+        {
+          "value": "1",
+          "text": "登录日志",
+          "color": null,
+          "jsonObject": null,
+          "label": "登录日志",
+          "title": "登录日志"
+        }
+      ],
+      "urgency": [
+        {
+          "value": "0",
+          "text": "一般",
+          "color": null,
+          "jsonObject": null,
+          "label": "一般",
+          "title": "一般"
+        },
+        {
+          "value": "1",
+          "text": "平急",
+          "color": null,
+          "jsonObject": null,
+          "label": "平急",
+          "title": "平急"
+        },
+        {
+          "value": "2",
+          "text": "加急",
+          "color": null,
+          "jsonObject": null,
+          "label": "加急",
+          "title": "加急"
+        },
+        {
+          "value": "3",
+          "text": "特急",
+          "color": null,
+          "jsonObject": null,
+          "label": "特急",
+          "title": "特急"
+        },
+        {
+          "value": "4",
+          "text": "特提",
+          "color": null,
+          "jsonObject": null,
+          "label": "特提",
+          "title": "特提"
+        }
+      ],
+      "ceshi_code": [
+        {
+          "value": "1",
+          "text": "普通员工",
+          "color": null,
+          "jsonObject": null,
+          "label": "普通员工",
+          "title": "普通员工"
+        },
+        {
+          "value": "2",
+          "text": "领导",
+          "color": null,
+          "jsonObject": null,
+          "label": "领导",
+          "title": "领导"
+        }
+      ],
+      "sign_status": [
+        {
+          "value": "0",
+          "text": "缺卡",
+          "color": null,
+          "jsonObject": null,
+          "label": "缺卡",
+          "title": "缺卡"
+        },
+        {
+          "value": "1",
+          "text": "正常",
+          "color": null,
+          "jsonObject": null,
+          "label": "正常",
+          "title": "正常"
+        },
+        {
+          "value": "2",
+          "text": "迟到",
+          "color": null,
+          "jsonObject": null,
+          "label": "迟到",
+          "title": "迟到"
+        },
+        {
+          "value": "3",
+          "text": "旷工",
+          "color": null,
+          "jsonObject": null,
+          "label": "旷工",
+          "title": "旷工"
+        },
+        {
+          "value": "4",
+          "text": "早退",
+          "color": null,
+          "jsonObject": null,
+          "label": "早退",
+          "title": "早退"
+        }
+      ],
+      "2o1fv5jviq": [
+        {
+          "value": "1",
+          "text": "男",
+          "color": null,
+          "jsonObject": null,
+          "label": "男",
+          "title": "男"
+        },
+        {
+          "value": "2",
+          "text": "女",
+          "color": null,
+          "jsonObject": null,
+          "label": "女",
+          "title": "女"
+        }
+      ],
+      "send_status": [
+        {
+          "value": "0",
+          "text": "未发布",
+          "color": null,
+          "jsonObject": null,
+          "label": "未发布",
+          "title": "未发布"
+        },
+        {
+          "value": "1",
+          "text": "已发布",
+          "color": null,
+          "jsonObject": null,
+          "label": "已发布",
+          "title": "已发布"
+        },
+        {
+          "value": "2",
+          "text": "已撤销",
+          "color": null,
+          "jsonObject": null,
+          "label": "已撤销",
+          "title": "已撤销"
+        }
+      ],
+      "bpm_process_type": [
+        {
+          "value": "test",
+          "text": "测试流程",
+          "color": null,
+          "jsonObject": null,
+          "label": "测试流程",
+          "title": "测试流程"
+        },
+        {
+          "value": "oa",
+          "text": "OA办公",
+          "color": null,
+          "jsonObject": null,
+          "label": "OA办公",
+          "title": "OA办公"
+        },
+        {
+          "value": "business",
+          "text": "业务办理",
+          "color": null,
+          "jsonObject": null,
+          "label": "业务办理",
+          "title": "业务办理"
+        }
+      ],
+      "form_perms_type": [
+        {
+          "value": "1",
+          "text": "可见(未授权不可见)",
+          "color": null,
+          "jsonObject": null,
+          "label": "可见(未授权不可见)",
+          "title": "可见(未授权不可见)"
+        },
+        {
+          "value": "2",
+          "text": "可编辑(未授权禁用)",
+          "color": null,
+          "jsonObject": null,
+          "label": "可编辑(未授权禁用)",
+          "title": "可编辑(未授权禁用)"
+        }
+      ],
+      "valid_status": [
+        {
+          "value": "1",
+          "text": "有效",
+          "color": null,
+          "jsonObject": null,
+          "label": "有效",
+          "title": "有效"
+        },
+        {
+          "value": "0",
+          "text": "无效",
+          "color": null,
+          "jsonObject": null,
+          "label": "无效",
+          "title": "无效"
+        }
+      ],
+      "urgent_level": [
+        {
+          "value": "1",
+          "text": "一般",
+          "color": null,
+          "jsonObject": null,
+          "label": "一般",
+          "title": "一般"
+        },
+        {
+          "value": "2",
+          "text": "重要",
+          "color": null,
+          "jsonObject": null,
+          "label": "重要",
+          "title": "重要"
+        },
+        {
+          "value": "3",
+          "text": "紧急",
+          "color": null,
+          "jsonObject": null,
+          "label": "紧急",
+          "title": "紧急"
+        }
+      ],
+      "air_china_valid": [
+        {
+          "value": "2",
+          "text": "不启动",
+          "color": null,
+          "jsonObject": null,
+          "label": "不启动",
+          "title": "不启动"
+        },
+        {
+          "value": "1",
+          "text": "启动",
+          "color": null,
+          "jsonObject": null,
+          "label": "启动",
+          "title": "启动"
+        }
+      ],
+      "user_status": [
+        {
+          "value": "1",
+          "text": "正常",
+          "color": null,
+          "jsonObject": null,
+          "label": "正常",
+          "title": "正常"
+        },
+        {
+          "value": "2",
+          "text": "冻结",
+          "color": null,
+          "jsonObject": null,
+          "label": "冻结",
+          "title": "冻结"
+        }
+      ],
+      "operate_type": [
+        {
+          "value": "1",
+          "text": "查询",
+          "color": null,
+          "jsonObject": null,
+          "label": "查询",
+          "title": "查询"
+        },
+        {
+          "value": "2",
+          "text": "添加",
+          "color": null,
+          "jsonObject": null,
+          "label": "添加",
+          "title": "添加"
+        },
+        {
+          "value": "3",
+          "text": "修改",
+          "color": null,
+          "jsonObject": null,
+          "label": "修改",
+          "title": "修改"
+        },
+        {
+          "value": "4",
+          "text": "删除",
+          "color": null,
+          "jsonObject": null,
+          "label": "删除",
+          "title": "删除"
+        },
+        {
+          "value": "5",
+          "text": "导入",
+          "color": null,
+          "jsonObject": null,
+          "label": "导入",
+          "title": "导入"
+        },
+        {
+          "value": "6",
+          "text": "导出",
+          "color": null,
+          "jsonObject": null,
+          "label": "导出",
+          "title": "导出"
+        }
+      ],
+      "quartz_status": [
+        {
+          "value": "0",
+          "text": "正常",
+          "color": null,
+          "jsonObject": null,
+          "label": "正常",
+          "title": "正常"
+        },
+        {
+          "value": "-1",
+          "text": "停止",
+          "color": null,
+          "jsonObject": null,
+          "label": "停止",
+          "title": "停止"
+        }
+      ],
+      "menu_type": [
+        {
+          "value": "2",
+          "text": "按钮权限",
+          "color": null,
+          "jsonObject": null,
+          "label": "按钮权限",
+          "title": "按钮权限"
+        },
+        {
+          "value": "1",
+          "text": "子菜单",
+          "color": null,
+          "jsonObject": null,
+          "label": "子菜单",
+          "title": "子菜单"
+        },
+        {
+          "value": "0",
+          "text": "一级菜单",
+          "color": null,
+          "jsonObject": null,
+          "label": "一级菜单",
+          "title": "一级菜单"
+        }
+      ],
+      "wz_cc_type": [
+        {
+          "value": "yifu",
+          "text": "衣服",
+          "color": null,
+          "jsonObject": null,
+          "label": "衣服",
+          "title": "衣服"
+        },
+        {
+          "value": "dd",
+          "text": "dd",
+          "color": null,
+          "jsonObject": null,
+          "label": "dd",
+          "title": "dd"
+        }
+      ],
+      "sex": [
+        {
+          "value": "1",
+          "text": "男",
+          "color": null,
+          "jsonObject": null,
+          "label": "男",
+          "title": "男"
+        },
+        {
+          "value": "2",
+          "text": "女",
+          "color": null,
+          "jsonObject": null,
+          "label": "女",
+          "title": "女"
+        }
+      ],
+      "processExpressionBizType": [
+        {
+          "value": "candidateUser",
+          "text": "指定人公式",
+          "color": null,
+          "jsonObject": null,
+          "label": "指定人公式",
+          "title": "指定人公式"
+        },
+        {
+          "value": "candidateUsers",
+          "text": "候选人公式",
+          "color": null,
+          "jsonObject": null,
+          "label": "候选人公式",
+          "title": "候选人公式"
+        },
+        {
+          "value": "other",
+          "text": "其他",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他",
+          "title": "其他"
+        }
+      ],
+      "perms_type": [
+        {
+          "value": "1",
+          "text": "显示",
+          "color": null,
+          "jsonObject": null,
+          "label": "显示",
+          "title": "显示"
+        },
+        {
+          "value": "2",
+          "text": "禁用",
+          "color": null,
+          "jsonObject": null,
+          "label": "禁用",
+          "title": "禁用"
+        }
+      ],
+      "global_perms_type": [
+        {
+          "value": "1",
+          "text": "可见/可访问(授权后可见/可访问)",
+          "color": null,
+          "jsonObject": null,
+          "label": "可见/可访问(授权后可见/可访问)",
+          "title": "可见/可访问(授权后可见/可访问)"
+        },
+        {
+          "value": "2",
+          "text": "可编辑(未授权时禁用)",
+          "color": null,
+          "jsonObject": null,
+          "label": "可编辑(未授权时禁用)",
+          "title": "可编辑(未授权时禁用)"
+        }
+      ],
+      "online_graph_type": [
+        {
+          "value": "bar",
+          "text": "柱状图",
+          "color": null,
+          "jsonObject": null,
+          "label": "柱状图",
+          "title": "柱状图"
+        },
+        {
+          "value": "line",
+          "text": "曲线图",
+          "color": null,
+          "jsonObject": null,
+          "label": "曲线图",
+          "title": "曲线图"
+        },
+        {
+          "value": "pie",
+          "text": "饼图",
+          "color": null,
+          "jsonObject": null,
+          "label": "饼图",
+          "title": "饼图"
+        },
+        {
+          "value": "table",
+          "text": "数据列表",
+          "color": null,
+          "jsonObject": null,
+          "label": "数据列表",
+          "title": "数据列表"
+        }
+      ],
+      "cms_menu_type": [
+        {
+          "value": "1",
+          "text": "列表",
+          "color": null,
+          "jsonObject": null,
+          "label": "列表",
+          "title": "列表"
+        },
+        {
+          "value": "2",
+          "text": "链接",
+          "color": null,
+          "jsonObject": null,
+          "label": "链接",
+          "title": "链接"
+        }
+      ],
+      "zhiwu": [
+        {
+          "value": "1",
+          "text": "研发经理",
+          "color": null,
+          "jsonObject": null,
+          "label": "研发经理",
+          "title": "研发经理"
+        },
+        {
+          "value": "2",
+          "text": "研发专员",
+          "color": null,
+          "jsonObject": null,
+          "label": "研发专员",
+          "title": "研发专员"
+        },
+        {
+          "value": "3",
+          "text": "财务经理",
+          "color": null,
+          "jsonObject": null,
+          "label": "财务经理",
+          "title": "财务经理"
+        },
+        {
+          "value": "4",
+          "text": "财务专员",
+          "color": null,
+          "jsonObject": null,
+          "label": "财务专员",
+          "title": "财务专员"
+        },
+        {
+          "value": "5",
+          "text": "客服经理",
+          "color": null,
+          "jsonObject": null,
+          "label": "客服经理",
+          "title": "客服经理"
+        },
+        {
+          "value": "6",
+          "text": "客服专员",
+          "color": null,
+          "jsonObject": null,
+          "label": "客服专员",
+          "title": "客服专员"
+        }
+      ],
+      "trade": [
+        {
+          "value": "1",
+          "text": "信息传输、软件和信息技术服务业",
+          "color": null,
+          "jsonObject": null,
+          "label": "信息传输、软件和信息技术服务业",
+          "title": "信息传输、软件和信息技术服务业"
+        },
+        {
+          "value": "2",
+          "text": "制造业",
+          "color": null,
+          "jsonObject": null,
+          "label": "制造业",
+          "title": "制造业"
+        },
+        {
+          "value": "3",
+          "text": "租赁和商务服务业",
+          "color": null,
+          "jsonObject": null,
+          "label": "租赁和商务服务业",
+          "title": "租赁和商务服务业"
+        },
+        {
+          "value": "4",
+          "text": "教育",
+          "color": null,
+          "jsonObject": null,
+          "label": "教育",
+          "title": "教育"
+        },
+        {
+          "value": "5",
+          "text": "金融业",
+          "color": null,
+          "jsonObject": null,
+          "label": "金融业",
+          "title": "金融业"
+        },
+        {
+          "value": "6",
+          "text": "建筑业",
+          "color": null,
+          "jsonObject": null,
+          "label": "建筑业",
+          "title": "建筑业"
+        },
+        {
+          "value": "7",
+          "text": "科学研究和技术服务业",
+          "color": null,
+          "jsonObject": null,
+          "label": "科学研究和技术服务业",
+          "title": "科学研究和技术服务业"
+        },
+        {
+          "value": "8",
+          "text": "批发和零售业",
+          "color": null,
+          "jsonObject": null,
+          "label": "批发和零售业",
+          "title": "批发和零售业"
+        },
+        {
+          "value": "9",
+          "text": "住宿和餐饮业",
+          "color": null,
+          "jsonObject": null,
+          "label": "住宿和餐饮业",
+          "title": "住宿和餐饮业"
+        },
+        {
+          "value": "10",
+          "text": "电子商务",
+          "color": null,
+          "jsonObject": null,
+          "label": "电子商务",
+          "title": "电子商务"
+        },
+        {
+          "value": "11",
+          "text": "线下零售与服务业",
+          "color": null,
+          "jsonObject": null,
+          "label": "线下零售与服务业",
+          "title": "线下零售与服务业"
+        },
+        {
+          "value": "12",
+          "text": "文化、体育和娱乐业",
+          "color": null,
+          "jsonObject": null,
+          "label": "文化、体育和娱乐业",
+          "title": "文化、体育和娱乐业"
+        },
+        {
+          "value": "13",
+          "text": "房地产业",
+          "color": null,
+          "jsonObject": null,
+          "label": "房地产业",
+          "title": "房地产业"
+        },
+        {
+          "value": "14",
+          "text": "交通运输、仓储和邮政业",
+          "color": null,
+          "jsonObject": null,
+          "label": "交通运输、仓储和邮政业",
+          "title": "交通运输、仓储和邮政业"
+        },
+        {
+          "value": "15",
+          "text": "卫生和社会工作",
+          "color": null,
+          "jsonObject": null,
+          "label": "卫生和社会工作",
+          "title": "卫生和社会工作"
+        },
+        {
+          "value": "16",
+          "text": "公共管理、社会保障和社会组织",
+          "color": null,
+          "jsonObject": null,
+          "label": "公共管理、社会保障和社会组织",
+          "title": "公共管理、社会保障和社会组织"
+        },
+        {
+          "value": "18",
+          "text": "电力、热力、燃气及水生产和供应业",
+          "color": null,
+          "jsonObject": null,
+          "label": "电力、热力、燃气及水生产和供应业",
+          "title": "电力、热力、燃气及水生产和供应业"
+        },
+        {
+          "value": "19",
+          "text": "水利、环境和公共设施管理业",
+          "color": null,
+          "jsonObject": null,
+          "label": "水利、环境和公共设施管理业",
+          "title": "水利、环境和公共设施管理业"
+        },
+        {
+          "value": "20",
+          "text": "居民服务、修理和其他服务业",
+          "color": null,
+          "jsonObject": null,
+          "label": "居民服务、修理和其他服务业",
+          "title": "居民服务、修理和其他服务业"
+        },
+        {
+          "value": "21",
+          "text": "政府机构",
+          "color": null,
+          "jsonObject": null,
+          "label": "政府机构",
+          "title": "政府机构"
+        },
+        {
+          "value": "22",
+          "text": "农、林、牧、渔业",
+          "color": null,
+          "jsonObject": null,
+          "label": "农、林、牧、渔业",
+          "title": "农、林、牧、渔业"
+        },
+        {
+          "value": "23",
+          "text": "采矿业",
+          "color": null,
+          "jsonObject": null,
+          "label": "采矿业",
+          "title": "采矿业"
+        },
+        {
+          "value": "24",
+          "text": "国际组织",
+          "color": null,
+          "jsonObject": null,
+          "label": "国际组织",
+          "title": "国际组织"
+        },
+        {
+          "value": "25",
+          "text": "其他",
+          "color": null,
+          "jsonObject": null,
+          "label": "其他",
+          "title": "其他"
+        }
+      ],
+      "bpm_status": [
+        {
+          "value": "1",
+          "text": "待提交",
+          "color": null,
+          "jsonObject": null,
+          "label": "待提交",
+          "title": "待提交"
+        },
+        {
+          "value": "2",
+          "text": "处理中",
+          "color": null,
+          "jsonObject": null,
+          "label": "处理中",
+          "title": "处理中"
+        },
+        {
+          "value": "3",
+          "text": "已完成",
+          "color": null,
+          "jsonObject": null,
+          "label": "已完成",
+          "title": "已完成"
+        },
+        {
+          "value": "4",
+          "text": "已作废",
+          "color": null,
+          "jsonObject": null,
+          "label": "已作废",
+          "title": "已作废"
+        },
+        {
+          "value": "5",
+          "text": "已挂起",
+          "color": null,
+          "jsonObject": null,
+          "label": "已挂起",
+          "title": "已挂起"
+        }
+      ],
+      "secret_level": [
+        {
+          "value": "0",
+          "text": "一般",
+          "color": null,
+          "jsonObject": null,
+          "label": "一般",
+          "title": "一般"
+        },
+        {
+          "value": "1",
+          "text": "秘密",
+          "color": null,
+          "jsonObject": null,
+          "label": "秘密",
+          "title": "秘密"
+        },
+        {
+          "value": "2",
+          "text": "机密",
+          "color": null,
+          "jsonObject": null,
+          "label": "机密",
+          "title": "机密"
+        },
+        {
+          "value": "3",
+          "text": "绝密",
+          "color": null,
+          "jsonObject": null,
+          "label": "绝密",
+          "title": "绝密"
+        }
+      ],
+      "depart_status": [
+        {
+          "value": "0",
+          "text": "不启用",
+          "color": null,
+          "jsonObject": null,
+          "label": "不启用",
+          "title": "不启用"
+        },
+        {
+          "value": "1",
+          "text": "启用",
+          "color": null,
+          "jsonObject": null,
+          "label": "启用",
+          "title": "启用"
+        }
+      ],
+      "mettingType": [
+        {
+          "value": "depart",
+          "text": "部门会议",
+          "color": null,
+          "jsonObject": null,
+          "label": "部门会议",
+          "title": "部门会议"
+        },
+        {
+          "value": "temp",
+          "text": "临时会议",
+          "color": null,
+          "jsonObject": null,
+          "label": "临时会议",
+          "title": "临时会议"
+        },
+        {
+          "value": "company",
+          "text": "公司会议",
+          "color": null,
+          "jsonObject": null,
+          "label": "公司会议",
+          "title": "公司会议"
+        },
+        {
+          "value": "train",
+          "text": "培训会议",
+          "color": null,
+          "jsonObject": null,
+          "label": "培训会议",
+          "title": "培训会议"
+        },
+        {
+          "value": "common",
+          "text": "普通会议",
+          "color": null,
+          "jsonObject": null,
+          "label": "普通会议",
+          "title": "普通会议"
+        }
+      ]
+    }
+  },
+  "timestamp": 1705978727470
+}
