@@ -149,8 +149,7 @@ const transform: AxiosTransform = {
       // update-begin--author:taoyan---date:20220421--for: VUEN-410【签名改造】 X-TIMESTAMP牵扯
       config.headers[ConfigEnum.TIMESTAMP] = signMd5Utils.getTimestamp();
       // update-end--author:taoyan---date:20220421--for: VUEN-410【签名改造】 X-TIMESTAMP牵扯
-
-      config.headers[ConfigEnum.Sign] = signMd5Utils.getSign(config.url, config.params);
+      // config.headers[ConfigEnum.Sign] = signMd5Utils.getSign(config.url, config.params);
       //--update-end--author:liusq---date:20210831---for:将签名和时间戳，添加在请求接口 Header
       //--update-begin--author:liusq---date:20211105---for: for:将多租户id，添加在请求接口 Header
       if (!tenantId) {
@@ -185,7 +184,6 @@ const transform: AxiosTransform = {
       }
       // update-end--author:sunjianlei---date:20220624--for: 添加低代码应用ID
       // ========================================================================================
-
     }
     return config;
   },

@@ -18,7 +18,7 @@ import { isArray } from '/@/utils/is';
 import { useGlobSetting } from '/@/hooks/setting';
 import { JDragConfigEnum } from '/@/enums/jeecgEnum';
 import { useSso } from '/@/hooks/web/useSso';
-import { isOAuth2AppEnv } from "/@/views/sys/login/useLogin";
+import { isOAuth2AppEnv } from '/@/views/sys/login/useLogin';
 interface UserState {
   userInfo: Nullable<UserInfo>;
   token?: string;
@@ -138,7 +138,6 @@ export const useUserStore = defineStore({
         const { token, userInfo } = data;
         // save token
         this.setToken(token);
-        this.setTenant(userInfo.loginTenantId);
         return this.afterLoginAction(goHome, data);
       } catch (error) {
         return Promise.reject(error);
@@ -187,7 +186,7 @@ export const useUserStore = defineStore({
         // 判断是否有 redirect 重定向地址
         //update-begin---author:wangshuai ---date:20230424  for：【QQYUN-5195】登录之后直接刷新页面导致没有进入创建组织页面------------
         if (redirect && goHome) {
-        //update-end---author:wangshuai ---date:20230424  for：【QQYUN-5195】登录之后直接刷新页面导致没有进入创建组织页面------------
+          //update-end---author:wangshuai ---date:20230424  for：【QQYUN-5195】登录之后直接刷新页面导致没有进入创建组织页面------------
           // update-begin--author:liaozhiyang---date:20240104---for：【QQYUN-7804】部署生产环境，登录跳转404问题
           const publicPath = import.meta.env.VITE_PUBLIC_PATH;
           if (publicPath && publicPath != '/') {
@@ -195,7 +194,7 @@ export const useUserStore = defineStore({
           }
           // update-end--author:liaozhiyang---date:20240104---for：【QQYUN-7804】部署生产环境，登录跳转404问题
           // 当前页面打开
-          window.open(redirect, '_self')
+          window.open(redirect, '_self');
           return data;
         }
         // update-end-author:sunjianlei date:20230306 for: 修复登录成功后，没有正确重定向的问题
@@ -290,21 +289,21 @@ export const useUserStore = defineStore({
       }
       //update-begin---author:wangshuai ---date:20230224  for：[QQYUN-3440]新建企业微信和钉钉配置表，通过租户模式隔离------------
       //退出登录的时候需要用的应用id
-      if(isOAuth2AppEnv()){
+      if (isOAuth2AppEnv()) {
         let tenantId = getAuthCache(OAUTH2_THIRD_LOGIN_TENANT_ID);
         removeAuthCache(OAUTH2_THIRD_LOGIN_TENANT_ID);
-        goLogin && await router.push({ name:"Login",query:{ tenantId:tenantId }})
-      }else{
+        goLogin && (await router.push({ name: 'Login', query: { tenantId: tenantId } }));
+      } else {
         // update-begin-author:sunjianlei date:20230306 for: 修复登录成功后，没有正确重定向的问题
-        goLogin && (await router.push({
-          path: PageEnum.BASE_LOGIN,
-          query: {
-            // 传入当前的路由，登录成功后跳转到当前路由
-            redirect: router.currentRoute.value.fullPath,
-          }
-        }));
+        goLogin &&
+          (await router.push({
+            path: PageEnum.BASE_LOGIN,
+            query: {
+              // 传入当前的路由，登录成功后跳转到当前路由
+              redirect: router.currentRoute.value.fullPath,
+            },
+          }));
         // update-end-author:sunjianlei date:20230306 for: 修复登录成功后，没有正确重定向的问题
-
       }
       //update-end---author:wangshuai ---date:20230224  for：[QQYUN-3440]新建企业微信和钉钉配置表，通过租户模式隔离------------
     },

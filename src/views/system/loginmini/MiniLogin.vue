@@ -50,11 +50,6 @@
                             }}</span>
                           </div>
                         </div>
-                        <div class="aui-forget">
-                          <a @click="forgetHandelClick">
-                            {{ t("sys.login.forgetPassword") }}</a
-                          >
-                        </div>
                       </div>
                     </div>
                   </a-form>
@@ -249,7 +244,6 @@ async function accountLogin() {
       description: error.message || t("sys.login.networkExceptionMsg"),
       duration: 3,
     });
-    handleChangeCheckCode();
   } finally {
     loginLoading.value = false;
   }
