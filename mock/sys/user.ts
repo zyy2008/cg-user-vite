@@ -1,6 +1,8 @@
 import { MockMethod } from 'vite-plugin-mock';
 import { resultError, resultSuccess, getRequestToken, requestParams, baseUrl } from '../_util';
-import data from './response.json';
+import login from './json/login.json';
+import userinfo from './json/userinfo.json';
+import code from './json/permCode.json';
 
 export function createFakeUserList() {
   return [
@@ -18,7 +20,7 @@ export function createFakeUserList() {
           value: 'super',
         },
       ],
-      ...data.result,
+      ...login.result,
     },
     {
       userId: '2',
@@ -58,7 +60,7 @@ export default [
       if (!checkUser) {
         return resultError('Incorrect account or password！');
       }
-      return data;
+      return login;
     },
   },
   {
@@ -71,7 +73,7 @@ export default [
       if (!checkUser) {
         return resultError('The corresponding user information was not obtained!');
       }
-      return resultSuccess(checkUser);
+      return userinfo;
     },
   },
   {
@@ -87,7 +89,7 @@ export default [
       }
       const codeList = fakeCodeList[checkUser.userId];
 
-      return resultSuccess(codeList);
+      return code;
     },
   },
   {

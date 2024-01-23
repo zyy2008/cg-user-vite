@@ -1,0 +1,1473 @@
+{
+  "success": true,
+  "message": "",
+  "code": 200,
+  "result": {
+    "allAuth": [
+      {
+        "action": "system:user:edit",
+        "describe": "编辑用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:add",
+        "describe": "新增用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "demo.dbarray",
+        "describe": "禁用",
+        "type": "2",
+        "status": "1"
+      },
+      {
+        "action": "online:form:generateCode",
+        "describe": "代码生成",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "desform:list:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:graphreport:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:save",
+        "describe": "新建SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "sys:role:update",
+        "describe": "角色修改",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:save",
+        "describe": "流程设计保存",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:deleteBatch",
+        "describe": "批量删除流程设计",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:delete",
+        "describe": "删除流程设计",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:upload",
+        "describe": "流程设计上传",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:deploy",
+        "describe": "流程设计发布",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:listener:edit",
+        "describe": "编辑监听",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:listener:delete",
+        "describe": "删除监听",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:listener:deleteBatch",
+        "describe": "批量删除监听",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:edit",
+        "describe": "编辑表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:add",
+        "describe": "添加表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:delete",
+        "describe": "删除表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:deleteBatch",
+        "describe": "批量删除表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:add",
+        "describe": "添加流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:edit",
+        "describe": "编辑流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:delete",
+        "describe": "删除流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:deleteBatch",
+        "describe": "批量删除流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:edit",
+        "describe": "编辑_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:add",
+        "describe": "添加_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:delete",
+        "describe": "删除_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:deleteBatch",
+        "describe": "批量删除_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:edit",
+        "describe": "编辑SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:delete",
+        "describe": "删除SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:batchDelete",
+        "describe": "批量删除SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:importTable",
+        "describe": "导入数据库表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceJava:save",
+        "describe": "添加JAVA增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceJava:edit",
+        "describe": "修改JAVA增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:delete",
+        "describe": "删除Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:remove",
+        "describe": "移除Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:page:delete",
+        "describe": "删除仪表盘",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:delete",
+        "describe": "删除组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:edit",
+        "describe": "修改组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:add",
+        "describe": "添加组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:deleteBatch",
+        "describe": "批量删除组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:remove",
+        "describe": "逻辑删除大屏",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:delete",
+        "describe": "真实删除大屏",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:vip:executeUrl",
+        "describe": "代理接口",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:map:delete",
+        "describe": "删除地图",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:map:deleteBatch",
+        "describe": "批量删除地图",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:category:addOrUpdate",
+        "describe": "变更大屏分类",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:category:delete",
+        "describe": "删除大屏分类",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:category:importExcel",
+        "describe": "导入大屏分类",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:saveOrUpate",
+        "describe": "变更大屏数据源",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:delete",
+        "describe": "删除大屏数据源",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:clear",
+        "describe": "清空大屏数据源缓存",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:codeGenerate:projectPath",
+        "describe": "选择代码生成路径",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:template:edit",
+        "describe": "模板设置",
+        "type": "2",
+        "status": "1"
+      },
+      {
+        "action": "system:user:changepwd",
+        "describe": "修改密码",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:add",
+        "describe": "添加菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:saveRole",
+        "describe": "保存角色授权",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:delete",
+        "describe": "删除用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteBatch",
+        "describe": "批量删除用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:frozenBatch",
+        "describe": "冻结/解冻用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:updatepwd",
+        "describe": "首页用户重置密码",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:addUserRole",
+        "describe": "给指定角色添加用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteRole",
+        "describe": "删除指定角色的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteRoleBatch",
+        "describe": "批量删除指定角色的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:editDepartWithUser",
+        "describe": "给指定部门添加对应的用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteUserInDepart",
+        "describe": "删除指定机构的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteUserInDepartBatch",
+        "describe": "批量删除指定机构的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteRecycleBin",
+        "describe": "彻底删除用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:datasource:list",
+        "describe": "多数据源分页列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:add",
+        "describe": "部门添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:editRule",
+        "describe": "编辑菜单权限数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:edit",
+        "describe": "编辑菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:edit",
+        "describe": "部门编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:delete",
+        "describe": "部门删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:deleteBatch",
+        "describe": "部门批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:importExcel",
+        "describe": "部门导入",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:add",
+        "describe": "部门角色添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:edit",
+        "describe": "部门角色编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:delete",
+        "describe": "部门角色删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:deleteBatch",
+        "describe": "部门角色批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:userAdd",
+        "describe": "部门角色用户授权",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:add",
+        "describe": "字典新增",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:edit",
+        "describe": "字典编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:delete",
+        "describe": "字典删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:deleteBatch",
+        "describe": "字典批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:importExcel",
+        "describe": "字典导入",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:getway:delete",
+        "describe": "路由网关删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:delete",
+        "describe": "删除菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:deleteBatch",
+        "describe": "批量删除菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:addRule",
+        "describe": "添加菜单权限数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:deleteRule",
+        "describe": "删除菜单权限数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:saveDepart",
+        "describe": "保存部门授权",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:queryallNoByTenant",
+        "describe": "查询全部角色不租户隔离",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:add",
+        "describe": "角色添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:list",
+        "describe": "查询全部角色",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:edit",
+        "describe": "角色编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:delete",
+        "describe": "角色删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:deleteBatch",
+        "describe": "角色批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:roleindex:add",
+        "describe": "角色首页配置添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:roleindex:edit",
+        "describe": "角色首页配置编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:listAll",
+        "describe": "查询全部用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "desform:list:delete",
+        "describe": "表单删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:add",
+        "describe": "字典子项新增",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:edit",
+        "describe": "字典子项编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:delete",
+        "describe": "字典子项删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:deleteBatch",
+        "describe": "字典子项批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:add",
+        "describe": "添加定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:edit",
+        "describe": "更新定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:delete",
+        "describe": "删除定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:deleteBatch",
+        "describe": "批量删除定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:pause",
+        "describe": "停止定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:resume",
+        "describe": "启动定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:execute",
+        "describe": "立即执行定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:ossFile:upload",
+        "describe": "文件oos上传",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:export",
+        "describe": "用户导出",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:setting:edit",
+        "describe": "账户设置用户编辑权限",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:queryById",
+        "describe": "通过ID查询用户信息接口",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:edit",
+        "describe": "修改APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:delete",
+        "describe": "删除APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:deleteBatch",
+        "describe": "批量删除APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:sort",
+        "describe": "APP功能路由排序",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:invitation:user",
+        "describe": "邀请用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:user:list",
+        "describe": "查询租户下用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:leave",
+        "describe": "租户请离",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:list",
+        "describe": "用户列表查询",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:packList",
+        "describe": "产品包分页列表查询",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:add:pack",
+        "describe": "创建租户产品包",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:edit:pack",
+        "describe": "编辑租户产品包",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:delete:pack",
+        "describe": "批量删除租户产品包",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:tenantPageList",
+        "describe": "分页获取租户用户数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:getTenantListByUserId",
+        "describe": "通过用户id获取租户列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:updateUserTenantStatus",
+        "describe": "更新用户租户关系状态",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:list",
+        "describe": "租户列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:cancelTenant",
+        "describe": "注销租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:delete",
+        "describe": "删除租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:edit",
+        "describe": "编辑租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:deleteBatch",
+        "describe": "批量删除租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:recycleBinPageList",
+        "describe": "获取租户删除的列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:deleteTenantLogic",
+        "describe": "彻底删除租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:revertTenantLogic",
+        "describe": "租户还原",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:add",
+        "describe": "添加租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:log:list",
+        "describe": "日志列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:log:delete",
+        "describe": "日志删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:log:deleteBatch",
+        "describe": "日志批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:queryList",
+        "describe": "根据ids查询租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:analysis:sql",
+        "describe": "数据集解析SQL",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:saveOrUpate",
+        "describe": "数据源添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:delete",
+        "describe": "数据源删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:deleteBatch",
+        "describe": "数据源批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:syncDb",
+        "describe": "同步数据库",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:add",
+        "describe": "添加Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:edit",
+        "describe": "修改Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:queryTables",
+        "describe": "查询数据库表名",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:getDictList",
+        "describe": "获取字典列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:parseSql",
+        "describe": "SQL解析",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:add",
+        "describe": "添加Online报表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:edit",
+        "describe": "修改Online报表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:delete",
+        "describe": "删除Online报表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:testConnection",
+        "describe": "数据源连接",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:testConnection",
+        "describe": "大屏数据源连接",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:analysis:sql",
+        "describe": "大屏解析sql",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "demo:field:show",
+        "describe": "字段权限",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "demo:btn:show",
+        "describe": "按钮权限",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "user:form:phone",
+        "describe": "手机号禁用",
+        "type": "2",
+        "status": "1"
+      },
+      {
+        "action": "system:user:queryUserRole",
+        "describe": "通过ID查询用户拥有的角色",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:add",
+        "describe": "添加APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:import",
+        "describe": "用户导入",
+        "type": "1",
+        "status": "1"
+      }
+    ],
+    "auth": [
+      {
+        "action": "online:report:delete",
+        "describe": "删除Online报表",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:user:list",
+        "describe": "查询租户下用户",
+        "type": "1"
+      },
+      {
+        "action": "desform:list:delete",
+        "describe": "表单删除",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process_form_config:add",
+        "describe": "添加_流程表单配置",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process_form_config:delete",
+        "describe": "删除_流程表单配置",
+        "type": "1"
+      },
+      {
+        "action": "online:form:generateCode",
+        "describe": "代码生成",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:datasource:testConnection",
+        "describe": "大屏数据源连接",
+        "type": "1"
+      },
+      {
+        "action": "system:user:list",
+        "describe": "用户列表查询",
+        "type": "1"
+      },
+      {
+        "action": "online:form:delete",
+        "describe": "删除Online表单",
+        "type": "1"
+      },
+      {
+        "action": "online:report:deleteBatch",
+        "describe": "批量删除",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:analysis:sql",
+        "describe": "大屏解析sql",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:packList",
+        "describe": "产品包分页列表查询",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:add",
+        "describe": "添加定时任务",
+        "type": "1"
+      },
+      {
+        "action": "online:form:remove",
+        "describe": "移除Online表单",
+        "type": "1"
+      },
+      {
+        "action": "demo:field:show",
+        "describe": "字段权限",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:delete:pack",
+        "describe": "批量删除租户产品包",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:edit",
+        "describe": "更新定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:delete",
+        "describe": "删除定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:datasource:list",
+        "describe": "多数据源分页列表",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:page:delete",
+        "describe": "删除仪表盘",
+        "type": "1"
+      },
+      {
+        "action": "demo:btn:show",
+        "describe": "按钮权限",
+        "type": "1"
+      },
+      {
+        "action": "demo.dbarray",
+        "describe": "禁用",
+        "type": "2"
+      },
+      {
+        "action": "system:tenant:tenantPageList",
+        "describe": "分页获取租户用户数据",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:getTenantListByUserId",
+        "describe": "通过用户id获取租户列表",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:deleteBatch",
+        "describe": "批量删除定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:add",
+        "describe": "部门添加",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:delete",
+        "describe": "删除组件",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:save",
+        "describe": "流程设计保存",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:queryList",
+        "describe": "根据ids查询租户",
+        "type": "1"
+      },
+      {
+        "action": "drag:analysis:sql",
+        "describe": "数据集解析SQL",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:list",
+        "describe": "租户列表",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:execute",
+        "describe": "立即执行定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:edit",
+        "describe": "部门编辑",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:edit",
+        "describe": "修改组件",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:delete",
+        "describe": "删除流程设计",
+        "type": "1"
+      },
+      {
+        "action": "drag:datasource:saveOrUpate",
+        "describe": "数据源添加",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:recycleBinPageList",
+        "describe": "获取租户删除的列表",
+        "type": "1"
+      },
+      {
+        "action": "system:ossFile:upload",
+        "describe": "文件oos上传",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:delete",
+        "describe": "部门删除",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:add",
+        "describe": "添加组件",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:upload",
+        "describe": "流程设计上传",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:deploy",
+        "describe": "流程设计发布",
+        "type": "1"
+      },
+      {
+        "action": "online:form:syncDb",
+        "describe": "同步数据库",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:deleteBatch",
+        "describe": "部门批量删除",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:deleteBatch",
+        "describe": "批量删除组件",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:remove",
+        "describe": "逻辑删除大屏",
+        "type": "1"
+      },
+      {
+        "action": "online:form:add",
+        "describe": "添加Online表单",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:importExcel",
+        "describe": "部门导入",
+        "type": "1"
+      },
+      {
+        "action": "act:listener:edit",
+        "describe": "编辑监听",
+        "type": "1"
+      },
+      {
+        "action": "online:form:edit",
+        "describe": "修改Online表单",
+        "type": "1"
+      },
+      {
+        "action": "system:log:list",
+        "describe": "日志列表",
+        "type": "1"
+      },
+      {
+        "action": "system:getway:delete",
+        "describe": "路由网关删除",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:category:addOrUpdate",
+        "describe": "变更大屏分类",
+        "type": "1"
+      },
+      {
+        "action": "act:expression:edit",
+        "describe": "编辑表达式",
+        "type": "1"
+      },
+      {
+        "action": "system:user:queryUserRole",
+        "describe": "通过ID查询用户拥有的角色",
+        "type": "1"
+      },
+      {
+        "action": "online:report:getDictList",
+        "describe": "获取字典列表",
+        "type": "1"
+      },
+      {
+        "action": "system:permission:saveDepart",
+        "describe": "保存部门授权",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:datasource:saveOrUpate",
+        "describe": "变更大屏数据源",
+        "type": "1"
+      },
+      {
+        "action": "act:expression:add",
+        "describe": "添加表达式",
+        "type": "1"
+      },
+      {
+        "action": "eoa:app:route:add",
+        "describe": "添加APP功能路由",
+        "type": "1"
+      },
+      {
+        "action": "online:report:parseSql",
+        "describe": "SQL解析",
+        "type": "1"
+      },
+      {
+        "action": "system:user:queryById",
+        "describe": "通过ID查询用户信息接口",
+        "type": "1"
+      },
+      {
+        "action": "system:role:queryallNoByTenant",
+        "describe": "查询全部角色不租户隔离",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:datasource:delete",
+        "describe": "删除大屏数据源",
+        "type": "1"
+      },
+      {
+        "action": "act:expression:delete",
+        "describe": "删除表达式",
+        "type": "1"
+      },
+      {
+        "action": "online:report:add",
+        "describe": "添加Online报表",
+        "type": "1"
+      },
+      {
+        "action": "eoa:app:route:edit",
+        "describe": "修改APP功能路由",
+        "type": "1"
+      },
+      {
+        "action": "system:role:list",
+        "describe": "查询全部角色",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:node:edit",
+        "describe": "编辑流程节点",
+        "type": "1"
+      },
+      {
+        "action": "eoa:app:route:sort",
+        "describe": "APP功能路由排序",
+        "type": "1"
+      },
+      {
+        "action": "system:user:listAll",
+        "describe": "查询全部用户",
+        "type": "1"
+      },
+      {
+        "action": "drag:template:edit",
+        "describe": "模板设置",
+        "type": "2"
+      },
+      {
+        "action": "act:des:process_form_config:edit",
+        "describe": "编辑_流程表单配置",
+        "type": "1"
+      },
+      {
+        "action": "online:report:edit",
+        "describe": "修改Online报表",
+        "type": "1"
+      }
+    ],
+    "codeList": [
+      "online:report:delete",
+      "system:tenant:user:list",
+      "desform:list:delete",
+      "act:des:process_form_config:add",
+      "act:des:process_form_config:delete",
+      "online:form:generateCode",
+      "bigscreen:datasource:testConnection",
+      "system:user:list",
+      "online:form:delete",
+      "online:report:deleteBatch",
+      "bigscreen:analysis:sql",
+      "system:tenant:packList",
+      "system:quartzJob:add",
+      "online:form:remove",
+      "demo:field:show",
+      "system:tenant:delete:pack",
+      "system:quartzJob:edit",
+      "system:quartzJob:delete",
+      "system:datasource:list",
+      "onl:drag:page:delete",
+      "demo:btn:show",
+      "demo.dbarray",
+      "system:tenant:tenantPageList",
+      "system:tenant:getTenantListByUserId",
+      "system:quartzJob:deleteBatch",
+      "system:depart:add",
+      "onl:drag:comp:delete",
+      "act:des:process:save",
+      "system:tenant:queryList",
+      "drag:analysis:sql",
+      "system:tenant:list",
+      "system:quartzJob:execute",
+      "system:depart:edit",
+      "onl:drag:comp:edit",
+      "act:des:process:delete",
+      "drag:datasource:saveOrUpate",
+      "system:tenant:recycleBinPageList",
+      "system:ossFile:upload",
+      "system:depart:delete",
+      "onl:drag:comp:add",
+      "act:des:process:upload",
+      "act:des:process:deploy",
+      "online:form:syncDb",
+      "system:depart:deleteBatch",
+      "onl:drag:comp:deleteBatch",
+      "bigscreen:remove",
+      "online:form:add",
+      "system:depart:importExcel",
+      "act:listener:edit",
+      "online:form:edit",
+      "system:log:list",
+      "system:getway:delete",
+      "bigscreen:category:addOrUpdate",
+      "act:expression:edit",
+      "system:user:queryUserRole",
+      "online:report:getDictList",
+      "system:permission:saveDepart",
+      "bigscreen:datasource:saveOrUpate",
+      "act:expression:add",
+      "eoa:app:route:add",
+      "online:report:parseSql",
+      "system:user:queryById",
+      "system:role:queryallNoByTenant",
+      "bigscreen:datasource:delete",
+      "act:expression:delete",
+      "online:report:add",
+      "eoa:app:route:edit",
+      "system:role:list",
+      "act:des:process:node:edit",
+      "eoa:app:route:sort",
+      "system:user:listAll",
+      "drag:template:edit",
+      "act:des:process_form_config:edit",
+      "online:report:edit"
+    ],
+    "sysSafeMode": true
+  },
+  "timestamp": 1705994631077
+}

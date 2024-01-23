@@ -1,57 +1,8 @@
 {
   "success": true,
-  "message": "登录成功",
+  "message": "",
   "code": 200,
   "result": {
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MDU5ODU5MjcsInVzZXJuYW1lIjoiamVlY2cifQ.T2LNzYggxfLcqGzFAjxUrgdGh3IXBSr5X4HzcniJI0M",
-    "tenantList": [
-      {
-        "id": 1,
-        "name": "小米集团",
-        "createBy": null,
-        "createTime": null,
-        "beginDate": null,
-        "endDate": null,
-        "status": null,
-        "trade": null,
-        "companySize": null,
-        "companyAddress": null,
-        "companyLogo": null,
-        "houseNumber": null,
-        "workPlace": null,
-        "secondaryDomain": null,
-        "loginBkgdImg": null,
-        "position": null,
-        "department": null,
-        "delFlag": null,
-        "updateBy": null,
-        "updateTime": null,
-        "applyStatus": null
-      },
-      {
-        "id": 3,
-        "name": "哈尔滨秋林公司",
-        "createBy": null,
-        "createTime": null,
-        "beginDate": null,
-        "endDate": null,
-        "status": null,
-        "trade": null,
-        "companySize": null,
-        "companyAddress": null,
-        "companyLogo": null,
-        "houseNumber": null,
-        "workPlace": null,
-        "secondaryDomain": null,
-        "loginBkgdImg": null,
-        "position": null,
-        "department": null,
-        "delFlag": null,
-        "updateBy": null,
-        "updateTime": null,
-        "applyStatus": null
-      }
-    ],
     "userInfo": {
       "id": "a75d45a015c44384a04449ee80dc3503",
       "username": "jeecg",
@@ -72,19 +23,17 @@
       "createBy": "admin",
       "createTime": "2019-02-13 16:02:36",
       "updateBy": "jeecg",
-      "updateTime": "2024-01-21 23:50:18",
+      "updateTime": "2024-01-23 11:55:11",
       "activitiSync": 1,
       "userIdentity": 2,
       "departIds": "",
-      "relTenantIds": null,
-      "clientId": "8ca4e339f30c63019a0c65422cc2a17d",
-      "homePath": null,
+      "relTenantIds": "1,3",
+      "clientId": "998fd233cd638f445aa140a27e2a7052",
+      "homePath": "/dashboard/analysis",
       "postText": null,
       "bpmStatus": "3",
       "izBindThird": false
     },
-    "departs": [],
-    "multi_depart": 0,
     "sysAllDictItems": {
       "reminders": [
         {
@@ -2170,6 +2119,7 @@
           "title": "已撤销"
         }
       ],
+      "vue3": [],
       "bpm_process_type": [
         {
           "value": "test",
@@ -2920,5 +2870,5 @@
       ]
     }
   },
-  "timestamp": 1705978727470
+  "timestamp": 1705994630081
 }

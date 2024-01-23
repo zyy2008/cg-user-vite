@@ -1,0 +1,5655 @@
+{
+  "success": true,
+  "message": "",
+  "code": 0,
+  "result": {
+    "allAuth": [
+      {
+        "action": "system:user:edit",
+        "describe": "编辑用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:add",
+        "describe": "新增用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "demo.dbarray",
+        "describe": "禁用",
+        "type": "2",
+        "status": "1"
+      },
+      {
+        "action": "online:form:generateCode",
+        "describe": "代码生成",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "desform:list:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:graphreport:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:deleteBatch",
+        "describe": "批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:save",
+        "describe": "新建SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "sys:role:update",
+        "describe": "角色修改",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:save",
+        "describe": "流程设计保存",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:deleteBatch",
+        "describe": "批量删除流程设计",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:delete",
+        "describe": "删除流程设计",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:upload",
+        "describe": "流程设计上传",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:deploy",
+        "describe": "流程设计发布",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:listener:edit",
+        "describe": "编辑监听",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:listener:delete",
+        "describe": "删除监听",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:listener:deleteBatch",
+        "describe": "批量删除监听",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:edit",
+        "describe": "编辑表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:add",
+        "describe": "添加表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:delete",
+        "describe": "删除表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:expression:deleteBatch",
+        "describe": "批量删除表达式",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:add",
+        "describe": "添加流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:edit",
+        "describe": "编辑流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:delete",
+        "describe": "删除流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process:node:deleteBatch",
+        "describe": "批量删除流程节点",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:edit",
+        "describe": "编辑_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:add",
+        "describe": "添加_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:delete",
+        "describe": "删除_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "act:des:process_form_config:deleteBatch",
+        "describe": "批量删除_流程表单配置",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:edit",
+        "describe": "编辑SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:delete",
+        "describe": "删除SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceSql:batchDelete",
+        "describe": "批量删除SQL增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:importTable",
+        "describe": "导入数据库表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceJava:save",
+        "describe": "添加JAVA增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:enhanceJava:edit",
+        "describe": "修改JAVA增强",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:delete",
+        "describe": "删除Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:remove",
+        "describe": "移除Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:page:delete",
+        "describe": "删除仪表盘",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:delete",
+        "describe": "删除组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:edit",
+        "describe": "修改组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:add",
+        "describe": "添加组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "onl:drag:comp:deleteBatch",
+        "describe": "批量删除组件",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:remove",
+        "describe": "逻辑删除大屏",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:delete",
+        "describe": "真实删除大屏",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:vip:executeUrl",
+        "describe": "代理接口",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:map:delete",
+        "describe": "删除地图",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:map:deleteBatch",
+        "describe": "批量删除地图",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:category:addOrUpdate",
+        "describe": "变更大屏分类",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:category:delete",
+        "describe": "删除大屏分类",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:category:importExcel",
+        "describe": "导入大屏分类",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:saveOrUpate",
+        "describe": "变更大屏数据源",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:delete",
+        "describe": "删除大屏数据源",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:clear",
+        "describe": "清空大屏数据源缓存",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:codeGenerate:projectPath",
+        "describe": "选择代码生成路径",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:template:edit",
+        "describe": "模板设置",
+        "type": "2",
+        "status": "1"
+      },
+      {
+        "action": "system:user:changepwd",
+        "describe": "修改密码",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:add",
+        "describe": "添加菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:saveRole",
+        "describe": "保存角色授权",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:delete",
+        "describe": "删除用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteBatch",
+        "describe": "批量删除用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:frozenBatch",
+        "describe": "冻结/解冻用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:updatepwd",
+        "describe": "首页用户重置密码",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:addUserRole",
+        "describe": "给指定角色添加用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteRole",
+        "describe": "删除指定角色的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteRoleBatch",
+        "describe": "批量删除指定角色的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:editDepartWithUser",
+        "describe": "给指定部门添加对应的用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteUserInDepart",
+        "describe": "删除指定机构的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteUserInDepartBatch",
+        "describe": "批量删除指定机构的用户关系",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:deleteRecycleBin",
+        "describe": "彻底删除用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:datasource:list",
+        "describe": "多数据源分页列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:add",
+        "describe": "部门添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:editRule",
+        "describe": "编辑菜单权限数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:edit",
+        "describe": "编辑菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:edit",
+        "describe": "部门编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:delete",
+        "describe": "部门删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:deleteBatch",
+        "describe": "部门批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:importExcel",
+        "describe": "部门导入",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:add",
+        "describe": "部门角色添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:edit",
+        "describe": "部门角色编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:delete",
+        "describe": "部门角色删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:deleteBatch",
+        "describe": "部门角色批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:depart:role:userAdd",
+        "describe": "部门角色用户授权",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:add",
+        "describe": "字典新增",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:edit",
+        "describe": "字典编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:delete",
+        "describe": "字典删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:deleteBatch",
+        "describe": "字典批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:importExcel",
+        "describe": "字典导入",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:getway:delete",
+        "describe": "路由网关删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:delete",
+        "describe": "删除菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:deleteBatch",
+        "describe": "批量删除菜单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:addRule",
+        "describe": "添加菜单权限数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:deleteRule",
+        "describe": "删除菜单权限数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:permission:saveDepart",
+        "describe": "保存部门授权",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:queryallNoByTenant",
+        "describe": "查询全部角色不租户隔离",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:add",
+        "describe": "角色添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:list",
+        "describe": "查询全部角色",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:edit",
+        "describe": "角色编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:delete",
+        "describe": "角色删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:role:deleteBatch",
+        "describe": "角色批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:roleindex:add",
+        "describe": "角色首页配置添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:roleindex:edit",
+        "describe": "角色首页配置编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:listAll",
+        "describe": "查询全部用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "desform:list:delete",
+        "describe": "表单删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:add",
+        "describe": "字典子项新增",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:edit",
+        "describe": "字典子项编辑",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:delete",
+        "describe": "字典子项删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:dict:item:deleteBatch",
+        "describe": "字典子项批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:add",
+        "describe": "添加定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:edit",
+        "describe": "更新定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:delete",
+        "describe": "删除定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:deleteBatch",
+        "describe": "批量删除定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:pause",
+        "describe": "停止定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:resume",
+        "describe": "启动定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:quartzJob:execute",
+        "describe": "立即执行定时任务",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:ossFile:upload",
+        "describe": "文件oos上传",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:export",
+        "describe": "用户导出",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:setting:edit",
+        "describe": "账户设置用户编辑权限",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:queryById",
+        "describe": "通过ID查询用户信息接口",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:edit",
+        "describe": "修改APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:delete",
+        "describe": "删除APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:deleteBatch",
+        "describe": "批量删除APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:sort",
+        "describe": "APP功能路由排序",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:invitation:user",
+        "describe": "邀请用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:user:list",
+        "describe": "查询租户下用户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:leave",
+        "describe": "租户请离",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:list",
+        "describe": "用户列表查询",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:packList",
+        "describe": "产品包分页列表查询",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:add:pack",
+        "describe": "创建租户产品包",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:edit:pack",
+        "describe": "编辑租户产品包",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:delete:pack",
+        "describe": "批量删除租户产品包",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:tenantPageList",
+        "describe": "分页获取租户用户数据",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:getTenantListByUserId",
+        "describe": "通过用户id获取租户列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:updateUserTenantStatus",
+        "describe": "更新用户租户关系状态",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:list",
+        "describe": "租户列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:cancelTenant",
+        "describe": "注销租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:delete",
+        "describe": "删除租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:edit",
+        "describe": "编辑租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:deleteBatch",
+        "describe": "批量删除租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:recycleBinPageList",
+        "describe": "获取租户删除的列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:deleteTenantLogic",
+        "describe": "彻底删除租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:revertTenantLogic",
+        "describe": "租户还原",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:add",
+        "describe": "添加租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:log:list",
+        "describe": "日志列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:log:delete",
+        "describe": "日志删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:log:deleteBatch",
+        "describe": "日志批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:tenant:queryList",
+        "describe": "根据ids查询租户",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:analysis:sql",
+        "describe": "数据集解析SQL",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:saveOrUpate",
+        "describe": "数据源添加",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:delete",
+        "describe": "数据源删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:deleteBatch",
+        "describe": "数据源批量删除",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:syncDb",
+        "describe": "同步数据库",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:add",
+        "describe": "添加Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:edit",
+        "describe": "修改Online表单",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:form:queryTables",
+        "describe": "查询数据库表名",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:getDictList",
+        "describe": "获取字典列表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:parseSql",
+        "describe": "SQL解析",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:add",
+        "describe": "添加Online报表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:edit",
+        "describe": "修改Online报表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "online:report:delete",
+        "describe": "删除Online报表",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "drag:datasource:testConnection",
+        "describe": "数据源连接",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:datasource:testConnection",
+        "describe": "大屏数据源连接",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "bigscreen:analysis:sql",
+        "describe": "大屏解析sql",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "demo:field:show",
+        "describe": "字段权限",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "demo:btn:show",
+        "describe": "按钮权限",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "user:form:phone",
+        "describe": "手机号禁用",
+        "type": "2",
+        "status": "1"
+      },
+      {
+        "action": "system:user:queryUserRole",
+        "describe": "通过ID查询用户拥有的角色",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "eoa:app:route:add",
+        "describe": "添加APP功能路由",
+        "type": "1",
+        "status": "1"
+      },
+      {
+        "action": "system:user:import",
+        "describe": "用户导入",
+        "type": "1",
+        "status": "1"
+      }
+    ],
+    "auth": [
+      {
+        "action": "online:report:delete",
+        "describe": "删除Online报表",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:user:list",
+        "describe": "查询租户下用户",
+        "type": "1"
+      },
+      {
+        "action": "desform:list:delete",
+        "describe": "表单删除",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process_form_config:add",
+        "describe": "添加_流程表单配置",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process_form_config:delete",
+        "describe": "删除_流程表单配置",
+        "type": "1"
+      },
+      {
+        "action": "online:form:generateCode",
+        "describe": "代码生成",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:datasource:testConnection",
+        "describe": "大屏数据源连接",
+        "type": "1"
+      },
+      {
+        "action": "system:user:list",
+        "describe": "用户列表查询",
+        "type": "1"
+      },
+      {
+        "action": "online:form:delete",
+        "describe": "删除Online表单",
+        "type": "1"
+      },
+      {
+        "action": "online:report:deleteBatch",
+        "describe": "批量删除",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:analysis:sql",
+        "describe": "大屏解析sql",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:packList",
+        "describe": "产品包分页列表查询",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:add",
+        "describe": "添加定时任务",
+        "type": "1"
+      },
+      {
+        "action": "online:form:remove",
+        "describe": "移除Online表单",
+        "type": "1"
+      },
+      {
+        "action": "demo:field:show",
+        "describe": "字段权限",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:delete:pack",
+        "describe": "批量删除租户产品包",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:edit",
+        "describe": "更新定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:delete",
+        "describe": "删除定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:datasource:list",
+        "describe": "多数据源分页列表",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:page:delete",
+        "describe": "删除仪表盘",
+        "type": "1"
+      },
+      {
+        "action": "demo:btn:show",
+        "describe": "按钮权限",
+        "type": "1"
+      },
+      {
+        "action": "demo.dbarray",
+        "describe": "禁用",
+        "type": "2"
+      },
+      {
+        "action": "system:tenant:tenantPageList",
+        "describe": "分页获取租户用户数据",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:getTenantListByUserId",
+        "describe": "通过用户id获取租户列表",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:deleteBatch",
+        "describe": "批量删除定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:add",
+        "describe": "部门添加",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:delete",
+        "describe": "删除组件",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:save",
+        "describe": "流程设计保存",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:queryList",
+        "describe": "根据ids查询租户",
+        "type": "1"
+      },
+      {
+        "action": "drag:analysis:sql",
+        "describe": "数据集解析SQL",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:list",
+        "describe": "租户列表",
+        "type": "1"
+      },
+      {
+        "action": "system:quartzJob:execute",
+        "describe": "立即执行定时任务",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:edit",
+        "describe": "部门编辑",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:edit",
+        "describe": "修改组件",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:delete",
+        "describe": "删除流程设计",
+        "type": "1"
+      },
+      {
+        "action": "drag:datasource:saveOrUpate",
+        "describe": "数据源添加",
+        "type": "1"
+      },
+      {
+        "action": "system:tenant:recycleBinPageList",
+        "describe": "获取租户删除的列表",
+        "type": "1"
+      },
+      {
+        "action": "system:ossFile:upload",
+        "describe": "文件oos上传",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:delete",
+        "describe": "部门删除",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:add",
+        "describe": "添加组件",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:upload",
+        "describe": "流程设计上传",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:deploy",
+        "describe": "流程设计发布",
+        "type": "1"
+      },
+      {
+        "action": "online:form:syncDb",
+        "describe": "同步数据库",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:deleteBatch",
+        "describe": "部门批量删除",
+        "type": "1"
+      },
+      {
+        "action": "onl:drag:comp:deleteBatch",
+        "describe": "批量删除组件",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:remove",
+        "describe": "逻辑删除大屏",
+        "type": "1"
+      },
+      {
+        "action": "online:form:add",
+        "describe": "添加Online表单",
+        "type": "1"
+      },
+      {
+        "action": "system:depart:importExcel",
+        "describe": "部门导入",
+        "type": "1"
+      },
+      {
+        "action": "act:listener:edit",
+        "describe": "编辑监听",
+        "type": "1"
+      },
+      {
+        "action": "online:form:edit",
+        "describe": "修改Online表单",
+        "type": "1"
+      },
+      {
+        "action": "system:log:list",
+        "describe": "日志列表",
+        "type": "1"
+      },
+      {
+        "action": "system:getway:delete",
+        "describe": "路由网关删除",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:category:addOrUpdate",
+        "describe": "变更大屏分类",
+        "type": "1"
+      },
+      {
+        "action": "act:expression:edit",
+        "describe": "编辑表达式",
+        "type": "1"
+      },
+      {
+        "action": "system:user:queryUserRole",
+        "describe": "通过ID查询用户拥有的角色",
+        "type": "1"
+      },
+      {
+        "action": "online:report:getDictList",
+        "describe": "获取字典列表",
+        "type": "1"
+      },
+      {
+        "action": "system:permission:saveDepart",
+        "describe": "保存部门授权",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:datasource:saveOrUpate",
+        "describe": "变更大屏数据源",
+        "type": "1"
+      },
+      {
+        "action": "act:expression:add",
+        "describe": "添加表达式",
+        "type": "1"
+      },
+      {
+        "action": "eoa:app:route:add",
+        "describe": "添加APP功能路由",
+        "type": "1"
+      },
+      {
+        "action": "online:report:parseSql",
+        "describe": "SQL解析",
+        "type": "1"
+      },
+      {
+        "action": "system:user:queryById",
+        "describe": "通过ID查询用户信息接口",
+        "type": "1"
+      },
+      {
+        "action": "system:role:queryallNoByTenant",
+        "describe": "查询全部角色不租户隔离",
+        "type": "1"
+      },
+      {
+        "action": "bigscreen:datasource:delete",
+        "describe": "删除大屏数据源",
+        "type": "1"
+      },
+      {
+        "action": "act:expression:delete",
+        "describe": "删除表达式",
+        "type": "1"
+      },
+      {
+        "action": "online:report:add",
+        "describe": "添加Online报表",
+        "type": "1"
+      },
+      {
+        "action": "eoa:app:route:edit",
+        "describe": "修改APP功能路由",
+        "type": "1"
+      },
+      {
+        "action": "system:role:list",
+        "describe": "查询全部角色",
+        "type": "1"
+      },
+      {
+        "action": "act:des:process:node:edit",
+        "describe": "编辑流程节点",
+        "type": "1"
+      },
+      {
+        "action": "eoa:app:route:sort",
+        "describe": "APP功能路由排序",
+        "type": "1"
+      },
+      {
+        "action": "system:user:listAll",
+        "describe": "查询全部用户",
+        "type": "1"
+      },
+      {
+        "action": "drag:template:edit",
+        "describe": "模板设置",
+        "type": "2"
+      },
+      {
+        "action": "act:des:process_form_config:edit",
+        "describe": "编辑_流程表单配置",
+        "type": "1"
+      },
+      {
+        "action": "online:report:edit",
+        "describe": "修改Online报表",
+        "type": "1"
+      }
+    ],
+    "menu": [
+      {
+        "redirect": "/dashboard/analysis",
+        "path": "/dashboard",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/dashboard/analysis",
+            "component": "dashboard/Analysis",
+            "route": "1",
+            "meta": {
+              "keepAlive": true,
+              "internalOrExternal": false,
+              "icon": "ant-design:bank-filled",
+              "componentName": "Analysis",
+              "title": "首页"
+            },
+            "name": "dashboard-analysis",
+            "id": "9502685863ab87f0ad1134142788a385"
+          },
+          {
+            "path": "/dashboard/workbench",
+            "component": "dashboard/workbench/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:appstore-twotone",
+              "componentName": "index",
+              "title": "工作台"
+            },
+            "name": "dashboard-workbench",
+            "id": "1438108176814825473"
+          },
+          {
+            "path": "94b2704bcdbabf2d1ef70f14a6a5cb14",
+            "component": "https://qiaoqiaoyun.com",
+            "route": "0",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": true,
+              "icon": "ant-design:insurance-outlined",
+              "componentName": "qiaoqiaoyun.com",
+              "title": "零代码",
+              "url": "https://qiaoqiaoyun.com"
+            },
+            "name": "https@--qiaoqiaoyun.com",
+            "id": "1620709334357532673"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ion:grid-outline",
+          "componentName": "index",
+          "title": "Dashboard"
+        },
+        "name": "dashboard",
+        "id": "1438108176273760258"
+      },
+      {
+        "redirect": null,
+        "path": "/task",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/task/handle/:id",
+            "component": "super/bpm/process/personalOffice/myHandlePage",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "myHandlePage",
+              "title": "任务办理页面"
+            },
+            "name": "task-handle-@id",
+            "id": "15417458028629811213"
+          },
+          {
+            "path": "/task/myHandleTaskInfo",
+            "component": "super/bpm/process/personalOffice/myHandleTask/MyHandleTaskInfo",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "MyHandleTaskInfo",
+              "title": "我的任务"
+            },
+            "name": "task-myHandleTaskInfo",
+            "id": "1526860453040947202"
+          },
+          {
+            "path": "/task/myApplyTaskList",
+            "component": "super/bpm/process/personalOffice/myApplyTask/MyApplyTaskList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "MyApplyTaskList",
+              "title": "我发起流程"
+            },
+            "name": "task-myApplyTaskList",
+            "id": "1527569331361775617"
+          },
+          {
+            "path": "/task/myCcTaskList",
+            "component": "super/bpm/process/personalOffice/myCcTask/MyCcTaskList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "MyCcTaskList",
+              "title": "我的抄送"
+            },
+            "name": "task-myCcTaskList",
+            "id": "1527569492930560001"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:coffee-outlined",
+          "componentName": "RouteView",
+          "title": "个人办公"
+        },
+        "name": "task",
+        "id": "1526860315136425986"
+      },
+      {
+        "redirect": null,
+        "path": "/biz",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/joa/leaveList",
+            "component": "super/bpm/example/joa/leave/leaveList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "leaveList",
+              "title": "请假申请"
+            },
+            "name": "joa-leaveList",
+            "id": "1529430077226401794"
+          },
+          {
+            "path": "/joa/docSendList",
+            "component": "super/bpm/example/joa/docSend/docSendList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "docSendList",
+              "title": "公文发文"
+            },
+            "name": "joa-docSendList",
+            "id": "1531166394268274689"
+          },
+          {
+            "path": "/joa/businessTripList",
+            "component": "super/bpm/example/joa/businessTrip/businessTripList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "businessTripList",
+              "title": "出差申请"
+            },
+            "name": "joa-businessTripList",
+            "id": "1529749352407404546"
+          },
+          {
+            "path": "/joa/loanList",
+            "component": "super/bpm/example/joa/loan/loanList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "loanList",
+              "title": "借款申请"
+            },
+            "name": "joa-loanList",
+            "id": "1531114630307401729"
+          },
+          {
+            "path": "/bizLeaveList",
+            "component": "super/bpm/example/batch/bizLeaveList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "bizLeaveList",
+              "title": "批量审批(示例)"
+            },
+            "name": "bizLeaveList",
+            "id": "1526546498741919746"
+          },
+          {
+            "path": "/joa/leaveBizList",
+            "component": "super/bpm/example/joa/leave/leaveBizList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "leaveBizList",
+              "title": "业务风格审批(示例)"
+            },
+            "name": "joa-leaveBizList",
+            "id": "1529704319276847105"
+          },
+          {
+            "path": "/online/cgformList/402860816aa5921f016aa5921f480000",
+            "component": "1",
+            "route": "0",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "1",
+              "title": "Online请假单"
+            },
+            "name": "online-cgformList-402860816aa5921f016aa5921f480000",
+            "id": "1528560345345978369"
+          },
+          {
+            "path": "/online/cgformList/7030311f69f04748831699b626ba572e",
+            "component": "1",
+            "route": "0",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "1",
+              "title": "Online会签子流程"
+            },
+            "name": "online-cgformList-7030311f69f04748831699b626ba572e",
+            "id": "1533992469062590466"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:tag-filled",
+          "componentName": "RouteView",
+          "title": "业务申请"
+        },
+        "name": "biz",
+        "id": "1526546315899625473"
+      },
+      {
+        "redirect": null,
+        "path": "/oa",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/oaOffice/orderApplyList",
+            "component": "super/bpm/process/oaOffice/apply/applyList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "applyList",
+              "title": "工单申请"
+            },
+            "name": "oaOffice-orderApplyList",
+            "id": "1524664050277949442"
+          },
+          {
+            "path": "/oaOffice/myOrder",
+            "component": "super/bpm/process/oaOffice/myApply/myApplyList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "myApplyList",
+              "title": "我的工单"
+            },
+            "name": "oaOffice-myOrder",
+            "id": "1524342781544337410"
+          },
+          {
+            "path": "/oaOffice/designFormDataList",
+            "component": "super/bpm/process/oaOffice/query/designFormDataList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "designFormDataList",
+              "title": "工单查询"
+            },
+            "name": "oaOffice-designFormDataList",
+            "id": "1527499596763246593"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:alert-twotone",
+          "componentName": "RouteView",
+          "title": "OA申请"
+        },
+        "name": "oa",
+        "id": "1524330069112229889"
+      },
+      {
+        "redirect": "/online/desform",
+        "path": "/desform",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/online/desform",
+            "component": "super/online/desform/DesformList",
+            "route": "1",
+            "meta": {
+              "keepAlive": true,
+              "internalOrExternal": false,
+              "componentName": "DesformList",
+              "title": "表单设计器"
+            },
+            "name": "online-desform",
+            "id": "1526881208361857026"
+          },
+          {
+            "path": "/online/desformTemplate",
+            "component": "super/online/desform/DesformTempletList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "DesformTempletList",
+              "title": "表单设计器模板"
+            },
+            "name": "online-desformTemplate",
+            "id": "1534146200714919937"
+          },
+          {
+            "path": "/online/desform/list/:code",
+            "component": "super/online/desform/auto/AutoDesformDataList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "AutoDesformDataList",
+              "title": "Auto表单列表"
+            },
+            "name": "online-desform-list-@code",
+            "id": "1527607653602209793"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:gold-outlined",
+          "componentName": "DesformList",
+          "title": "表单设计"
+        },
+        "name": "DesformList",
+        "id": "1526880804853035009"
+      },
+      {
+        "redirect": null,
+        "path": "/process",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/process/list/default",
+            "component": "super/bpm/process/processDesign/ProcessDesignList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "ProcessDesignList",
+              "title": "流程设计"
+            },
+            "name": "process-list-default",
+            "id": "1524717449974960130"
+          },
+          {
+            "path": "/process/listener",
+            "component": "super/bpm/process/manage/listener/listenerList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "listenerList",
+              "title": "流程监听"
+            },
+            "name": "process-listener",
+            "id": "1522036751221174274"
+          },
+          {
+            "path": "/process/expression",
+            "component": "super/bpm/process/manage/expression/expressionList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "expressionList",
+              "title": "流程表达式"
+            },
+            "name": "process-expression",
+            "id": "1522469171095453698"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:cluster-outlined",
+          "componentName": "RouteView",
+          "title": "流程设计"
+        },
+        "name": "process",
+        "id": "1522036389676363777"
+      },
+      {
+        "redirect": "/online/cgform",
+        "path": "/online",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/online/cgformErpList/:id",
+            "component": "super/online/cgform/auto/erp/OnlCgformErpList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "OnlCgformErpList",
+              "title": "AUTO在线ERP表单"
+            },
+            "name": "online-cgformErpList-@id",
+            "id": "1691031996d593131521"
+          },
+          {
+            "path": "/online/cgformInnerTableList/:id",
+            "component": "super/online/cgform/auto/innerTable/OnlCgformInnerTableList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "OnlCgformInnerTableList",
+              "title": "AUTO在线一对多内嵌"
+            },
+            "name": "online-cgformInnerTableList-@id",
+            "id": "1691031996d5931315212"
+          },
+          {
+            "path": "/online/cgformTabList/:id",
+            "component": "super/online/cgform/auto/tab/OnlCgformTabList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "OnlCgformTabList",
+              "title": "AUTO在线Tab风格"
+            },
+            "name": "online-cgformTabList-@id",
+            "id": "1691031996d5931315213"
+          },
+          {
+            "path": "/online/cgform",
+            "component": "super/online/cgform/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": true,
+              "internalOrExternal": false,
+              "componentName": "CgformIndex",
+              "title": "Online表单开发"
+            },
+            "name": "CgformIndex",
+            "id": "1455101470794850305"
+          },
+          {
+            "path": "/online/cgformDetail/:id",
+            "component": "super/online/cgform/auto/default/OnlineAutoDetail",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "OnlineAutoDetail",
+              "title": "AUTO在线表单详情"
+            },
+            "name": "online-cgformDetail-@id",
+            "id": "1746709108126285826"
+          },
+          {
+            "path": "/online/cgreport",
+            "component": "super/online/cgreport/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "index",
+              "title": "Online报表配置"
+            },
+            "name": "online-cgreport",
+            "id": "1460888189937176577"
+          },
+          {
+            "path": "/online/cgreport/:id",
+            "component": "super/online/cgreport/auto/OnlCgReportList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "OnlCgReportList",
+              "title": "AUTO在线报表"
+            },
+            "name": "online-cgreport-@id",
+            "id": "1461291438825558017"
+          },
+          {
+            "path": "/online/graphreport",
+            "component": "super/online/graphreport/GraphreportList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "GraphreportList",
+              "title": "Online图表配置"
+            },
+            "name": "online-graphreport",
+            "id": "1461278375076913153"
+          },
+          {
+            "path": "/eoa/sysAppRouteDrag",
+            "component": "super/eoa/appdes/SysAppRouteDrag",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "SysAppRouteDrag",
+              "title": "APP首页排版设计"
+            },
+            "name": "eoa-sysAppRouteDrag",
+            "id": "1523623713174491137"
+          },
+          {
+            "path": "/online/cgformTreeList/:id",
+            "component": "super/online/cgform/auto/tree/OnlineAutoTreeList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "OnlineAutoTreeList",
+              "title": "AUTO树表单列表"
+            },
+            "name": "online-cgformTreeList-@id",
+            "id": "1509417558230999041"
+          },
+          {
+            "path": "/online/cgformList/:id",
+            "component": "super/online/cgform/auto/default/OnlineAutoList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "OnlineAutoList",
+              "title": "AUTO在线表单"
+            },
+            "name": "online-cgformList-@id",
+            "id": "1465686870713782273"
+          },
+          {
+            "path": "/system/fillrule",
+            "component": "system/fillRule/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "index",
+              "title": "系统编码规则"
+            },
+            "name": "system-fillrule",
+            "id": "1457678003102879745"
+          },
+          {
+            "path": "/system/checkrule",
+            "component": "system/checkRule/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "index",
+              "title": "系统校验规则"
+            },
+            "name": "system-checkrule",
+            "id": "1458353686530232321"
+          },
+          {
+            "path": "/online/copyform/:code",
+            "component": "super/online/cgform/CgformCopyList",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "CgformCopyList",
+              "title": "Online表单视图"
+            },
+            "name": "online-copyform-@code",
+            "id": "1461270075543347202"
+          },
+          {
+            "path": "/online/graphreport/chart/:code",
+            "component": "super/online/graphreport/auto/GraphreportAutoChart",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": true,
+              "internalOrExternal": false,
+              "componentName": "GraphreportAutoChart",
+              "title": "AUTO在线图表"
+            },
+            "name": "online-graphreport-chart-@code",
+            "id": "1463073196350701569"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:cloud-outlined",
+          "componentName": "index",
+          "title": "在线开发"
+        },
+        "name": "online",
+        "id": "1455100420297859074"
+      },
+      {
+        "redirect": null,
+        "path": "/report",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/report/des",
+            "component": "{{ window._CONFIG['domianURL'] }}/jmreport/list?token=${token}&tenantId=${tenantId}",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": true,
+              "icon": "ant-design:radar-chart-outlined",
+              "componentName": "list?token=${token}&tenantId=${tenantId}",
+              "title": "报表设计器"
+            },
+            "name": "report-des",
+            "id": "1452508868884353026"
+          },
+          {
+            "path": "/report/big",
+            "component": "{{ window._CONFIG['domianURL'] }}/bigscreen/#?token=${token}&tenantId=${tenantId}",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": true,
+              "icon": "ant-design:bar-chart-outlined",
+              "componentName": "#?token=${token}&tenantId=${tenantId}",
+              "title": "大屏设计器"
+            },
+            "name": "report-big",
+            "id": "1516712630803271682"
+          },
+          {
+            "path": "/report/drag",
+            "component": "{{ window._CONFIG['domianURL'] }}/drag/list?token=${token}&tenantId=${tenantId}",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": true,
+              "icon": "ant-design:unordered-list-outlined",
+              "componentName": "list?token=${token}&tenantId=${tenantId}",
+              "title": "仪表盘设计器"
+            },
+            "name": "report-drag",
+            "id": "1737321792727388161"
+          },
+          {
+            "path": "/drag/page",
+            "component": "super/drag/page/pageList",
+            "route": "1",
+            "meta": {
+              "keepAlive": true,
+              "internalOrExternal": false,
+              "icon": "ant-design:bar-chart-outlined",
+              "componentName": "pageList",
+              "title": "仪表盘/门户"
+            },
+            "name": "drag-page",
+            "id": "1473927410093187073"
+          },
+          {
+            "path": "/drag/page/view/:id",
+            "component": "super/drag/page/dashboardPreview",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "dashboardPreview",
+              "title": "面板预览"
+            },
+            "name": "drag-page-view-@id",
+            "id": "1473955758466981890"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:project-outlined",
+          "componentName": "index",
+          "title": "可视化设计"
+        },
+        "name": "report",
+        "id": "1456520526287917057"
+      },
+      {
+        "redirect": null,
+        "path": "/jimureport",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/report/chartDemo",
+            "component": "report/chartdemo/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "index",
+              "title": "EChartDemo"
+            },
+            "name": "report-chartDemo",
+            "id": "1447763517847396354"
+          },
+          {
+            "path": "/statisticst",
+            "component": "report/statisticst/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "index",
+              "title": "布局统计报表"
+            },
+            "name": "statisticst",
+            "id": "1448252726202859522"
+          },
+          {
+            "path": "/jmreport/view/850318855100268544",
+            "component": "{{ window._CONFIG['domianURL'] }}/jmreport/view/850318855100268544?token=${token}",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "850318855100268544?token=${token}",
+              "title": "积木报表示例"
+            },
+            "name": "jmreport-view-850318855100268544",
+            "id": "1592775466476503041"
+          },
+          {
+            "path": "/online/cgreport/6c7f59741c814347905a938f06ee003c",
+            "component": "layouts/RouteView",
+            "route": "0",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "RouteView",
+              "title": "online用户统计"
+            },
+            "name": "online-cgreport-6c7f59741c814347905a938f06ee003c",
+            "id": "1452508868884353066"
+          },
+          {
+            "path": "/online/cgreport/1427165591041875970?sex=1",
+            "component": "layouts/RouteView",
+            "route": "0",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "RouteView",
+              "title": "online报表带参"
+            },
+            "name": "online-cgreport-1427165591041875970?sex=1",
+            "id": "1583111901968855041"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:bar-chart-outlined",
+          "componentName": "index",
+          "title": "统计报表"
+        },
+        "name": "jimureport",
+        "id": "1447763172274495489"
+      },
+      {
+        "redirect": null,
+        "path": "/bpm",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/bpm/process/instance",
+            "component": "super/bpm/process/manage/processInstance/processInsList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "processInsList",
+              "title": "流程实例"
+            },
+            "name": "bpm-process-instance",
+            "id": "1522473723165196290"
+          },
+          {
+            "path": "/bpm/process/histask",
+            "component": "super/bpm/process/manage/histask/histaskList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "histaskList",
+              "title": "历史任务"
+            },
+            "name": "bpm-process-histask",
+            "id": "1522473990686294018"
+          },
+          {
+            "path": "/bpm/process/hisprocess",
+            "component": "super/bpm/process/manage/hisprocess/hisprocessList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "hisprocessList",
+              "title": "历史流程"
+            },
+            "name": "bpm-process-hisprocess",
+            "id": "1522474225781227522"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:cluster-outlined",
+          "componentName": "RouteView",
+          "title": "流程管理"
+        },
+        "name": "bpm",
+        "id": "1522473317227872257"
+      },
+      {
+        "redirect": null,
+        "path": "/wps",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/officialIssued",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/eoa/officialdoc/issued",
+                "component": "super/eoa/officialdoc/issued/IssuedList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "IssuedList",
+                  "title": "发文列表"
+                },
+                "name": "eoa-officialdoc-issued",
+                "id": "1506592073807605761"
+              },
+              {
+                "path": "/issued/IssuedDraft",
+                "component": "super/eoa/officialdoc/issued/IssuedDraftList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "IssuedDraftList",
+                  "title": "发文草稿箱"
+                },
+                "name": "issued-IssuedDraft",
+                "id": "1506882999616577538"
+              },
+              {
+                "path": "/issued/IssuedHandle",
+                "component": "super/eoa/officialdoc/issued/IssuedHandleList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "IssuedHandleList",
+                  "title": "发文经办查询"
+                },
+                "name": "issued-IssuedHandle",
+                "id": "1506907889644126209"
+              },
+              {
+                "path": "/issued/IssuedStatistics",
+                "component": "super/eoa/officialdoc/issued/IssuedStatisticsList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "IssuedStatisticsList",
+                  "title": "发文统计"
+                },
+                "name": "issued-IssuedStatistics",
+                "id": "1506923209066844162"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:delivered-procedure-outlined",
+              "componentName": "index",
+              "title": "发文管理"
+            },
+            "name": "officialIssued",
+            "id": "1506591701588291585"
+          },
+          {
+            "path": "/officialReceived",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/eoa/officialdoc/received/index",
+                "component": "super/eoa/officialdoc/received/ReceivedList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ReceivedList",
+                  "title": "收文列表"
+                },
+                "name": "eoa-officialdoc-received-index",
+                "id": "1457960841348390913"
+              },
+              {
+                "path": "/received/ReceivedDraft",
+                "component": "super/eoa/officialdoc/received/ReceivedDraftList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ReceivedDraftList",
+                  "title": "收文草稿箱"
+                },
+                "name": "received-ReceivedDraft",
+                "id": "1460905246627790850"
+              },
+              {
+                "path": "/received/ReceivedHandle",
+                "component": "super/eoa/officialdoc/received/ReceivedHandleList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ReceivedHandleList",
+                  "title": "收文经办查询"
+                },
+                "name": "received-ReceivedHandle",
+                "id": "1506591103111442433"
+              },
+              {
+                "path": "/received/ReceivedStatistics",
+                "component": "super/eoa/officialdoc/received/ReceivedStatisticsList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ReceivedStatisticsList",
+                  "title": "收文统计"
+                },
+                "name": "received-ReceivedStatistics",
+                "id": "1506590945841819650"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:profile-outlined",
+              "componentName": "index",
+              "title": "收文管理"
+            },
+            "name": "officialReceived",
+            "id": "1457959498319667201"
+          },
+          {
+            "path": "/officialdoc/company",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+              {
+                "path": "/company/distributeList",
+                "component": "super/eoa/officialdoc/company/DistributeList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "DistributeList",
+                  "title": "公司收文"
+                },
+                "name": "company-distributeList",
+                "id": "1706221159811371009"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:container-outlined",
+              "componentName": "RouteView",
+              "title": "公司收文"
+            },
+            "name": "officialdoc-company",
+            "id": "1706220728175546369"
+          },
+          {
+            "path": "/officialConfig",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/eoa/officialdoc/template",
+                "component": "super/eoa/officialdoc/template/TemplateList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "TemplateList",
+                  "title": "公文模板"
+                },
+                "name": "eoa-officialdoc-template",
+                "id": "1455148407218774017"
+              },
+              {
+                "path": "/eoa/officialdoc/organcode",
+                "component": "super/eoa/officialdoc/organcode/OrgancodeList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "OrgancodeList",
+                  "title": "机关代字"
+                },
+                "name": "eoa-officialdoc-organcode",
+                "id": "1455459273285873665"
+              },
+              {
+                "path": "/eoa/officialdoc/departuser",
+                "component": "super/eoa/officialdoc/departuser/DepartUserList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "DepartUserList",
+                  "title": "分发人员"
+                },
+                "name": "eoa-officialdoc-departuser",
+                "id": "1506591302840004610"
+              },
+              {
+                "path": "/super/eoa/officialdoc/seal",
+                "component": "super/eoa/officialdoc/seal/SealList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "SealList",
+                  "title": "印章管理"
+                },
+                "name": "super-eoa-officialdoc-seal",
+                "id": "1516956901481328642"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:tool-outlined",
+              "componentName": "index",
+              "title": "配置管理"
+            },
+            "name": "officialConfig",
+            "id": "1455148131028049922"
+          },
+          {
+            "path": "/wps/webFile",
+            "component": "super/eoa/officialdoc/wps/webFile",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:file-excel-outlined",
+              "componentName": "webFile",
+              "title": "wps测试"
+            },
+            "name": "wps-webFile",
+            "id": "1460214408645976065"
+          },
+          {
+            "path": "/wps/createFile",
+            "component": "super/eoa/officialdoc/wps/createFile",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "createFile",
+              "title": "新建文档"
+            },
+            "name": "wps-createFile",
+            "id": "1460490359686590465"
+          },
+          {
+            "path": "/wps/viewFile",
+            "component": "super/eoa/officialdoc/wps/viewFile",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "viewFile",
+              "title": "公文预览"
+            },
+            "name": "wps-viewFile",
+            "id": "1460135388759740417"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:file-word-twotone",
+          "componentName": "index",
+          "title": "公文管理"
+        },
+        "name": "wps",
+        "id": "1455148040393334785"
+      },
+      {
+        "redirect": null,
+        "path": "/eoa",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/file",
+            "component": "system/file/FileList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "FileList",
+              "title": "知识库"
+            },
+            "name": "file",
+            "id": "1562256812814282753"
+          },
+          {
+            "path": "/plan/view",
+            "component": "super/eoa/plan/view",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "view",
+              "title": "我的计划"
+            },
+            "name": "plan-view",
+            "id": "1461161803228753922"
+          },
+          {
+            "path": "/eoa/email",
+            "component": "super/eoa/email/EoaMailBoxInfoList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "EoaMailBoxInfoList",
+              "title": "我的邮箱"
+            },
+            "name": "eoa-email",
+            "id": "1522866758217109506"
+          },
+          {
+            "path": "/eoa/sign",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+              {
+                "path": "/sign/OaSignInfoList",
+                "component": "super/eoa/sign/OaSignInfoList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "OaSignInfoList",
+                  "title": "打卡"
+                },
+                "name": "sign-OaSignInfoList",
+                "id": "1529365734844272641"
+              },
+              {
+                "path": "/sign/OaSignPatchList",
+                "component": "super/eoa/sign/OaSignPatchList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "OaSignPatchList",
+                  "title": "补卡"
+                },
+                "name": "sign-OaSignPatchList",
+                "id": "1529707148052529154"
+              },
+              {
+                "path": "/sign/OaSignOutList",
+                "component": "super/eoa/sign/OaSignOutList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "OaSignOutList",
+                  "title": "外勤"
+                },
+                "name": "sign-OaSignOutList",
+                "id": "1529797657731268610"
+              },
+              {
+                "path": "/sign/OaSignRuleSetting",
+                "component": "super/eoa/sign/OaSignRuleSetting",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "OaSignRuleSetting",
+                  "title": "考勤规则"
+                },
+                "name": "sign-OaSignRuleSetting",
+                "id": "1529057704906874882"
+              },
+              {
+                "path": "/sign/OaSignStatisticsList",
+                "component": "super/eoa/sign/OaSignStatisticsList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "OaSignStatisticsList",
+                  "title": "考勤统计"
+                },
+                "name": "sign-OaSignStatisticsList",
+                "id": "1530012759541690369"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "RouteView",
+              "title": "考勤管理"
+            },
+            "name": "eoa-sign",
+            "id": "1529057541152858114"
+          },
+          {
+            "path": "/meet",
+            "component": "layouts/RouteView",
+            "route": "1",
+            "children": [
+              {
+                "path": "/manage/manageList",
+                "component": "super/eoa/meet/manage/manageList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "manageList",
+                  "title": "会议管理"
+                },
+                "name": "manage-manageList",
+                "id": "1528983459113025538"
+              },
+              {
+                "path": "/meet/use",
+                "component": "super/eoa/meet/meetUse/MeetRoomUse",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "MeetRoomUse",
+                  "title": "会议室使用统计"
+                },
+                "name": "meet-use",
+                "id": "1529077687872733185"
+              },
+              {
+                "path": "/meet/roomList",
+                "component": "super/eoa/meet/meetingRoom/meetRoomList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "meetRoomList",
+                  "title": "会议室"
+                },
+                "name": "meet-roomList",
+                "id": "1527598252338196482"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "RouteView",
+              "title": "会议管理"
+            },
+            "name": "meet",
+            "id": "1527598085069352961"
+          },
+          {
+            "path": "/eoa/cms",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/eoa/cms/site",
+                "component": "super/eoa/cms/site/siteList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "siteList",
+                  "title": "站点管理"
+                },
+                "name": "eoa-cms-site",
+                "id": "1462675790244159489"
+              },
+              {
+                "path": "/eoa/cms/article",
+                "component": "super/eoa/cms/article/articleList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "articleList",
+                  "title": "文章管理"
+                },
+                "name": "eoa-cms-article",
+                "id": "1462676376880488450"
+              },
+              {
+                "path": "/eoa/cms/menu",
+                "component": "super/eoa/cms/menu/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "文章栏目"
+                },
+                "name": "eoa-cms-menu",
+                "id": "1453718065616814082"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "index",
+              "title": "CMS官网"
+            },
+            "name": "eoa-cms",
+            "id": "1453718822340558849"
+          },
+          {
+            "path": "/address",
+            "component": "system/address/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "index",
+              "title": "通讯录"
+            },
+            "name": "address",
+            "id": "1455735714507472898"
+          },
+          {
+            "path": "/drag/page/view/1536235880189079553",
+            "component": "super/drag/page/dashboardPreview",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "dashboardPreview",
+              "title": "门户示例(设计)"
+            },
+            "name": "drag-page-view-1536235880189079553",
+            "id": "1536615183036772354"
+          },
+          {
+            "path": "/drag/page/view/1504364941187043329",
+            "component": "super/drag/page/dashboardPreview",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "dashboardPreview",
+              "title": "企业门户(设计)"
+            },
+            "name": "drag-page-view-1504364941187043329",
+            "id": "1504373885716484098"
+          },
+          {
+            "path": "/drag/page/view/1504359493847306242",
+            "component": "super/drag/page/dashboardPreview",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "dashboardPreview",
+              "title": "流程门户(设计)"
+            },
+            "name": "drag-page-view-1504359493847306242",
+            "id": "1504374135424372737"
+          },
+          {
+            "path": "/eoa/cmsbpm",
+            "component": "super/eoa/cmsbpm/EoaCmsProcessPortal",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "EoaCmsProcessPortal",
+              "title": "流程门户(编码)"
+            },
+            "name": "eoa-cmsbpm",
+            "id": "1463121807401877506"
+          },
+          {
+            "path": "/eoa/cmsoa",
+            "component": "super/eoa/cmsoa/EoaCmsEnterprisePortal",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "EoaCmsEnterprisePortal",
+              "title": "企业门户(编码)"
+            },
+            "name": "eoa-cmsoa",
+            "id": "1462988759993745409"
+          },
+          {
+            "path": "/eoa/cms/eoaCmsArticleDetail",
+            "component": "super/eoa/cmsoa/modules/EoaCmsArticleDetail",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "EoaCmsArticleDetail",
+              "title": "文章详情"
+            },
+            "name": "eoa-cms-eoaCmsArticleDetail",
+            "id": "1463434076010659841"
+          },
+          {
+            "path": "/eoa/cms/eoaCmsArticlePortal",
+            "component": "super/eoa/cmsoa/modules/EoaCmsArticlePortal",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "EoaCmsArticlePortal",
+              "title": "文章列表"
+            },
+            "name": "eoa-cms-eoaCmsArticlePortal",
+            "id": "1463474621659561986"
+          },
+          {
+            "path": "/eoa/portal/view/:id",
+            "component": "super/eoa/cms/portal/portalView",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "componentName": "portalView",
+              "title": "门户预览"
+            },
+            "name": "eoa-portal-view-@id",
+            "id": "1467020636203356162"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:audit-outlined",
+          "componentName": "index",
+          "title": "OA模块"
+        },
+        "name": "eoa",
+        "id": "1453717299095175170"
+      },
+      {
+        "redirect": null,
+        "path": "/isystem",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/system/menu",
+            "component": "system/menu/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:menu-fold-outlined",
+              "componentName": "index",
+              "title": "系统菜单"
+            },
+            "name": "system-menu",
+            "id": "1170592628746878978"
+          },
+          {
+            "path": "/system/user",
+            "component": "system/user/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": true,
+              "internalOrExternal": false,
+              "icon": "ant-design:user",
+              "componentName": "index",
+              "title": "系统用户"
+            },
+            "name": "system-user",
+            "id": "3f915b2769fc80648e92d04e84ca059d"
+          },
+          {
+            "path": "/system/role",
+            "component": "system/role/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": true,
+              "internalOrExternal": false,
+              "icon": "ant-design:solution",
+              "componentName": "index",
+              "title": "系统角色"
+            },
+            "name": "system-role",
+            "id": "190c2b43bec6a5f7a4194a85db67d96a"
+          },
+          {
+            "path": "/system/dict",
+            "component": "system/dict/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:hdd-twotone",
+              "componentName": "index",
+              "title": "数据字典"
+            },
+            "name": "system-dict",
+            "id": "1438782641187074050"
+          },
+          {
+            "path": "/system/category",
+            "component": "system/category/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:group-outlined",
+              "componentName": "index",
+              "title": "分类字典"
+            },
+            "name": "system-category",
+            "id": "1438782530717495298"
+          },
+          {
+            "path": "/system/depart",
+            "component": "system/depart/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:team",
+              "componentName": "index",
+              "title": "部门管理"
+            },
+            "name": "system-depart",
+            "id": "45c966826eeff4c99b8f8ebfe74511fc"
+          },
+          {
+            "path": "/system/depart-user",
+            "component": "system/departUser/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:home-outlined",
+              "componentName": "index",
+              "title": "我的部门"
+            },
+            "name": "system-depart-user",
+            "id": "5c2f42277948043026b7a14692456828"
+          },
+          {
+            "path": "/system/position",
+            "component": "system/position/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:database-filled",
+              "componentName": "index",
+              "title": "职务管理"
+            },
+            "name": "system-position",
+            "id": "1438469604861403137"
+          },
+          {
+            "path": "/system/notice",
+            "component": "system/notice/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:bell-outlined",
+              "componentName": "index",
+              "title": "通知公告"
+            },
+            "name": "system-notice",
+            "id": "1438782851980210178"
+          },
+          {
+            "path": "/system/ossfile",
+            "component": "system/ossfile/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:file-add-outlined",
+              "componentName": "index",
+              "title": "对象存储"
+            },
+            "name": "system-ossfile",
+            "id": "1442055284830769154"
+          },
+          {
+            "path": "/system/usersetting",
+            "component": "system/usersetting/UserSetting",
+            "route": "1",
+            "hidden": true,
+            "meta": {
+              "hideMenu": true,
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:setting-twotone",
+              "componentName": "UserSetting",
+              "title": "用户设置"
+            },
+            "name": "system-usersetting",
+            "id": "1596141938193747970"
+          },
+          {
+            "path": "/third/app",
+            "component": "system/appconfig/ThirdAppConfigList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:setting-outlined",
+              "componentName": "ThirdAppConfigList",
+              "title": "第三方配置"
+            },
+            "name": "third-app",
+            "id": "1629109281748291586"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:setting",
+          "componentName": "RouteView",
+          "title": "系统管理"
+        },
+        "name": "isystem",
+        "id": "d7d6e2e4e2934f2c9385a623fd98c6f3"
+      },
+      {
+        "redirect": null,
+        "path": "/tenant/setting",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/system/tenant",
+            "component": "system/tenant/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:appstore-twotone",
+              "componentName": "index",
+              "title": "租户管理"
+            },
+            "name": "system-tenant",
+            "id": "1280350452934307841"
+          },
+          {
+            "path": "/tenant/TenantDefaultPack",
+            "component": "system/tenant/pack/TenantDefaultPackList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:sliders-outlined",
+              "componentName": "TenantDefaultPackList",
+              "title": "租户默认套餐"
+            },
+            "name": "tenant-TenantDefaultPack",
+            "id": "1668174661456171010"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:setting-outlined",
+          "componentName": "RouteView",
+          "title": "租户管理"
+        },
+        "name": "tenant-setting",
+        "id": "1661572802889007106"
+      },
+      {
+        "redirect": null,
+        "path": "/mytenant",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/tenant/MyTenantList",
+            "component": "system/tenant/my/MyTenantList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:user-outlined",
+              "componentName": "MyTenantList",
+              "title": "我的租户"
+            },
+            "name": "tenant-MyTenantList",
+            "id": "1663816667704500225"
+          },
+          {
+            "path": "/system/tenant/TenantUserList",
+            "component": "system/tenant/TenantUserList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:user",
+              "componentName": "TenantUserList",
+              "title": "租户用户"
+            },
+            "name": "system-tenant-TenantUserList",
+            "id": "119213522910765570"
+          },
+          {
+            "path": "/system/role/TenantRoleList",
+            "component": "system/role/TenantRoleList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:line-height-outlined",
+              "componentName": "TenantRoleList",
+              "title": "租户角色"
+            },
+            "name": "system-role-TenantRoleList",
+            "id": "1597419994965786625"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:user-outlined",
+          "componentName": "RouteView",
+          "title": "我的租户"
+        },
+        "name": "mytenant",
+        "id": "1674708136602542082"
+      },
+      {
+        "redirect": null,
+        "path": "/monitor",
+        "component": "layouts/RouteView",
+        "route": "1",
+        "children": [
+          {
+            "path": "/monitor/route",
+            "component": "monitor/route/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:branches-outlined",
+              "componentName": "index",
+              "title": "网关路由"
+            },
+            "name": "monitor-route",
+            "id": "1439399179791409153"
+          },
+          {
+            "path": "/monitor/quartz",
+            "component": "monitor/quartz/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:history-outlined",
+              "componentName": "index",
+              "title": "定时任务"
+            },
+            "name": "monitor-quartz",
+            "id": "1439488251473993730"
+          },
+          {
+            "path": "/monitor/datasource",
+            "component": "monitor/datasource/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:hdd-filled",
+              "componentName": "index",
+              "title": "数据源管理"
+            },
+            "name": "monitor-datasource",
+            "id": "1439511654494937090"
+          },
+          {
+            "path": "/monitor/datalog",
+            "component": "monitor/datalog/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:funnel-plot-twotone",
+              "componentName": "index",
+              "title": "数据日志"
+            },
+            "name": "monitor-datalog",
+            "id": "1439531077792473089"
+          },
+          {
+            "path": "/monitor/log",
+            "component": "monitor/log/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:interaction-outlined",
+              "componentName": "index",
+              "title": "日志管理"
+            },
+            "name": "monitor-log",
+            "id": "1439533711676973057"
+          },
+          {
+            "path": "/monitor/druid",
+            "component": "{{ window._CONFIG['domianURL'] }}/druid",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:rocket-filled",
+              "componentName": "druid",
+              "title": "SQL监控"
+            },
+            "name": "monitor-druid",
+            "id": "1439784356766064642"
+          },
+          {
+            "path": "/monitor/server",
+            "component": "monitor/server/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:thunderbolt-filled",
+              "componentName": "index",
+              "title": "性能监控"
+            },
+            "name": "monitor-server",
+            "id": "1439797053314342913"
+          },
+          {
+            "path": "/monitor/redis",
+            "component": "monitor/redis/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:trademark-outlined",
+              "componentName": "index",
+              "title": "Redis监控"
+            },
+            "name": "monitor-redis",
+            "id": "1439839507094740994"
+          },
+          {
+            "path": "/monitor/trace",
+            "component": "monitor/trace/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:ie-circle-filled",
+              "componentName": "index",
+              "title": "请求追踪"
+            },
+            "name": "monitor-trace",
+            "id": "1439842640030113793"
+          },
+          {
+            "path": "/system/onlineuser",
+            "component": "system/onlineuser/OnlineUserList",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:aliwangwang-outlined",
+              "componentName": "OnlineUserList",
+              "title": "在线用户"
+            },
+            "name": "system-onlineuser",
+            "id": "1594930803956920321"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:video-camera-filled",
+          "componentName": "RouteView",
+          "title": "系统监控"
+        },
+        "name": "monitor",
+        "id": "1439398677984878593"
+      },
+      {
+        "redirect": "/message/manage",
+        "path": "/message",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/message/template",
+            "component": "system/message/template/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "mdi:checkbox-blank-badge-outline",
+              "componentName": "index",
+              "title": "消息模板"
+            },
+            "name": "message-template",
+            "id": "1443391584864358402"
+          },
+          {
+            "path": "/monitor/mynews",
+            "component": "monitor/mynews/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:wechat-outlined",
+              "componentName": "index",
+              "title": "我的消息"
+            },
+            "name": "monitor-mynews",
+            "id": "1439542701152575489"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ant-design:message-outlined",
+          "componentName": "index",
+          "title": "消息中心"
+        },
+        "name": "message",
+        "id": "1443390062919208961"
+      },
+      {
+        "redirect": "/comp/basic",
+        "path": "/comp",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/document/table",
+            "component": "demo/document/table/tabIndex",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:table-outlined",
+              "componentName": "tabIndex",
+              "title": "表格示例大全"
+            },
+            "name": "document-table",
+            "id": "1696765339583365122"
+          },
+          {
+            "path": "/demo/document/form/tabIndex",
+            "component": "demo/document/form/tabIndex",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:calculator-twotone",
+              "componentName": "tabIndex",
+              "title": "表单示例大全"
+            },
+            "name": "demo-document-form-tabIndex",
+            "id": "1707377665379790849"
+          },
+          {
+            "path": "/jeecg/j-vxe-table-demo",
+            "component": "demo/jeecg/JVxeTableDemo/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/jeecg/j-vxe-table-demo/normal",
+                "component": "demo/jeecg/JVxeTableDemo/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "综合示例"
+                },
+                "name": "jeecg-j-vxe-table-demo-normal",
+                "id": "1454031324835807233"
+              },
+              {
+                "path": "/jeecg/j-vxe-table-demo/jsbc",
+                "component": "demo/jeecg/JVxeTableDemo/func-demo/JSBCDemo",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "JSBCDemo",
+                  "title": "即时保存"
+                },
+                "name": "jeecg-j-vxe-table-demo-jsbc",
+                "id": "1454031820661260289"
+              },
+              {
+                "path": "/jeecg/j-vxe-table-demo/whsx",
+                "component": "demo/jeecg/JVxeTableDemo/func-demo/SocketReload",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "SocketReload",
+                  "title": "无痕刷新"
+                },
+                "name": "jeecg-j-vxe-table-demo-whsx",
+                "id": "1454034512171302914"
+              },
+              {
+                "path": "/jeecg/j-vxe-table-demo/tczb",
+                "component": "demo/jeecg/JVxeTableDemo/func-demo/PopupSubTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "PopupSubTable",
+                  "title": "弹出子表"
+                },
+                "name": "jeecg-j-vxe-table-demo-tczb",
+                "id": "1455019819440021505"
+              },
+              {
+                "path": "/jeecg/j-vxe-table-demo/layout",
+                "component": "demo/jeecg/JVxeTableDemo/layout-demo/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "布局模板"
+                },
+                "name": "jeecg-j-vxe-table-demo-layout",
+                "id": "1455067599277662209"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:insert-row-below-outlined",
+              "componentName": "index",
+              "title": "JVxeTable示例"
+            },
+            "name": "jeecg-j-vxe-table-demo",
+            "id": "1450308897429536769"
+          },
+          {
+            "path": "/comp/jeecg",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/jeecg/basic",
+                "component": "demo/jeecg/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "自定义组件示例"
+                },
+                "name": "comp-jeecg-basic",
+                "id": "1438108197270446081"
+              },
+              {
+                "path": "/comp/jeecg/multiViewList",
+                "component": "super/shitu/MultiViewList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "MultiViewList",
+                  "title": "多视图列表"
+                },
+                "name": "comp-jeecg-multiViewList",
+                "id": "1567703742270750722"
+              },
+              {
+                "path": "/system/examples/demo",
+                "component": "system/examples/demo/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "单表示例"
+                },
+                "name": "system-examples-demo",
+                "id": "1438783058792951810"
+              },
+              {
+                "path": "/comp/jeecg/oneToMore",
+                "component": "demo/vextable/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "一对多示例"
+                },
+                "name": "comp-jeecg-oneToMore",
+                "id": "1438108198679732226"
+              },
+              {
+                "path": "/jeecg/PrintDemo",
+                "component": "demo/jeecg/PrintDemo",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "PrintDemo",
+                  "title": "打印示例"
+                },
+                "name": "jeecg-PrintDemo",
+                "id": "1441340399835742209"
+              },
+              {
+                "path": "/jeecg/tableTotal",
+                "component": "demo/jeecg/TableTotal",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "TableTotal",
+                  "title": "表格合计"
+                },
+                "name": "jeecg-tableTotal",
+                "id": "1441357157443371009"
+              },
+              {
+                "path": "/jeecg/AsyncTreeTable",
+                "component": "demo/jeecg/AsyncTreeTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "AsyncTreeTable",
+                  "title": "异步树表格"
+                },
+                "name": "jeecg-AsyncTreeTable",
+                "id": "1441361249200832513"
+              },
+              {
+                "path": "/erplist",
+                "component": "demo/jeecg/erplist/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "一对多ERP"
+                },
+                "name": "erplist",
+                "id": "1458389305235984385"
+              },
+              {
+                "path": "/innerTable",
+                "component": "demo/jeecg/InnerExpandTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "InnerExpandTable",
+                  "title": "一对多内嵌"
+                },
+                "name": "innerTable",
+                "id": "1453250018282573826"
+              },
+              {
+                "path": "/one/OneNativeList",
+                "component": "demo/jeecg/Native/one/OneNativeList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "OneNativeList",
+                  "title": "单表原生示例"
+                },
+                "name": "one-OneNativeList",
+                "id": "1572507130547359745"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:sketch-outlined",
+              "componentName": "index",
+              "title": "Jeecg组件示例"
+            },
+            "name": "comp-jeecg",
+            "id": "1438108197958311537"
+          },
+          {
+            "path": "/comp/basic",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/basic/icon",
+                "component": "demo/feat/icon/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "图标"
+                },
+                "name": "comp-basic-icon",
+                "id": "1438108178127642626"
+              },
+              {
+                "path": "/comp/basic/tabs",
+                "component": "demo/feat/tabs/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Tab操作"
+                },
+                "name": "comp-basic-tabs",
+                "id": "1438108178781954049"
+              },
+              {
+                "path": "/comp/basic/tabs/detail/:id",
+                "component": "demo/feat/tabs/TabDetail",
+                "route": "1",
+                "hidden": true,
+                "meta": {
+                  "hideMenu": true,
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "TabDetail",
+                  "title": "TabDetail"
+                },
+                "name": "comp-basic-tabs-detail-@id",
+                "id": "1438108178781954050"
+              },
+              {
+                "path": "/comp/basic/button",
+                "component": "demo/comp/button/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Button组件"
+                },
+                "name": "comp-basic-button",
+                "id": "1438108197790539778"
+              },
+              {
+                "path": "/comp/basic/msg",
+                "component": "demo/feat/msg/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "消息提示"
+                },
+                "name": "comp-basic-msg",
+                "id": "1438108180258349057"
+              },
+              {
+                "path": "/comp/desc",
+                "component": "demo/comp/desc/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "详情组件"
+                },
+                "name": "comp-desc",
+                "id": "1438108200672026626"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:insert-row-left-outlined",
+              "componentName": "index",
+              "title": "基础组件"
+            },
+            "name": "comp-basic",
+            "id": "1438108197958315557"
+          },
+          {
+            "path": "/comp/form",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/form/basic",
+                "component": "demo/form/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "基础表单"
+                },
+                "name": "comp-form-basic",
+                "id": "1438108202366525441"
+              },
+              {
+                "path": "/comp/form/useForm",
+                "component": "demo/form/UseForm",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "UseForm",
+                  "title": "useForm"
+                },
+                "name": "comp-form-useForm",
+                "id": "1438108203649982466"
+              },
+              {
+                "path": "/comp/form/refForm",
+                "component": "demo/form/RefForm",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "RefForm",
+                  "title": "RefForm"
+                },
+                "name": "comp-form-refForm",
+                "id": "1438108203817754625"
+              },
+              {
+                "path": "/comp/form/advancedForm",
+                "component": "demo/form/AdvancedForm",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "AdvancedForm",
+                  "title": "可收缩表单"
+                },
+                "name": "comp-form-advancedForm",
+                "id": "1438108204023275521"
+              },
+              {
+                "path": "/comp/form/ruleForm",
+                "component": "demo/form/RuleForm",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "RuleForm",
+                  "title": "表单验证"
+                },
+                "name": "comp-form-ruleForm",
+                "id": "1438108204232990721"
+              },
+              {
+                "path": "/comp/form/dynamicForm",
+                "component": "demo/form/DynamicForm",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "DynamicForm",
+                  "title": "动态表单"
+                },
+                "name": "comp-form-dynamicForm",
+                "id": "1438108204400762881"
+              },
+              {
+                "path": "/comp/form/customerForm",
+                "component": "demo/form/CustomerForm",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "CustomerForm",
+                  "title": "自定义组件"
+                },
+                "name": "comp-form-customerForm",
+                "id": "1438108204576923649"
+              },
+              {
+                "path": "/comp/form/appendForm",
+                "component": "demo/form/AppendForm",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "AppendForm",
+                  "title": "表单增删示例"
+                },
+                "name": "comp-form-appendForm",
+                "id": "1438108204732112898"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:pic-left-outlined",
+              "componentName": "index",
+              "title": "Form示例"
+            },
+            "name": "comp-form",
+            "id": "1438108197958311937"
+          },
+          {
+            "path": "/comp/table",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/table/basic",
+                "component": "demo/table/Basic",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "Basic",
+                  "title": "基础表格"
+                },
+                "name": "comp-table-basic",
+                "id": "1438108205004742657"
+              },
+              {
+                "path": "/comp/table/treeTable",
+                "component": "demo/table/TreeTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "TreeTable",
+                  "title": "树形表格"
+                },
+                "name": "comp-table-treeTable",
+                "id": "1438108205180903426"
+              },
+              {
+                "path": "/comp/table/fetchTable",
+                "component": "demo/table/FetchTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "FetchTable",
+                  "title": "远程加载示例"
+                },
+                "name": "comp-table-fetchTable",
+                "id": "1438108205357064193"
+              },
+              {
+                "path": "/comp/table/fixedColumn",
+                "component": "demo/table/FixedColumn",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "FixedColumn",
+                  "title": "固定列"
+                },
+                "name": "comp-table-fixedColumn",
+                "id": "1438108205587750914"
+              },
+              {
+                "path": "/comp/table/customerCell",
+                "component": "demo/table/CustomerCell",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "CustomerCell",
+                  "title": "自定义列"
+                },
+                "name": "comp-table-customerCell",
+                "id": "1438108205742940161"
+              },
+              {
+                "path": "/comp/table/formTable",
+                "component": "demo/table/FormTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "FormTable",
+                  "title": "开启搜索区域"
+                },
+                "name": "comp-table-formTable",
+                "id": "1438108205919100930"
+              },
+              {
+                "path": "/comp/table/useTable",
+                "component": "demo/table/UseTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "UseTable",
+                  "title": "UseTable"
+                },
+                "name": "comp-table-useTable",
+                "id": "1438108206086873089"
+              },
+              {
+                "path": "/comp/table/refTable",
+                "component": "demo/table/RefTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "RefTable",
+                  "title": "RefTable"
+                },
+                "name": "comp-table-refTable",
+                "id": "1438108206258839553"
+              },
+              {
+                "path": "/comp/table/multipleHeader",
+                "component": "demo/table/MultipleHeader",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "MultipleHeader",
+                  "title": "多级表头"
+                },
+                "name": "comp-table-multipleHeader",
+                "id": "1438108206489526274"
+              },
+              {
+                "path": "/comp/table/mergeHeader",
+                "component": "demo/table/MergeHeader",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "MergeHeader",
+                  "title": "合并单元格"
+                },
+                "name": "comp-table-mergeHeader",
+                "id": "1438108206661492738"
+              },
+              {
+                "path": "/comp/table/nestedTable",
+                "component": "demo/table/NestedTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "NestedTable",
+                  "title": "嵌套子表格"
+                },
+                "name": "comp-table-nestedTable",
+                "id": "1438108206959288321"
+              },
+              {
+                "path": "/comp/table/expandTable",
+                "component": "demo/table/ExpandTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ExpandTable",
+                  "title": "可展开表格"
+                },
+                "name": "comp-table-expandTable",
+                "id": "1438108207160614913"
+              },
+              {
+                "path": "/comp/table/fixedHeight",
+                "component": "demo/table/FixedHeight",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "FixedHeight",
+                  "title": "定高/头部自定义"
+                },
+                "name": "comp-table-fixedHeight",
+                "id": "1438108207374524418"
+              },
+              {
+                "path": "/comp/table/footerTable",
+                "component": "demo/table/FooterTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "FooterTable",
+                  "title": "表尾行合计"
+                },
+                "name": "comp-table-footerTable",
+                "id": "1438108207563268097"
+              },
+              {
+                "path": "/comp/table/editCellTable",
+                "component": "demo/table/EditCellTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "EditCellTable",
+                  "title": "可编辑单元格"
+                },
+                "name": "comp-table-editCellTable",
+                "id": "1438108207793954818"
+              },
+              {
+                "path": "/comp/table/editRowTable",
+                "component": "demo/table/EditRowTable",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "EditRowTable",
+                  "title": "可编辑行"
+                },
+                "name": "comp-table-editRowTable",
+                "id": "1438108208024641538"
+              },
+              {
+                "path": "/comp/table/authColumn",
+                "component": "demo/table/AuthColumn",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "AuthColumn",
+                  "title": "权限列"
+                },
+                "name": "comp-table-authColumn",
+                "id": "1438108208297271297"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:table-outlined",
+              "componentName": "index",
+              "title": "Table示例"
+            },
+            "name": "comp-table",
+            "id": "1438108198113501186"
+          },
+          {
+            "path": "/demo/comp/graphTtree/index",
+            "component": "demo/comp/graphTtree/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:line-height-outlined",
+              "componentName": "index",
+              "title": "图形树组织"
+            },
+            "name": "demo-comp-graphTtree-index",
+            "id": "15974199949657866125"
+          },
+          {
+            "path": "/comp/tree",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/tree/basic",
+                "component": "demo/tree/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "基础树"
+                },
+                "name": "comp-tree-basic",
+                "id": "1438108208817364993"
+              },
+              {
+                "path": "/comp/tree/editTree",
+                "component": "demo/tree/EditTree",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "EditTree",
+                  "title": "可搜索/工具栏"
+                },
+                "name": "comp-tree-editTree",
+                "id": "1438108208980942850"
+              },
+              {
+                "path": "/comp/tree/actionTree",
+                "component": "demo/tree/ActionTree",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ActionTree",
+                  "title": "函数操作示例"
+                },
+                "name": "comp-tree-actionTree",
+                "id": "1438108209228406785"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:partition-outlined",
+              "componentName": "index",
+              "title": "Tree示例"
+            },
+            "name": "comp-tree",
+            "id": "1438108199413735425"
+          },
+          {
+            "path": "/comp/editor",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/editor/json",
+                "component": "demo/editor/json/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Json编辑器"
+                },
+                "name": "comp-editor-json",
+                "id": "1438108210117599234"
+              },
+              {
+                "path": "/comp/editor/markdown",
+                "component": null,
+                "route": "1",
+                "children": [
+                  {
+                    "path": "/comp/editor/markdown/index",
+                    "component": "demo/editor/markdown/index",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "index",
+                      "title": "基础使用"
+                    },
+                    "name": "comp-editor-markdown-index",
+                    "id": "1438108211325558785"
+                  },
+                  {
+                    "path": "/comp/editor/markdown/editor",
+                    "component": "demo/editor/markdown/Editor",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "Editor",
+                      "title": "嵌入form"
+                    },
+                    "name": "comp-editor-markdown-editor",
+                    "id": "1438108211661103106"
+                  }
+                ],
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "title": "markdown编辑器"
+                },
+                "name": "comp-editor-markdown",
+                "id": "1438108210260205570"
+              },
+              {
+                "path": "/comp/editor/tinymce",
+                "component": null,
+                "route": "1",
+                "children": [
+                  {
+                    "path": "/comp/editor/tinymce/index",
+                    "component": "demo/editor/tinymce/index",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "index",
+                      "title": "基础使用"
+                    },
+                    "name": "comp-editor-tinymce-index",
+                    "id": "1438108214882328577"
+                  },
+                  {
+                    "path": "/comp/editor/tinymce/editor",
+                    "component": "demo/editor/tinymce/Editor",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "Editor",
+                      "title": "嵌入form"
+                    },
+                    "name": "comp-editor-tinymce-editor",
+                    "id": "1438108215335313409"
+                  }
+                ],
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "title": "富文本"
+                },
+                "name": "comp-editor-tinymce",
+                "id": "1438108211778543618"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:credit-card-twotone",
+              "componentName": "index",
+              "title": "编辑器"
+            },
+            "name": "comp-editor",
+            "id": "1438108199539564546"
+          },
+          {
+            "path": "/comp/modal",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/modal/basic",
+                "component": "demo/comp/modal/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "弹窗扩展"
+                },
+                "name": "comp-modal-basic",
+                "id": "1438108200076435458"
+              },
+              {
+                "path": "/comp/modal/drawer",
+                "component": "demo/comp/drawer/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "抽屉扩展"
+                },
+                "name": "comp-modal-drawer",
+                "id": "1438108200391008257"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:laptop-outlined",
+              "componentName": "index",
+              "title": "弹框抽屉"
+            },
+            "name": "comp-modal",
+            "id": "1438108197958311637"
+          },
+          {
+            "path": "/comp/gantt",
+            "component": "demo/comp/gantt/index",
+            "route": "1",
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:align-right-outlined",
+              "componentName": "gantt",
+              "title": "甘特图"
+            },
+            "name": "gantt",
+            "id": "1551495184261943297"
+          },
+          {
+            "path": "/comp/third",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/third/print",
+                "component": "demo/feat/print/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "打印"
+                },
+                "name": "comp-third-print",
+                "id": "1438108178643542017"
+              },
+              {
+                "path": "/comp/third/context-menu",
+                "component": "demo/feat/context-menu/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "右键菜单"
+                },
+                "name": "comp-third-context-menu",
+                "id": "1438108179226550273"
+              },
+              {
+                "path": "/comp/third/basic",
+                "component": "demo/comp/cropper/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "图片裁剪"
+                },
+                "name": "comp-third-basic",
+                "id": "1438108198855892993"
+              },
+              {
+                "path": "/comp/third/download",
+                "component": "demo/feat/download/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "文件下载"
+                },
+                "name": "comp-third-download",
+                "id": "1438108179381739521"
+              },
+              {
+                "path": "/comp/third/timestamp",
+                "component": "demo/comp/time/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "相对时间"
+                },
+                "name": "comp-third-timestamp",
+                "id": "1438108199120134145"
+              },
+              {
+                "path": "/comp/third/click-out-side",
+                "component": "demo/feat/click-out-side/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "ClickOutSide组件"
+                },
+                "name": "comp-third-click-out-side",
+                "id": "1438108179599843330"
+              },
+              {
+                "path": "/comp/third/transition",
+                "component": "demo/comp/transition/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "动画组件"
+                },
+                "name": "comp-third-transition",
+                "id": "1438108198339993602"
+              },
+              {
+                "path": "/comp/third/countTo",
+                "component": "demo/comp/count-to/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "数字动画"
+                },
+                "name": "comp-third-countTo",
+                "id": "1438108199304683521"
+              },
+              {
+                "path": "/comp/third/img-preview",
+                "component": "demo/feat/img-preview/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "图片预览"
+                },
+                "name": "comp-third-img-preview",
+                "id": "1438108179910221825"
+              },
+              {
+                "path": "/comp/third/copy",
+                "component": "demo/feat/copy/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "剪切板"
+                },
+                "name": "comp-third-copy",
+                "id": "1438108180077993985"
+              },
+              {
+                "path": "/comp/third/watermark",
+                "component": "demo/feat/watermark/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "水印"
+                },
+                "name": "comp-third-watermark",
+                "id": "1438108180434509826"
+              },
+              {
+                "path": "/comp/third/ripple",
+                "component": "demo/feat/ripple/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "水波纹"
+                },
+                "name": "comp-third-ripple",
+                "id": "1438108180631642113"
+              },
+              {
+                "path": "/comp/third/qrcode",
+                "component": "demo/comp/qrcode/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "二维码组件"
+                },
+                "name": "comp-third-qrcode",
+                "id": "1438108201150177281"
+              },
+              {
+                "path": "/comp/third/strength-meter",
+                "component": "demo/comp/strength-meter/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "密码强度组件"
+                },
+                "name": "comp-third-strength-meter",
+                "id": "1438108201502498817"
+              },
+              {
+                "path": "/comp/third/upload",
+                "component": "demo/comp/upload/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "上传组件"
+                },
+                "name": "comp-third-upload",
+                "id": "1438108201712214018"
+              },
+              {
+                "path": "/comp/third/loading",
+                "component": "demo/comp/loading/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Loading"
+                },
+                "name": "comp-third-loading",
+                "id": "1438108202060341249"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:slack-outlined",
+              "componentName": "index",
+              "title": "第三方组件"
+            },
+            "name": "comp-third",
+            "id": "1438108197958311677"
+          },
+          {
+            "path": "/comp/scroll",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/scroll/basic",
+                "component": "demo/comp/scroll/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "基础滚动"
+                },
+                "name": "comp-scroll-basic",
+                "id": "1438108215511474177"
+              },
+              {
+                "path": "/comp/scroll/action",
+                "component": "demo/comp/scroll/Action",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "Action",
+                  "title": "滚动函数"
+                },
+                "name": "comp-scroll-action",
+                "id": "1438108215687634945"
+              },
+              {
+                "path": "/comp/scroll/virtualScroll",
+                "component": "demo/comp/scroll/VirtualScroll",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "VirtualScroll",
+                  "title": "虚拟滚动"
+                },
+                "name": "comp-scroll-virtualScroll",
+                "id": "1438108215989624834"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:column-height-outlined",
+              "componentName": "index",
+              "title": "滚动组件"
+            },
+            "name": "comp-scroll",
+            "id": "1438108199631839234"
+          },
+          {
+            "path": "/comp/lazy",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/lazy/basic",
+                "component": "demo/comp/lazy/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "基础示例"
+                },
+                "name": "comp-lazy-basic",
+                "id": "1438108216300003330"
+              },
+              {
+                "path": "/comp/lazy/transition",
+                "component": "demo/comp/lazy/Transition",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "Transition",
+                  "title": "动画效果"
+                },
+                "name": "comp-lazy-transition",
+                "id": "1438108216597798914"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:small-dash-outlined",
+              "componentName": "index",
+              "title": "懒加载组件"
+            },
+            "name": "comp-lazy",
+            "id": "1438108200802050050"
+          },
+          {
+            "path": "/comp/verify",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/comp/verify/drag",
+                "component": "demo/comp/verify/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "拖拽校验"
+                },
+                "name": "comp-verify-drag",
+                "id": "1438108216971091969"
+              },
+              {
+                "path": "/comp/verify/rotate",
+                "component": "demo/comp/verify/Rotate",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "Rotate",
+                  "title": "图片还原"
+                },
+                "name": "comp-verify-rotate",
+                "id": "1438108217449242626"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:field-binary-outlined",
+              "componentName": "index",
+              "title": "验证组件"
+            },
+            "name": "comp-verify",
+            "id": "1438108200919490562"
+          },
+          {
+            "path": "/feat",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/feat/session-timeout",
+                "component": "demo/feat/session-timeout/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "登录过期"
+                },
+                "name": "feat-session-timeout",
+                "id": "1438108178421243905"
+              },
+              {
+                "path": "/permission",
+                "component": "layouts/default/index",
+                "route": "1",
+                "children": [
+                  {
+                    "path": "/permission/front",
+                    "component": null,
+                    "route": "1",
+                    "children": [
+                      {
+                        "path": "/permission/front/page",
+                        "component": "demo/permission/front/index",
+                        "route": "1",
+                        "meta": {
+                          "keepAlive": false,
+                          "internalOrExternal": false,
+                          "componentName": "index",
+                          "title": "页面权限"
+                        },
+                        "name": "permission-front-page",
+                        "id": "1438108177351696386"
+                      },
+                      {
+                        "path": "/permission/front/btn",
+                        "component": "demo/permission/front/Btn",
+                        "route": "1",
+                        "meta": {
+                          "keepAlive": false,
+                          "internalOrExternal": false,
+                          "componentName": "Btn",
+                          "title": "按钮权限"
+                        },
+                        "name": "permission-front-btn",
+                        "id": "1438108177565605889"
+                      }
+                    ],
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "title": "基于前端权限"
+                    },
+                    "name": "permission-front",
+                    "id": "1438108177074872321"
+                  },
+                  {
+                    "path": "/permission/back",
+                    "component": null,
+                    "route": "1",
+                    "children": [
+                      {
+                        "path": "/permission/back/page",
+                        "component": "demo/permission/back/index",
+                        "route": "1",
+                        "meta": {
+                          "keepAlive": false,
+                          "internalOrExternal": false,
+                          "componentName": "index",
+                          "title": "页面权限"
+                        },
+                        "name": "permission-back-page",
+                        "id": "1438108177720795137"
+                      },
+                      {
+                        "path": "/permission/back/btn",
+                        "component": "demo/permission/back/Btn",
+                        "route": "1",
+                        "meta": {
+                          "keepAlive": false,
+                          "internalOrExternal": false,
+                          "componentName": "Btn",
+                          "title": "按钮权限"
+                        },
+                        "name": "permission-back-btn",
+                        "id": "1438108177880178689"
+                      }
+                    ],
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "title": "基于后台权限"
+                    },
+                    "name": "permission-back",
+                    "id": "1438108177188118529"
+                  }
+                ],
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "icon": "ion:key-outline",
+                  "componentName": "index",
+                  "title": "权限管理"
+                },
+                "name": "permission",
+                "id": "1438108176932265985"
+              },
+              {
+                "path": "/setup/index",
+                "component": "demo/setup/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "icon": "whh:paintroll",
+                  "componentName": "index",
+                  "title": "引导页"
+                },
+                "name": "setup-index",
+                "id": "1438108225263230978"
+              },
+              {
+                "path": "/feat/full-screen",
+                "component": "demo/feat/full-screen/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "全屏"
+                },
+                "name": "feat-full-screen",
+                "id": "1438108180770054145"
+              },
+              {
+                "path": "/feat/error-log",
+                "component": "sys/error-log/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "错误日志"
+                },
+                "name": "feat-error-log",
+                "id": "1438108183085309954"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ion:git-compare-outline",
+              "componentName": "index",
+              "title": "功能示例"
+            },
+            "name": "feat",
+            "id": "1438108178010202113"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ion:layers-outline",
+          "componentName": "index",
+          "title": "组件&功能"
+        },
+        "name": "comp",
+        "id": "1438108196993622018"
+      },
+      {
+        "redirect": "/page-demo/form/basic",
+        "path": "/page-demo",
+        "component": "layouts/default/index",
+        "route": "1",
+        "children": [
+          {
+            "path": "/page-demo/form",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/page-demo/form/basic",
+                "component": "demo/page/form/basic/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "基础表单"
+                },
+                "name": "page-demo-form-basic",
+                "id": "1438108189062193153"
+              },
+              {
+                "path": "/page-demo/form/step",
+                "component": "demo/page/form/step/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "分步表单"
+                },
+                "name": "page-demo-form-step",
+                "id": "1438108189427097601"
+              },
+              {
+                "path": "/page-demo/form/high",
+                "component": "demo/page/form/high/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "高级表单"
+                },
+                "name": "page-demo-form-high",
+                "id": "1438108189754253313"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:form-outlined",
+              "componentName": "index",
+              "title": "表单页"
+            },
+            "name": "page-demo-form",
+            "id": "1438108187678072833"
+          },
+          {
+            "path": "/page-demo/desc",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/page-demo/desc/basic",
+                "component": "demo/page/desc/basic/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "基础详情页"
+                },
+                "name": "page-demo-desc-basic",
+                "id": "1438108190110769154"
+              },
+              {
+                "path": "/page-demo/desc/high",
+                "component": "demo/page/desc/high/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "高级详情页"
+                },
+                "name": "page-demo-desc-high",
+                "id": "1438108190404370433"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:border-right-outlined",
+              "componentName": "index",
+              "title": "详情页"
+            },
+            "name": "page-demo-desc",
+            "id": "1438108187871010818"
+          },
+          {
+            "path": "/page-demo/result",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/page-demo/result/success",
+                "component": "demo/page/result/success/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "成功页"
+                },
+                "name": "page-demo-result-success",
+                "id": "1438108190777663490"
+              },
+              {
+                "path": "/page-demo/result/fail",
+                "component": "demo/page/result/fail/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "失败页"
+                },
+                "name": "page-demo-result-fail",
+                "id": "1438108191356477442"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:account-book-outlined",
+              "componentName": "index",
+              "title": "结果页"
+            },
+            "name": "page-demo-result",
+            "id": "1438108188034588674"
+          },
+          {
+            "path": "/page-demo/account",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/page-demo/account/center",
+                "component": "demo/page/account/center/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "个人中心"
+                },
+                "name": "page-demo-account-center",
+                "id": "1438108192623157249"
+              },
+              {
+                "path": "/page-demo/account/setting",
+                "component": "demo/page/account/setting/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "个人设置"
+                },
+                "name": "page-demo-account-setting",
+                "id": "1438108193701093378"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:user-outlined",
+              "componentName": "index",
+              "title": "个人页"
+            },
+            "name": "page-demo-account",
+            "id": "1438108188378521602"
+          },
+          {
+            "path": "/page-demo/exception",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/page-demo/exception/403",
+                "component": "sys/exception/NotAccessException",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "NotAccessException",
+                  "title": "403"
+                },
+                "name": "page-demo-exception-403",
+                "id": "1438108194992939010"
+              },
+              {
+                "path": "/page-demo/exception/404",
+                "component": "sys/exception/Exception",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "Exception",
+                  "title": "404"
+                },
+                "name": "page-demo-exception-404",
+                "id": "1438108195307511809"
+              },
+              {
+                "path": "/page-demo/exception/500",
+                "component": "sys/exception/ServerErrorException",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ServerErrorException",
+                  "title": "500"
+                },
+                "name": "page-demo-exception-500",
+                "id": "1438108195487866881"
+              },
+              {
+                "path": "/page-demo/exception/net-work-error",
+                "component": "sys/exception/NetworkErrorException",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "NetworkErrorException",
+                  "title": "网络错误"
+                },
+                "name": "page-demo-exception-net-work-error",
+                "id": "1438108195638861825"
+              },
+              {
+                "path": "/page-demo/exception/not-data",
+                "component": "sys/exception/NotDataErrorException",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "NotDataErrorException",
+                  "title": "无数据"
+                },
+                "name": "page-demo-exception-not-data",
+                "id": "1438108195924074497"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:bug-twotone",
+              "componentName": "index",
+              "title": "异常页"
+            },
+            "name": "page-demo-exception",
+            "id": "1438108188542099458"
+          },
+          {
+            "path": "/page-demo/list",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/page-demo/list/basic",
+                "component": "demo/page/list/basic/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "标准列表"
+                },
+                "name": "page-demo-list-basic",
+                "id": "1438108196263813121"
+              },
+              {
+                "path": "/page-demo/list/card",
+                "component": "demo/page/list/card/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "卡片列表"
+                },
+                "name": "page-demo-list-card",
+                "id": "1438108196528054273"
+              },
+              {
+                "path": "/page-demo/list/search",
+                "component": "demo/page/list/search/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "搜索列表"
+                },
+                "name": "page-demo-list-search",
+                "id": "1438108196855209985"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:table-outlined",
+              "componentName": "index",
+              "title": "列表页"
+            },
+            "name": "page-demo-list",
+            "id": "1438108188714065922"
+          },
+          {
+            "path": "/feat/breadcrumb",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/feat/breadcrumb/flat",
+                "component": "demo/feat/breadcrumb/FlatList",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "FlatList",
+                  "title": "平级模式"
+                },
+                "name": "feat-breadcrumb-flat",
+                "id": "1438108183630569474"
+              },
+              {
+                "path": "/feat/breadcrumb/flatDetail",
+                "component": "demo/feat/breadcrumb/FlatListDetail",
+                "route": "1",
+                "hidden": true,
+                "meta": {
+                  "hideMenu": true,
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "hideTab": true,
+                  "componentName": "FlatListDetail",
+                  "title": "平级详情"
+                },
+                "name": "feat-breadcrumb-flatDetail",
+                "id": "1438108183630569477"
+              },
+              {
+                "path": "/feat/breadcrumb/children",
+                "component": "demo/feat/breadcrumb/ChildrenList",
+                "route": "1",
+                "children": [
+                  {
+                    "path": "/feat/breadcrumb/children/childrenDetail",
+                    "component": "demo/feat/breadcrumb/ChildrenListDetail",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "ChildrenListDetail",
+                      "title": "层级详情"
+                    },
+                    "name": "feat-breadcrumb-children-childrenDetail",
+                    "id": "1438108184049999873"
+                  }
+                ],
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "ChildrenList",
+                  "title": "层级模式"
+                },
+                "name": "feat-breadcrumb-children",
+                "id": "1438108183907393538"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:right-square-filled",
+              "componentName": "index",
+              "title": "面包屑导航"
+            },
+            "name": "feat-breadcrumb",
+            "id": "1438108178911977473"
+          },
+          {
+            "path": "/charts",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/charts/baiduMap",
+                "component": "demo/charts/map/Baidu",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "Baidu",
+                  "title": "百度地图"
+                },
+                "name": "charts-baiduMap",
+                "id": "1438108217860284417"
+              },
+              {
+                "path": "/charts/aMap",
+                "component": "demo/charts/map/Gaode",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "Gaode",
+                  "title": "高德地图"
+                },
+                "name": "charts-aMap",
+                "id": "1438108218049028097"
+              },
+              {
+                "path": "/charts/echarts",
+                "component": null,
+                "route": "1",
+                "children": [
+                  {
+                    "path": "/charts/echarts/map",
+                    "component": "demo/charts/Map",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "Map",
+                      "title": "地图"
+                    },
+                    "name": "charts-echarts-map",
+                    "id": "1438108218787225601"
+                  },
+                  {
+                    "path": "/charts/echarts/line",
+                    "component": "demo/charts/Line",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "Line",
+                      "title": "折线图"
+                    },
+                    "name": "charts-echarts-line",
+                    "id": "1438108219034689538"
+                  },
+                  {
+                    "path": "/charts/echarts/pie",
+                    "component": "demo/charts/Pie",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "componentName": "Pie",
+                      "title": "饼图"
+                    },
+                    "name": "charts-echarts-pie",
+                    "id": "1438108219240210434"
+                  }
+                ],
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "title": "Echarts"
+                },
+                "name": "charts-echarts",
+                "id": "1438108218409738242"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ion:bar-chart-outline",
+              "componentName": "index",
+              "title": "图表"
+            },
+            "name": "charts",
+            "id": "1438108217562488834"
+          },
+          {
+            "path": "/frame",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/frame/doc",
+                "component": "http://vue3.jeecg.com",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "vue3.jeecg.com",
+                  "title": "项目文档(内嵌)"
+                },
+                "name": "frame-doc",
+                "id": "1438108219592531970"
+              },
+              {
+                "path": "/",
+                "component": "http://www.jeecg.com",
+                "route": "0",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": true,
+                  "componentName": "www.jeecg.com",
+                  "title": "JEECG官网"
+                },
+                "name": "",
+                "id": "1446778415130722306"
+              },
+              {
+                "path": "/frame/antv",
+                "component": "https://2x.antdv.com/docs/vue/introduce-cn",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "introduce-cn",
+                  "title": "antVue文档(内嵌)"
+                },
+                "name": "frame-antv",
+                "id": "1438108219793858561"
+              },
+              {
+                "path": "/",
+                "component": "http://vue3.jeecg.com/",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": true,
+                  "componentName": "",
+                  "title": "项目文档(外链)"
+                },
+                "name": "",
+                "id": "1438108220137791489"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ion:tv-outline",
+              "componentName": "index",
+              "title": "外部页面"
+            },
+            "name": "frame",
+            "id": "1438108219445731330"
+          },
+          {
+            "path": "/level",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/level/menu1",
+                "component": null,
+                "route": "1",
+                "children": [
+                  {
+                    "path": "/level/menu1/menu1-1",
+                    "component": null,
+                    "route": "1",
+                    "children": [
+                      {
+                        "path": "/level/menu1/menu1-1/menu1-1-1",
+                        "component": "demo/level/Menu111",
+                        "route": "1",
+                        "meta": {
+                          "keepAlive": true,
+                          "internalOrExternal": false,
+                          "componentName": "Menu111Demo",
+                          "title": "Menu1-1-1"
+                        },
+                        "name": "Menu111Demo",
+                        "id": "1438108221127647234"
+                      }
+                    ],
+                    "meta": {
+                      "keepAlive": false,
+                      "internalOrExternal": false,
+                      "title": "Menu1-1"
+                    },
+                    "name": "level-menu1-menu1-1",
+                    "id": "1438108220896960513"
+                  },
+                  {
+                    "path": "/level/menu1/menu1-2",
+                    "component": "demo/level/Menu12",
+                    "route": "1",
+                    "meta": {
+                      "keepAlive": true,
+                      "internalOrExternal": false,
+                      "componentName": "Menu12Demo",
+                      "title": "Menu1-2"
+                    },
+                    "name": "Menu12Demo",
+                    "id": "1438108221270253570"
+                  }
+                ],
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "title": "Menu1"
+                },
+                "name": "level-menu1",
+                "id": "1438108220523667458"
+              },
+              {
+                "path": "/level/menu2",
+                "component": "demo/level/Menu2",
+                "route": "1",
+                "meta": {
+                  "keepAlive": true,
+                  "internalOrExternal": false,
+                  "componentName": "Menu2Demo",
+                  "title": "Menu2"
+                },
+                "name": "Menu2Demo",
+                "id": "1438108220724994049"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ion:menu-outline",
+              "componentName": "index",
+              "title": "多级菜单"
+            },
+            "name": "level",
+            "id": "1438108220418809857"
+          },
+          {
+            "path": "/feat/testTab/:id",
+            "component": "demo/feat/tab-params/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/testTab/id1",
+                "component": "demo/feat/tab-params/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Tab带参1"
+                },
+                "name": "testTab-id1",
+                "id": "1438115924159881218"
+              },
+              {
+                "path": "/feat/testTab/id2",
+                "component": "demo/feat/tab-params/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Tab带参2"
+                },
+                "name": "feat-testTab-id2",
+                "id": "1438116003012796418"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:insert-row-above-outlined",
+              "componentName": "index",
+              "title": "Tab带参"
+            },
+            "name": "feat-testTab-@id",
+            "id": "1438108183395688450"
+          },
+          {
+            "path": "/feat/testParam/:id",
+            "component": "layouts/default/index",
+            "route": "1",
+            "children": [
+              {
+                "path": "/feat/testParam/:id/sub1",
+                "component": "demo/feat/menu-params/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Menu带参1"
+                },
+                "name": "feat-testParam-@id-sub1",
+                "id": "1438108186717577217"
+              },
+              {
+                "path": "/feat/testParam/:id/sub2",
+                "component": "demo/feat/menu-params/index",
+                "route": "1",
+                "meta": {
+                  "keepAlive": false,
+                  "internalOrExternal": false,
+                  "componentName": "index",
+                  "title": "Menu带参2"
+                },
+                "name": "feat-testParam-@id-sub2",
+                "id": "1438108187103453186"
+              }
+            ],
+            "meta": {
+              "keepAlive": false,
+              "internalOrExternal": false,
+              "icon": "ant-design:menu-outlined",
+              "componentName": "index",
+              "title": "Menu带参"
+            },
+            "name": "feat-testParam-@id",
+            "id": "1438108183492157442"
+          }
+        ],
+        "meta": {
+          "keepAlive": false,
+          "internalOrExternal": false,
+          "icon": "ion:aperture-outline",
+          "componentName": "index",
+          "title": "页面&导航"
+        },
+        "name": "page-demo",
+        "id": "1438108187455774722"
+      }
+    ],
+    "sysSafeMode": true
+  },
+  "timestamp": 1705994633401
+}

@@ -1,6 +1,7 @@
-import { resultSuccess, resultError, getRequestToken, requestParams,baseUrl} from '../_util';
+import { resultSuccess, resultError, getRequestToken, requestParams, baseUrl } from '../_util';
 import { MockMethod } from 'vite-plugin-mock';
 import { createFakeUserList } from './user';
+import menus from './json/menu.json';
 
 // single
 const dashboardRoute = {
@@ -264,7 +265,7 @@ export default [
           menu = [];
       }
 
-      return resultSuccess(menu);
+      return menus;
     },
   },
 ] as MockMethod[];
