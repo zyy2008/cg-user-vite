@@ -104,8 +104,6 @@ export function cloneObject(obj) {
 }
 
 export const withInstall = <T>(component: T, alias?: string) => {
-  console.log("---初始化---", component)
-  
   const comp = component as any;
   comp.install = (app: App) => {
     app.component(comp.name || comp.displayName, component);
@@ -295,7 +293,6 @@ export function importViewsFile(path): Promise<any> {
 }
 //update-end-author:taoyan date:2022-6-8 for:解决老的vue2动态导入文件语法 vite不支持的问题
 
-
 /**
  * 跳转至积木报表的 预览页面
  * @param url
@@ -305,23 +302,22 @@ export function importViewsFile(path): Promise<any> {
 export function goJmReportViewPage(url, id, token) {
   // update-begin--author:liaozhiyang---date:20230904---for：【QQYUN-6390】eval替换成new Function，解决build警告
   // URL支持{{ window.xxx }}占位符变量
-  url = url.replace(/{{([^}]+)?}}/g, (_s1, s2) => _eval(s2))
+  url = url.replace(/{{([^}]+)?}}/g, (_s1, s2) => _eval(s2));
   // update-end--author:liaozhiyang---date:20230904---for：【QQYUN-6390】eval替换成new Function，解决build警告
   if (url.includes('?')) {
-    url += '&'
+    url += '&';
   } else {
-    url += '?'
+    url += '?';
   }
-  url += `id=${id}`
-  url += `&token=${token}`
-  window.open(url)
+  url += `id=${id}`;
+  url += `&token=${token}`;
+  window.open(url);
 }
 
 /**
  * 获取随机颜色
  */
 export function getRandomColor(index?) {
-
   const colors = [
     'rgb(100, 181, 246)',
     'rgb(77, 182, 172)',
@@ -344,7 +340,7 @@ export function getRandomColor(index?) {
     'rgb(254, 161, 172)',
     'rgb(194, 163, 205)',
   ];
-  return index && index < 19 ? colors[index] : colors[Math.floor((Math.random()*(colors.length-1)))];
+  return index && index < 19 ? colors[index] : colors[Math.floor(Math.random() * (colors.length - 1))];
 }
 
 export function getRefPromise(componentRef) {
@@ -368,5 +364,5 @@ export function getRefPromise(componentRef) {
  * 用new Function替换eval
  */
 export function _eval(str: string) {
- return new Function(`return ${str}`)();
+  return new Function(`return ${str}`)();
 }
