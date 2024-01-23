@@ -195,7 +195,10 @@ export const useUserStore = defineStore({
           }
           // update-end--author:liaozhiyang---date:20240104---for：【QQYUN-7804】部署生产环境，登录跳转404问题
           // 当前页面打开
-          window.open(redirect, '_self');
+          setTimeout(() => {
+            window.open(redirect, '_self');
+          }, 500);
+
           return data;
         }
         // update-end-author:sunjianlei date:20230306 for: 修复登录成功后，没有正确重定向的问题
