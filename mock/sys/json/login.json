@@ -3,7 +3,7 @@
   "message": "登录成功",
   "code": 200,
   "result": {
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MDU5ODU5MjcsInVzZXJuYW1lIjoiamVlY2cifQ.T2LNzYggxfLcqGzFAjxUrgdGh3IXBSr5X4HzcniJI0M",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MDYzNjY1NDAsInVzZXJuYW1lIjoiYWRtaW4ifQ.sNtNjw-gMhMdvCNUoQ9PFvmrpKWt70tdKevOE_fcTOQ",
     "tenantList": [
       {
         "id": 1,

@@ -50,7 +50,7 @@ const fakeCodeList: any = {
 export default [
   // mock user login
   {
-    url: `${baseUrl}/sys/login`,
+    url: `${baseUrl}/cg-user/cg-boot/sys/login`,
     timeout: 200,
     method: 'post',
     response: ({ body }) => {
