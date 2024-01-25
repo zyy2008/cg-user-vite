@@ -29,7 +29,9 @@ enum Api {
   getQuitList = '/sys/user/getQuitList',
   putCancelQuit = '/sys/user/putCancelQuit',
   updateUserTenantStatus='/sys/tenant/updateUserTenantStatus',
-  getUserTenantPageList='/sys/tenant/getUserTenantPageList',
+  getUserTenantPageList = '/sys/tenant/getUserTenantPageList',
+  getDepartRole = "/sys/sysDepartRole/queryById"
+  
 }
 /**
  * 导出api
@@ -239,4 +241,8 @@ export const getUserTenantPageList = (params) => {
  */
 export const updateUserTenantStatus = (params) => {
   return defHttp.put({ url: Api.updateUserTenantStatus, params }, { joinParamsToUrl: true, isTransformResponse: false });
+};
+
+export const getDepartRole = (params: {id:string}) => {
+  return defHttp.get({ url: Api.getDepartRole, params });
 };

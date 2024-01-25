@@ -3,6 +3,8 @@ import { FormSchema } from '/@/components/Table';
 import { getAllRolesListNoByTenant, getAllTenantList } from './user.api';
 import { rules } from '/@/utils/helper/validator';
 import { render } from '/@/utils/common/renderUtils';
+import { queryDepartRoleUserList } from '/@/views/system/departUser/depart.user.api';
+
 export const columns: BasicColumn[] = [
   {
     title: '用户账号',
@@ -95,7 +97,7 @@ export const searchFormSchema: FormSchema[] = [
     label: '名字',
     field: 'realname',
     component: 'JInput',
-   //colProps: { span: 6 },
+    //colProps: { span: 6 },
   },
   {
     label: '性别',
@@ -123,7 +125,7 @@ export const searchFormSchema: FormSchema[] = [
       placeholder: '请选择状态',
       stringToNumber: true,
     },
-   //colProps: { span: 6 },
+    //colProps: { span: 6 },
   },
 ];
 
@@ -178,17 +180,8 @@ export const formSchema: FormSchema[] = [
     dynamicRules: ({ model, schema }) => rules.duplicateCheckRule('sys_user', 'work_no', model, schema, true),
   },
   {
-    label: '职务',
-    field: 'post',
-    required: false,
-    component: 'JSelectPosition',
-    componentProps: {
-      labelKey: 'name',
-    },
-  },
-  {
-    label: '角色',
-    field: 'selectedroles',
+    label: '公共角色',
+    field: 'selectedRoles',
     component: 'ApiSelect',
     componentProps: {
       mode: 'multiple',
@@ -200,21 +193,64 @@ export const formSchema: FormSchema[] = [
   },
   {
     label: '所属部门',
-    field: 'selecteddeparts',
+    field: 'selectedDeparts',
     component: 'JSelectDept',
     componentProps: ({ formActionType, formModel }) => {
       return {
         sync: false,
         checkStrictly: true,
         defaultExpandLevel: 2,
-
-        onSelect: (options, values) => {
+        onChange: (val) => {
           const { updateSchema } = formActionType;
+          if (Array.isArray(val) && val.length === 0) {
+            updateSchema([
+              {
+                componentProps: {
+                  treeData: [],
+                  disabled: true,
+                  placeholder: '请选择部门角色',
+                },
+                field: 'selectedDepartRoles',
+              },
+            ]);
+            formModel.selectedDepartRoles = [];
+          }
+        },
+        onSelect: async (options, values) => {
+          const { updateSchema } = formActionType;
+          let treeData =
+            options?.map(async ({ value: departId, label }) => {
+              const res = await queryDepartRoleUserList({
+                departId,
+              });
+              return {
+                label,
+                selectable: false,
+                value: departId,
+                children: res?.map((item) => {
+                  return {
+                    label: item?.roleName,
+                    value: item?.id,
+                  };
+                }),
+              };
+            }) ?? [];
+          if (treeData) {
+            treeData = await Promise.all(treeData);
+          }
           //所属部门修改后更新负责部门下拉框数据
           updateSchema([
             {
               field: 'departIds',
               componentProps: { options },
+            },
+            {
+              field: 'selectedDepartRoles',
+              componentProps: {
+                treeData,
+                multiple: true,
+                disabled: false,
+              },
             },
           ]);
           //所属部门修改后更新负责部门数据
@@ -224,16 +260,14 @@ export const formSchema: FormSchema[] = [
     },
   },
   {
-    label: '租户',
-    field: 'relTenantIds',
-    component: 'ApiSelect',
-    componentProps: {
-      mode: 'multiple',
-      api: getAllTenantList,
-      numberToString: true,
-      labelField: 'name',
-      valueField: 'id',
-      immediate: false,
+    label: '部门角色',
+    field: 'selectedDepartRoles',
+    component: 'TreeSelect',
+    componentProps: ({ formModel }) => {
+      return {
+        disabled: !(Array.isArray(formModel.selectedDeparts) && formModel.selectedDeparts.length > 0),
+        placeholder: '请选择部门角色',
+      };
     },
   },
   {
@@ -312,17 +346,6 @@ export const formSchema: FormSchema[] = [
     field: 'telephone',
     component: 'Input',
     rules: [{ pattern: /^0\d{2,3}-[1-9]\d{6,7}$/, message: '请输入正确的座机号码' }],
-  },
-  {
-    label: '工作流引擎',
-    field: 'activitiSync',
-    defaultValue: 1,
-    component: 'JDictSelectTag',
-    componentProps: {
-      dictCode: 'activiti_sync',
-      type: 'radio',
-      stringToNumber: true,
-    },
   },
 ];
 
