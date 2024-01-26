@@ -7,7 +7,7 @@
         <a-button type="primary" preIcon="ant-design:plus-outlined" @click="handleCreate">
           新增</a-button
         >
-        <a-button
+        <!-- <a-button
           type="primary"
           preIcon="ant-design:export-outlined"
           @click="onExportXls"
@@ -20,7 +20,7 @@
           preIcon="ant-design:import-outlined"
           @click="onImportXls"
           >导入</j-upload-button
-        >
+        > -->
         <a-button
           type="primary"
           @click="openModal(true, {})"
@@ -233,7 +233,7 @@ async function handleFrozen(record, status) {
     createMessage.warning("管理员账号不允许此操作！");
     return;
   }
-  await frozenBatch({ ids: record.id, status: status }, reload);
+  await frozenBatch({ ids: [record.id], status: status }, reload);
 }
 /**
  * 批量冻结解冻
@@ -249,10 +249,7 @@ function batchFrozen(status) {
     title: "确认操作",
     content: "是否" + (status == 1 ? "解冻" : "冻结") + "选中账号?",
     onOk: async () => {
-      await frozenBatch(
-        { ids: unref(selectedRowKeys).join(","), status: status },
-        reload
-      );
+      await frozenBatch({ ids: unref(selectedRowKeys), status: status }, reload);
     },
   });
 }
@@ -315,10 +312,6 @@ function getDropDownAction(record): ActionItem[] {
         title: "确定解冻吗?",
         confirm: handleFrozen.bind(null, record, 1),
       },
-    },
-    {
-      label: "代理人",
-      onClick: handleAgentSettings.bind(null, record.username),
     },
   ];
 }

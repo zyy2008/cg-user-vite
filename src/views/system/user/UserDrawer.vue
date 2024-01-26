@@ -91,12 +91,14 @@ const [registerDrawer, { setDrawerProps, closeDrawer }] = useDrawerInner(async (
   //处理角色用户列表情况(和角色列表有关系)
   data.selectedroles && (await setFieldsValue({ selectedroles: data.selectedroles }));
   //编辑关联部门角色
+  try {
+    let selectedDepartRoles = await getDetailDeptRoleByUserId({
+      userId: data.record.id,
+    });
+    selectedDepartRoles = selectedDepartRoles?.map((item) => item.id);
+    selectedDepartRoles && (await setFieldsValue({ selectedDepartRoles }));
+  } catch (error) {}
 
-  let selectedDepartRoles = await getDetailDeptRoleByUserId({
-    userId: data.record.id,
-  });
-  selectedDepartRoles = selectedDepartRoles?.map((item) => item.id);
-  selectedDepartRoles && (await setFieldsValue({ selectedDepartRoles }));
   // console.log(departRole);
 
   //编辑时隐藏密码/角色列表隐藏角色信息/我的部门时隐藏所属部门
