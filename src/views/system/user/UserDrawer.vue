@@ -12,7 +12,7 @@
   </BasicDrawer>
 </template>
 <script lang="ts" setup>
-import { defineComponent, ref, computed, unref, useAttrs } from "vue";
+import { ref, computed, unref } from "vue";
 import { BasicForm, useForm } from "/@/components/Form/index";
 import { formSchema } from "./user.data";
 import { BasicDrawer, useDrawerInner } from "/@/components/Drawer";
@@ -22,13 +22,13 @@ import {
   getUserDepartList,
   getAllRolesListNoByTenant,
   getAllRolesList,
+  getDetailDeptRoleByUserId,
 } from "./user.api";
 import { useDrawerAdaptiveWidth } from "/@/hooks/jeecg/useAdaptiveWidth";
 import { getTenantId } from "/@/utils/auth";
 
 // 声明Emits
 const emit = defineEmits(["success", "register"]);
-const attrs = useAttrs();
 const isUpdate = ref(true);
 const rowId = ref("");
 const departOptions = ref([]);
@@ -91,6 +91,13 @@ const [registerDrawer, { setDrawerProps, closeDrawer }] = useDrawerInner(async (
   //处理角色用户列表情况(和角色列表有关系)
   data.selectedroles && (await setFieldsValue({ selectedroles: data.selectedroles }));
   //编辑关联部门角色
+
+  let selectedDepartRoles = await getDetailDeptRoleByUserId({
+    userId: data.record.id,
+  });
+  selectedDepartRoles = selectedDepartRoles?.map((item) => item.id);
+  selectedDepartRoles && (await setFieldsValue({ selectedDepartRoles }));
+  // console.log(departRole);
 
   //编辑时隐藏密码/角色列表隐藏角色信息/我的部门时隐藏所属部门
   updateSchema([
