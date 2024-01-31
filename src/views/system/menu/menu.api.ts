@@ -12,7 +12,35 @@ enum Api {
   ruleEdit = '/sys/permission/editPermissionRule',
   ruleDelete = '/sys/permission/deletePermissionRule',
   checkPermDuplication = '/sys/permission/checkPermDuplication',
+  addPermissionColumn = '/sys/permission/addPermissionColumn',
+  deletePermissionColumn = '/sys/permission/deletePermissionColumn',
+  editPermissionColumn = '/sys/permission/editPermissionColumn',
+  queryPermissionColumn = '/sys/permission/queryPermissionColumn',
 }
+
+/**
+ * 保存或者更新列规则
+ * @param params
+ */
+export const saveOrUpdateColRule = (params, isUpdate) => {
+  let url = isUpdate ? Api.editPermissionColumn : Api.addPermissionColumn;
+  return defHttp.post({ url: url, params });
+};
+
+/**
+ * 删除列权限
+ */
+export const deleteColRule = (params, handleSuccess) => {
+  return defHttp.delete({ url: Api.deletePermissionColumn, params }, { joinParamsToUrl: true }).then(() => {
+    handleSuccess();
+  });
+};
+
+/**
+ * 菜单列权限列表接口
+ * @param params
+ */
+export const colRuleList = (params) => defHttp.get({ url: Api.queryPermissionColumn, params });
 
 /**
  * 列表接口
@@ -20,7 +48,7 @@ enum Api {
  */
 export const list = (params) => {
   return defHttp.get({ url: Api.list, params });
-}
+};
 
 /**
  * 删除菜单
@@ -95,7 +123,7 @@ export const getCheckPermDuplication = (params) => defHttp.get({ url: Api.checkP
  * @param schema
  * @param required
  */
-export const checkPermDuplication=(model, schema, required?)=>{
+export const checkPermDuplication = (model, schema, required?) => {
   return [
     {
       validator: (_, value) => {
@@ -108,15 +136,17 @@ export const checkPermDuplication=(model, schema, required?)=>{
         return new Promise<void>((resolve, reject) => {
           getCheckPermDuplication({
             id: model.id,
-            url:model.url,
-            alwaysShow:model.alwaysShow
-          }).then((res) => {
+            url: model.url,
+            alwaysShow: model.alwaysShow,
+          })
+            .then((res) => {
               res.success ? resolve() : reject(res.message || '校验失败');
-          }).catch((err) => {
+            })
+            .catch((err) => {
               reject(err.message || '验证失败');
-          });
+            });
         });
       },
     },
   ];
-}
+};

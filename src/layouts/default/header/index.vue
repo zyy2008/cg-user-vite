@@ -48,7 +48,7 @@
         :class="`${prefixCls}-action__item error-action`"
       />
 
-      <Notify v-if="getShowNotice" :class="`${prefixCls}-action__item notify-item`" />
+      <!-- <Notify v-if="getShowNotice" :class="`${prefixCls}-action__item notify-item`" /> -->
 
       <FullScreen
         v-if="getShowFullScreen"

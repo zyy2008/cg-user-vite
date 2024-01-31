@@ -11,11 +11,11 @@
 
     <template #overlay>
       <Menu @click="handleMenuClick">
-        <MenuItem
+        <!-- <MenuItem
           key="account"
           :text="t('layout.header.dropdownItemSwitchAccount')"
           icon="ant-design:setting-outlined"
-        />
+        /> -->
         <MenuItem
           key="password"
           :text="t('layout.header.dropdownItemSwitchPassword')"

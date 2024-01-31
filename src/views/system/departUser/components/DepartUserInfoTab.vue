@@ -7,7 +7,7 @@
         >添加已有用户</a-button
       >
       <a-button type="primary" preIcon="ant-design:plus-outlined" @click="createUser"
-        >新建用户</a-button
+        >已有用户调动</a-button
       >
       <template v-if="selectedRowKeys.length > 0">
         <a-dropdown>
