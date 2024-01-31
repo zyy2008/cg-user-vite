@@ -101,7 +101,7 @@ import {
 import { usePermission } from "/@/hooks/web/usePermission";
 
 const { createMessage, createConfirm } = useMessage();
-const { isDisabledAuth } = usePermission();
+const { hasPermission } = usePermission();
 //注册drawer
 const [registerDrawer, { openDrawer }] = useDrawer();
 //回收站model
@@ -127,6 +127,7 @@ const { prefixCls, tableContext, onExportXls, onImportXls } = useListPage({
       // labelWidth: 200,
       schemas: searchFormSchema,
     },
+    showActionColumn: hasPermission("user:col:action"),
     actionColumn: {
       width: 120,
     },

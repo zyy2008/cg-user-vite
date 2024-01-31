@@ -216,10 +216,10 @@ function getDropDownAction(record): ActionItem[] {
       label: "数据规则",
       onClick: handleDataRule.bind(null, record),
     },
-    {
-      label: "列规则",
-      onClick: handleColRule.bind(null, record),
-    },
+    // {
+    //   label: "列规则",
+    //   onClick: handleColRule.bind(null, record),
+    // },
     {
       label: "删除",
       color: "error",

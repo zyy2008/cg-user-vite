@@ -27,7 +27,7 @@ import { BasicTable, useTable, TableAction } from "/@/components/Table";
 import { useModal } from "/@/components/Modal";
 import ColumnRuleModal from "./ColumnRuleModal.vue";
 import { colRuleColumns, colRuleSearchFormSchema } from "./menu.data";
-import { datacolRuleList, deleteRule } from "./menu.api";
+import { colRuleList, deleteColRule } from "./menu.api";
 import { ColEx } from "/@/components/Form/src/types";
 import { useDrawerAdaptiveWidth } from "/@/hooks/jeecg/useAdaptiveWidth";
 const permissionId = ref("");
@@ -49,7 +49,7 @@ const adaptiveColProps: Partial<ColEx> = {
   xxl: 8, // ≥1600px
 };
 const [registerTable, { reload, setProps }] = useTable({
-  api: dataRuleList,
+  api: colRuleList,
   columns: colRuleColumns,
   size: "small",
   formConfig: {
@@ -107,7 +107,7 @@ function handleEdit(record) {
  * 删除
  */
 async function handleDelete(record) {
-  await deleteRule({ id: record.id }, reload);
+  await deleteColRule({ id: record.id }, reload);
 }
 
 /**

@@ -342,7 +342,7 @@ export const colRuleColumns: BasicColumn[] = [
   },
   {
     title: '排序',
-    dataIndex: 'order',
+    dataIndex: 'orderNo',
   },
 ];
 
@@ -379,7 +379,7 @@ export const colRuleFormSchema: FormSchema[] = [
     required: true,
   },
   {
-    field: 'order',
+    field: 'orderNo',
     label: '排序',
     component: 'InputNumber',
   },

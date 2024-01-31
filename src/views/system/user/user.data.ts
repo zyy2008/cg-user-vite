@@ -4,8 +4,10 @@ import { getAllRolesListNoByTenant, getAllTenantList } from './user.api';
 import { rules } from '/@/utils/helper/validator';
 import { render } from '/@/utils/common/renderUtils';
 import { queryDepartRoleUserList } from '/@/views/system/departUser/depart.user.api';
+import { usePermission } from '/@/hooks/web/usePermission';
+const { hasPermission } = usePermission();
 
-export const columns: BasicColumn[] = [
+export const baseColumns: BasicColumn[] = [
   {
     title: '用户账号',
     dataIndex: 'username',
@@ -57,6 +59,15 @@ export const columns: BasicColumn[] = [
     width: 80,
   },
 ];
+
+export const columns: BasicColumn[] = baseColumns.map((item) => {
+  return {
+    ...item,
+    ifShow: () => {
+      return hasPermission(`user:col:${item.dataIndex}`);
+    },
+  };
+});
 
 export const recycleColumns: BasicColumn[] = [
   {
