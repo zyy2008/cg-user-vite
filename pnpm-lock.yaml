@@ -23,6 +23,9 @@ dependencies:
   '@logicflow/extension':
     specifier: ^1.2.13
     version: 1.2.19(ts-node@10.9.2)
+  '@micro-zoe/micro-app':
+    specifier: 1.0.0-rc.3
+    version: 1.0.0-rc.3
   '@tinymce/tinymce-vue':
     specifier: ^4.0.7
     version: 4.0.7(vue@3.3.11)
@@ -1945,6 +1948,10 @@ packages:
       - supports-color
       - ts-node
       - utf-8-validate
+    dev: false
+
+  /@micro-zoe/micro-app@1.0.0-rc.3:
+    resolution: {integrity: sha512-f6PBW8XjHESERlfHLd/2yoQRXbMoXK8C5aG8yZZBR5iV07Rkj+T7qBuZqdDnL1MW+zsuWpSgeYsZe9kpK+9e4Q==}
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:

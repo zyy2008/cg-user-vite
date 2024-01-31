@@ -19,9 +19,13 @@ import { useSso } from '/@/hooks/web/useSso';
 // 注册online模块lib
 import { registerPackages } from '/@/utils/monorepo/registerPackages';
 
+import microApp from '@micro-zoe/micro-app';
+
 async function bootstrap() {
   // 创建应用实例
   const app = createApp(App);
+
+  microApp.start();
 
   // 多语言配置,异步情况:语言文件可以从服务器端获得
   await setupI18n(app);
@@ -62,7 +66,7 @@ async function bootstrap() {
   // 挂载应用
   app.mount('#app', true);
 
-  console.log(" vue3 app 加载完成！")
+  console.log(' vue3 app 加载完成！');
 }
 
 bootstrap();

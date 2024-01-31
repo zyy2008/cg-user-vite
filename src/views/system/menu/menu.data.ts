@@ -158,7 +158,6 @@ export const formSchema: FormSchema[] = [
       placeholder: '请输入前端组件',
     },
     defaultValue: 'layouts/default/index',
-    required: true,
     ifShow: ({ values }) => !isButton(values.menuType),
   },
   {
